@@ -1,0 +1,102 @@
+---
+title: "RX BRAIN 搭载 Unitree B1：加州扁桃果园巡检试点"
+date: "2026-04-19"
+category: "部署落地"
+categoryKey: "deployment"
+summary: "RobotX 的 RX BRAIN 空间操作原型本月在加州扁桃果园完成一次作物巡检试点，搭载于 Unitree B1 四足平台之上。同一套模块化技术栈，换底盘、换场景——不做逐场景重训，也不烧定制固件。"
+coverImage: "https://cdn.shopify.com/s/files/1/0764/3063/9301/files/rx-brain-almond-orchard-pilot.webp?v=1777920847"
+coverAlt: "搭载 RX BRAIN 的 Unitree B1 四足机器人，行进在扁桃果园的树行之间。"
+featured: true
+---
+
+本月，RobotX 在加州一处扁桃果园完成了 RX BRAIN 空间操作原型的一次作物巡检试
+点，载体为 Unitree B1 四足平台。本次作业覆盖行间自主通行、逐株感知采集，以及
+用于异常检测的树冠三维网格重建。现场运行的原型硬件、固件与感知栈，与我们在仓
+储和工业底盘上所部署的完全一致——无针对场景的重训，也无针对底盘的定制固件。
+
+<NewsVideo
+  src="https://cdn.shopify.com/videos/c/o/v/72eef1897f98401bad85e49eeb55cb62.mp4"
+  caption="B1 搭载 RX BRAIN 载荷，在 RobotX 自主栈驱动下沿扁桃树行前行"
+  ariaLabel="Unitree B1 四足机器人背载 RX BRAIN，沿扁桃果园树行行走"
+/>
+
+## 现场实操
+
+B1 在稳定的巡检节奏下自主行进，完全依赖 RX BRAIN 的机载感知来保持行道中线、
+避让灌溉管线与低垂枝条，并在地面起伏后完成步态恢复。导航回路中没有任何针对果
+园场景的专门调参——同一套能处理仓储巷道的规划器，把树行直接当作结构化走廊
+来处理。
+
+在每一棵树前，RX BRAIN 对树冠完成一次感知扫略，将采集与该树的标识绑定，并基
+于本地重建的几何关系，对长势受损、结果异常、主枝断裂等可疑特征进行候选标记。
+采集与标记在整段行进中持续运行，不存在"停—扫描—再走"的循环。
+
+<ImageCarousel ariaLabel="B1 行进在扁桃果园的树行之间">
+  <ImageSlide
+    src="https://cdn.shopify.com/s/files/1/0764/3063/9301/files/field-1.webp?v=1777927238"
+    alt="搭载 RX BRAIN 的 Unitree B1 行进在两排扁桃树之间。"
+    caption="试点现场的远景：B1 在 RX BRAIN 自主控制下保持行道中线"
+  />
+  <ImageSlide
+    src="https://cdn.shopify.com/s/files/1/0764/3063/9301/files/field-2.webp?v=1777927238"
+    alt="B1 平台上 RX BRAIN 传感器载荷的果园现场细节。"
+    caption="RX BRAIN 载荷所用感知硬件，与我们在工业底盘上量产交付的是同一套"
+  />
+</ImageCarousel>
+
+## RX BRAIN 看到的是什么
+
+下列画面并非渲染图，也不是市场化的可视化呈现，而是 RX BRAIN 在机器人行进过程
+中、基于机载传感器栈逐帧生成的实时三维网格重建——这是 RobotX 自研的视觉输出，
+完全在设备端生成。树冠几何、树干结构、行间距等信息，都是从驱动导航与异常标记
+的同一次感知过程中直接恢复出来的。
+
+我们会为每一个真实场景开发一层类似这样的网格感知输出。眼前这片果园树冠，与仓
+储巷道重建、光伏阵列重建、零售货架重建属于同一类工件——一套感知栈、一条工程
+流水线，承接各自领域的差异化输出。
+
+<ImageCarousel ariaLabel="RX BRAIN 在扁桃果园试点中输出的树冠三维网格">
+  <ImageSlide
+    src="https://cdn.shopify.com/s/files/1/0764/3063/9301/files/mesh-original.webp?v=1777927238"
+    alt="RX BRAIN 生成的扁桃树冠三维网格重建正面视图。"
+    caption="RX BRAIN 自研的网格输出——在设备端逐帧完成的树冠重建"
+  />
+  <ImageSlide
+    src="https://cdn.shopify.com/s/files/1/0764/3063/9301/files/mesh-cw5.webp?v=1777927239"
+    alt="同一树冠网格，顺时针旋转约五度以呈现深度结构。"
+    caption="同一份重建顺时针旋转——一次通过即可读出的深度与枝条走向"
+  />
+  <ImageSlide
+    src="https://cdn.shopify.com/s/files/1/0764/3063/9301/files/mesh-ccw5.webp?v=1777927238"
+    alt="同一树冠网格，逆时针旋转约五度以呈现深度结构。"
+    caption="同一份网格的逆时针视角——异常检测实际所面对的工件"
+  />
+</ImageCarousel>
+
+## 近景片段
+
+下列近景片段取自同一次行进，直观呈现了步态落点，以及机器人在逐株采集时与树
+冠之间的距离。
+
+<NewsVideo
+  src="https://cdn.shopify.com/videos/c/o/v/d13b8dc8cf2940b189e6d07108c946ed.mp4"
+  caption="B1 在起伏不平的果园地面完成落脚，同时稳定载荷姿态以保证采集质量"
+  ariaLabel="Unitree B1 机器人腿部与躯干特写，正在跨越起伏不平的果园地面"
+/>
+
+<NewsVideo
+  src="https://cdn.shopify.com/videos/c/o/v/21a3ee70e3dc4c659ac50a3c84f9aa9e.mp4"
+  caption="向单棵树靠近的瞬间——RX BRAIN 对该株完成一次树冠感知扫略"
+  ariaLabel="机器人近距离逼近单棵扁桃树，准备对其树冠进行感知采集的特写"
+/>
+
+## 通用性的商业意义
+
+本次试点所验证的，正是我们自 RX BRAIN 发布以来持续传递的主张：感知栈才是产品
+本身，底盘只是承载体。当同一套二进制、同一组训练权重、同一套导航原语，上午跑
+在一台面向农业的腿式平台上，下午跑在仓储 AMR 上时，进入一个新垂直场景的成本，
+就从"重建感知"塌缩到了"接入工程"这一层级。
+
+这就是商业逻辑最直白的表达。光伏电站巡检、仓储巷道稽核、零售货架合规扫描、室
+内工业点检——对 RX BRAIN 而言，它们都只是同一类问题的不同实例。这次果园作业
+是这一范式的一个具体样本。年内我们会在同一套技术栈上陆续发布更多部署案例。

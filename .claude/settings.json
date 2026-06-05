@@ -1,0 +1,18 @@
+{
+  "enabledPlugins": {
+    "superpowers@claude-plugins-official": true
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "file=$(cat | python3 -c \"import sys,json; print(json.load(sys.stdin).get('file_path',''))\" 2>/dev/null); [[ \"$file\" =~ \\.(ts|tsx|js|jsx|json|css|md|yaml|yml)$ ]] && npx prettier --write \"$file\" 2>/dev/null; exit 0"
+          }
+        ]
+      }
+    ]
+  }
+}
