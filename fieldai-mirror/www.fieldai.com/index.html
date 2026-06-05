@@ -1,0 +1,2235 @@
+<!DOCTYPE html><!-- Last Published: Sat Apr 11 2026 01:19:05 GMT+0000 (Coordinated Universal Time) --><html data-wf-domain="www.fieldai.com" data-wf-page="66f60ba1b55a2bf61129d1d3" data-wf-site="66f60ba0b55a2bf61129d179" data-wf-intellimize-customer-id="117826674" lang="en"><head><meta charset="utf-8"/><title>FieldAI | One Autonomy for All Robots</title><meta content="One Autonomy for All Robots. Field-proven embodied AI software that is finally unlocking the full potential of mobile robots in the real world." name="description"/><meta content="Redefining Industrial AI" property="og:title"/><meta content="FieldAI is the leader in deploying general-purpose robots in unstructured environments, providing a universal brain that works across many robots, and many tasks." property="og:description"/><meta content="https://cdn.prod.website-files.com/66f60ba0b55a2bf61129d179/69b89203d689c58d5fac30e2_FAI_open-graph.jpg" property="og:image"/><meta content="Redefining Industrial AI" property="twitter:title"/><meta content="FieldAI is the leader in deploying general-purpose robots in unstructured environments, providing a universal brain that works across many robots, and many tasks." property="twitter:description"/><meta content="https://cdn.prod.website-files.com/66f60ba0b55a2bf61129d179/69b89203d689c58d5fac30e2_FAI_open-graph.jpg" property="twitter:image"/><meta property="og:type" content="website"/><meta content="summary_large_image" name="twitter:card"/><meta content="width=device-width, initial-scale=1" name="viewport"/><link href="https://cdn.prod.website-files.com/66f60ba0b55a2bf61129d179/css/field-ai.webflow.shared.8f84f0ad4.min.css" rel="stylesheet" type="text/css" integrity="sha384-j4TwrUbjDzQXK9JX5rO8Q725nPbgBrVkgYfk1GYWecwt1bCvxAwSu3ZaQYEOjJJc" crossorigin="anonymous"/><script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script><link href="https://cdn.prod.website-files.com/66f60ba0b55a2bf61129d179/69b5f7fffa0d757b41948b51_FAI_favicon.png" rel="shortcut icon" type="image/x-icon"/><link href="https://cdn.prod.website-files.com/66f60ba0b55a2bf61129d179/69b5f837f86ed7221ee9a84c_FAI_favicon_256x256.png" rel="apple-touch-icon"/><link href="https://www.fieldai.com" rel="canonical"/><style>.anti-flicker, .anti-flicker * {visibility: hidden !important; opacity: 0 !important;}</style><style>[data-wf-hidden-variation], [data-wf-hidden-variation] * {
+        display: none !important;
+      }</style><script type="text/javascript">if (localStorage.getItem('intellimize_data_tracking_type') !== 'disabled') { localStorage.setItem('intellimize_opt_out_117826674', 'true'); } if (localStorage.getItem('intellimize_data_tracking_type') !== 'disabled') { localStorage.setItem('intellimize_data_tracking_type', 'disabled'); }</script><script type="text/javascript">(function(e){var s={r:[]};e.wf={r:s.r,ready:t=>{s.r.push(t)}}})(window)</script><script type="text/javascript">(function(e,t,p){var n=document.documentElement,s={p:[],r:[]},u={p:s.p,r:s.r,push:function(e){s.p.push(e)},ready:function(e){s.r.push(e)}};e.intellimize=u,n.className+=" "+p,setTimeout(function(){n.className=n.className.replace(RegExp(" ?"+p),"")},t)})(window, 4000, 'anti-flicker')</script><link href="https://cdn.intellimize.co/snippet/117826674.js" rel="preload" as="script"/><script type="text/javascript">var wfClientScript=document.createElement("script");wfClientScript.src="https://cdn.intellimize.co/snippet/117826674.js",wfClientScript.async=!0,wfClientScript.onerror=function(){document.documentElement.className=document.documentElement.className.replace(RegExp(" ?anti-flicker"),"")},document.head.appendChild(wfClientScript);</script><link href="https://api.intellimize.co" rel="preconnect" crossorigin="true"/><link href="https://log.intellimize.co" rel="preconnect" crossorigin="true"/><link href="https://117826674.intellimizeio.com" rel="preconnect"/><script src="https://www.google.com/recaptcha/api.js" type="text/javascript"></script><!-- This needs to be before the Google Tag Manager script. -->
+<script>
+    // Define dataLayer and the gtag function
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+
+    // Set default consent to 'denied' as a placeholder
+    if (localStorage.getItem('consentMode') === null) {
+        gtag('consent', 'default', {
+            'ad_storage': 'denied',
+            'ad_user_data': 'denied',
+            'ad_personalization': 'denied',
+            'analytics_storage': 'denied',
+            'personalization_storage': 'denied',
+            'security_storage': 'denied',
+            'functionality_storage': 'denied',
+        });
+        // To further redact your ads data when ad_storage is denied, set ads_data_redaction to true
+        gtag('set', 'ads_data_redaction', false);
+    } else {
+        gtag('consent', 'default', JSON.parse(localStorage.getItem('consentMode')));
+    }
+</script>
+<!-- Google Tag Manager -->
+<script>(function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-5TG8SXDP');</script>
+<!-- End Google Tag Manager -->
+
+<!-- [Attributes by Finsweet] Auto Video | Modified to allow video exclusions -->
+<script>
+    "use strict";
+    (() => {
+        var a = "fs-attributes";
+        var m = "autovideo";
+        var E = "cmsattribute";
+        var y = async (...o) => {
+            var i;
+            let e = [];
+            for (let s of o) {
+                let t = await ((i = window.fsAttributes[s]) == null ? void 0 : i.loading);
+                e.push(t);
+            }
+            return e;
+        };
+        var l = () => { };
+        function b(o, e, i, s) {
+            return o ? (o.addEventListener(e, i, s), () => o.removeEventListener(e, i, s)) : l;
+        }
+        function x(o, e, i) {
+            var t;
+            let s = window.fsAttributes[o];
+            return (s.destroy = i || l), (t = s.resolve) == null || t.call(s, e), e;
+        }
+        var g = `${a}-support`,
+            B = "https://cdn.jsdelivr.net/npm/@finsweet/attributes-support@1/support.js",
+            R = async () => {
+                let { fsAttributes: o, location: e } = window,
+                    { host: i, searchParams: s } = new URL(e.href);
+                o.support || (o.support = {});
+                let { support: t } = o;
+                if (!i.includes("webflow.io") || !s.has(g)) return !1;
+                if (t.import) return t.import;
+                try {
+                    t.import = new Promise((r, n) => {
+                        let c = document.createElement("script");
+                        (c.src = B), (c.onload = () => r(!0)), (c.onerror = n), document.head.append(c);
+                    });
+                } catch (r) {
+                    return !1;
+                }
+                return t.import;
+            };
+        var I = (o) => {
+            let e = (s, t, r) => {
+                let n = o[s],
+                    { key: c, values: A } = n,
+                    u;
+                if (!t) return `[${c}]`;
+                let d = A == null ? void 0 : A[t];
+                typeof d == "string" ? (u = d) : (u = d(r && "instanceIndex" in r ? r.instanceIndex : void 0));
+                let T = r && "caseInsensitive" in r && r.caseInsensitive ? "i" : "";
+                if (!(r != null && r.operator)) return `[${c}="${u}"${T}]`;
+                switch (r.operator) {
+                    case "prefixed":
+                        return `[${c}^="${u}"${T}]`;
+                    case "suffixed":
+                        return `[${c}$="${u}"${T}]`;
+                    case "contains":
+                        return `[${c}*="${u}"${T}]`;
+                }
+            };
+            function i(s, t) {
+                let r = e("element", s, t),
+                    n = (t == null ? void 0 : t.scope) || document;
+                return t != null && t.all ? [...n.querySelectorAll(r)] : n.querySelector(r);
+            }
+            return [e, i];
+        };
+        var p = {
+            preventLoad: { key: `${a}-preventload` },
+            debugMode: { key: `${a}-debug` },
+            src: { key: "src", values: { finsweet: "@finsweet/attributes" } },
+            dev: { key: `${a}-dev` },
+        },
+            [f, z] = I(p);
+        var _ = (o) => {
+            let { currentScript: e } = document,
+                i = {};
+            if (!e) return { attributes: i, preventsLoad: !1 };
+            let t = { preventsLoad: typeof e.getAttribute(p.preventLoad.key) == "string", attributes: i };
+            for (let r in o) {
+                let n = e.getAttribute(o[r]);
+                t.attributes[r] = n;
+            }
+            return t;
+        };
+        var v = ({ scriptAttributes: o, attributeKey: e, version: i, init: s }) => {
+            var c;
+            V(), (c = window.fsAttributes)[e] || (c[e] = {});
+            let { preventsLoad: t, attributes: r } = _(o),
+                n = window.fsAttributes[e];
+            (n.version = i),
+                (n.init = s),
+                t || (window.Webflow || (window.Webflow = []), window.Webflow.push(() => s(r)));
+        },
+            V = () => {
+                let o = h();
+                if (window.fsAttributes && !Array.isArray(window.fsAttributes)) {
+                    S(window.fsAttributes, o);
+                    return;
+                }
+                let e = {
+                    cms: {},
+                    push(...i) {
+                        var s, t;
+                        for (let [r, n] of i) (t = (s = this[r]) == null ? void 0 : s.loading) == null || t.then(n);
+                    },
+                    destroy() {
+                        var i, s;
+                        for (let t of o)
+                            (s = (i = window.fsAttributes[t]) == null ? void 0 : i.destroy) == null || s.call(i);
+                    },
+                };
+                S(e, o), C(e), (window.fsAttributes = e), (window.FsAttributes = window.fsAttributes), R();
+            },
+            h = () => {
+                let o = f("src", "finsweet", { operator: "contains" }),
+                    e = f("dev");
+                return [...document.querySelectorAll(`script${o}, script${e}`)].reduce((t, r) => {
+                    var c;
+                    let n = r.getAttribute(p.dev.key) || ((c = r.src.match(/[\w-. ]+(?=(\.js)$)/)) == null ? void 0 : c[0]);
+                    return n && !t.includes(n) && t.push(n), t;
+                }, []);
+            },
+            S = (o, e) => {
+                for (let i of e) {
+                    if (o[i]) continue;
+                    o[i] = {};
+                    let s = o[i];
+                    s.loading = new Promise((t) => {
+                        s.resolve = (r) => {
+                            t(r), delete s.resolve;
+                        };
+                    });
+                }
+            },
+            C = (o) => {
+                let e = Array.isArray(window.fsAttributes) ? window.fsAttributes : [];
+                o.push(...e);
+            };
+        var w = "1.5.0";
+        var U = async () => {
+            await y(E);
+            let o = document.querySelectorAll("video");
+            o = Array.from(o).filter((t) => !t.hasAttribute("data-no-autoplay") || t.getAttribute("data-no-autoplay") === "false");
+            if (!o.length) return;
+            let e = new Map(),
+                i = new IntersectionObserver((t) => {
+                    for (let { target: r, isIntersecting: n } of t)
+                        r instanceof HTMLVideoElement && (n ? r.play() : r.pause(), e.set(r, n));
+                }, {});
+            for (let t of o) (t.autoplay = !1), e.set(t, null), i.observe(t);
+            let s = b(document, "visibilitychange", () => {
+                for (let [t, r] of e) document.hidden || !r ? t.pause() : t.play();
+            });
+            return x(m, e, () => {
+                i.disconnect(), s();
+            });
+        };
+        v({ init: U, version: w, attributeKey: m });
+    })();
+
+</script>
+<!-- In <head> — load HLS.js early so it's ready -->
+<script src="https://cdn.jsdelivr.net/npm/hls.js@latest/dist/hls.min.js"></script></head><body class="lp_body"><div class="page-wrapper"><div class="main-wrapper is-lp"><div data-wf--lp-hero--variant="sequence" class="section-lp lp-hero_section wipe-reveal larger"><div class="js wipe-reveal-158 w-embed w-script"><script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  gsap.registerPlugin(SplitText);
+
+  function heroPreloadAnimation() {
+
+    const BG_DURATION = 0.8;
+    const BG_EASE = "power2.out";
+
+    const HEADING_DURATION = 0.8;
+    const HEADING_EASE = "power3.out";
+    const HEADING_STAGGER = 0.08;
+    const HEADING_Y = 24;
+
+    const BUTTON_DURATION = 0.4;
+    const BUTTON_EASE = "power2.out";
+
+    const heroBg = document.querySelector('[hero="bg"]');
+    const heroHeading = document.querySelector('[hero="heading"]');
+    const heroButton = document.querySelector('[button-attribute="hero"]');
+
+    const tl = gsap.timeline();
+
+    if (heroBg) {
+      gsap.set(heroBg, { opacity: 0 });
+
+      tl.to(heroBg, {
+        opacity: 1,
+        duration: BG_DURATION,
+        ease: BG_EASE
+      });
+    }
+
+    if (heroHeading) {
+
+      const split = SplitText.create(heroHeading, {
+        type: "words"
+      });
+
+      gsap.set(split.words, {
+        opacity: 0,
+        y: HEADING_Y
+      });
+
+      tl.to(split.words, {
+        opacity: 1,
+        y: 0,
+        duration: HEADING_DURATION,
+        ease: HEADING_EASE,
+        stagger: HEADING_STAGGER
+      }, "-=0.7"); 
+
+    }
+
+    if (heroButton) {
+
+      gsap.set(heroButton, { opacity: 0 });
+
+      tl.to(heroButton, {
+        opacity: 1,
+        duration: BUTTON_DURATION,
+        ease: BUTTON_EASE
+      }, "-=0.65");
+
+    }
+
+  }
+
+  heroPreloadAnimation();
+
+});
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  gsap.registerPlugin(ScrollTrigger);
+
+  const revealWrap = document.querySelector('[lp="reveal-wrap"]');
+  const triggerElement = document.querySelector('[hero-block-first]');
+
+  if (!revealWrap || !triggerElement) return;
+
+  gsap.to(revealWrap, {
+    clipPath: "inset(0% 0% 0% 0%)",
+    ease: "none",
+    scrollTrigger: {
+      trigger: triggerElement,
+      start: "bottom 70%",
+      end: "bottom 20%",
+      scrub: true
+    }
+  });
+});
+</script></div><nav navbar="" data-wf--lp-navbar--variant="landing-page" class="navbar-2 transparent-navbar landing-page"><div class="js landing-page-137 w-embed w-script"><script>
+function initLpNavDropdowns() {
+  document.querySelectorAll('[lp-nav="dropdown-group"]').forEach((group) => {
+    if (group.dataset.lpNavInit === 'true') return;
+    group.dataset.lpNavInit = 'true';
+
+    group.addEventListener('click', (event) => {
+      if (window.innerWidth > 991) return;
+
+      const toggle = event.target.closest('[lp-nav="dropdown-toggle"]');
+      if (!toggle) return;
+
+      const item = toggle.closest('[lp-nav="dropdown-item"]');
+      if (!item) return;
+
+      const closeSiblings = group.getAttribute('lp-nav-close-siblings') === 'true';
+      const isActive = item.getAttribute('lp-nav-status') === 'active';
+
+      item.setAttribute('lp-nav-status', isActive ? 'not-active' : 'active');
+
+      if (closeSiblings && !isActive) {
+        group.querySelectorAll('[lp-nav="dropdown-item"][lp-nav-status="active"]').forEach((sibling) => {
+          if (sibling !== item) sibling.setAttribute('lp-nav-status', 'not-active');
+        });
+      }
+    });
+  });
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  initLpNavDropdowns();
+});
+</script></div><div class="css landing-page-138 w-embed"><style>
+@media screen and (max-width: 991px) {
+  [lp-nav="dropdown-list-wrap"] {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.6s cubic-bezier(0.625, 0.05, 0, 1);
+  }
+
+  [lp-nav="dropdown-list"] {
+    overflow: hidden;
+  }
+
+  [lp-nav="dropdown-list-wrap"],
+  [lp-nav="dropdown-list"] {
+    margin: 0;
+    padding: 0;
+    min-height: 0;
+  }
+
+  [lp-nav-status="active"] > [lp-nav="dropdown-list-wrap"] {
+    grid-template-rows: 1fr;
+  }
+  
+  [lp-nav="dropdown-icon"] {
+    transition: transform 0.6s cubic-bezier(0.625, 0.05, 0, 1);
+  }
+
+  [lp-nav-status="active"] [lp-nav="dropdown-icon"] {
+    transform: rotate(180deg);
+  }
+
+  [lp-nav="dropdown-list-wrap"] {
+    overflow: hidden;
+  }
+}
+</style></div><footer class="container-4 landing-page-139"><div class="w-layout-grid flex-row vertical-align landing-page-3"><a href="/" id="w-node-_9d43a3b4-fed8-e928-cfd9-a248c9f9c1b4-c9f9c1af" data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c05403e8:9d43a3b4-fed8-e928-cfd9-a248c9f9c1ae:9d43a3b4-fed8-e928-cfd9-a248c9f9c1b4" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="9d43a3b4-fed8-e928-cfd9-a248c9f9c1b4" data-wf-component-context="%5B%7B%22componentId%22%3A%2244d88c6f-e301-88dd-76a8-1c1aa05d8e39%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c05403e8%22%7D%2C%7B%22componentId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1af%22%2C%22instanceId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1ae%22%7D%5D" aria-current="page" class="navbar-logo-wrap landing-page-141 w-inline-block w--current"><img loading="eager" src="https://cdn.prod.website-files.com/66f60ba0b55a2bf61129d179/693cb87d40912a056f3f3895_FAI_logo-horizontal-color_REVERSE.svg" alt="" class="navbar-logo landing-page-142"/></a><div class="nav-menu-2 landing-page-143"><div class="nav-menu-left w-variant-ec6b3ab6-2353-20fa-fa86-d2621a025a84 landing-page-274"><div class="lp-blur landing-page-145"></div><div class="menu-link-2 is-dd landing-page-86"><div data-delay="0" data-hover="true" data-w-id="9d43a3b4-fed8-e928-cfd9-a248c9f9c1ba" class="dropdown-2 landing-page-314 w-dropdown"><div data-w-id="9d43a3b4-fed8-e928-cfd9-a248c9f9c1bb" data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c05403e8:9d43a3b4-fed8-e928-cfd9-a248c9f9c1ae:9d43a3b4-fed8-e928-cfd9-a248c9f9c1bb" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="9d43a3b4-fed8-e928-cfd9-a248c9f9c1bb" data-wf-component-context="%5B%7B%22componentId%22%3A%2244d88c6f-e301-88dd-76a8-1c1aa05d8e39%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c05403e8%22%7D%2C%7B%22componentId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1af%22%2C%22instanceId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1ae%22%7D%5D" class="dropdown-toggle-3 landing-page-315 w-dropdown-toggle"><a href="/solutions" data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c05403e8:9d43a3b4-fed8-e928-cfd9-a248c9f9c1ae:9d43a3b4-fed8-e928-cfd9-a248c9f9c1bc" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="9d43a3b4-fed8-e928-cfd9-a248c9f9c1bc" data-wf-component-context="%5B%7B%22componentId%22%3A%2244d88c6f-e301-88dd-76a8-1c1aa05d8e39%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c05403e8%22%7D%2C%7B%22componentId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1af%22%2C%22instanceId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1ae%22%7D%5D" class="dropdown-link-2 dropdown-link-light landing-page-227 w-inline-block"><div class="text-block-6 landing-page-337">SOLUTIONS</div><img loading="eager" src="https://cdn.prod.website-files.com/69ab3be012d7cecdf8586048/69ab3be012d7cecdf8586247_dropdown-arrow-white.svg" alt="" class="dropdown-arrow landing-page-317"/></a></div><nav class="dropdown-list w-variant-ec6b3ab6-2353-20fa-fa86-d2621a025a84 landing-page-318 w-dropdown-list"><div class="div-block-31 landing-page-319"><a href="/solutions" data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c05403e8:9d43a3b4-fed8-e928-cfd9-a248c9f9c1ae:9d43a3b4-fed8-e928-cfd9-a248c9f9c1c2" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="9d43a3b4-fed8-e928-cfd9-a248c9f9c1c2" data-wf-component-context="%5B%7B%22componentId%22%3A%2244d88c6f-e301-88dd-76a8-1c1aa05d8e39%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c05403e8%22%7D%2C%7B%22componentId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1af%22%2C%22instanceId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1ae%22%7D%5D" class="nav-link-2 landing-page-329 is-first landing-page-320 w-inline-block"><p class="navigation-text-2 landing-page-330">Solutions Overview</p><img loading="lazy" src="https://cdn.prod.website-files.com/69ab3be012d7cecdf8586048/69ab3be012d7cecdf8586240_coral-arrow.svg" alt="" class="arrow is-nav landing-page-331"/></a><a data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c05403e8:9d43a3b4-fed8-e928-cfd9-a248c9f9c1ae:9d43a3b4-fed8-e928-cfd9-a248c9f9c1c6" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="9d43a3b4-fed8-e928-cfd9-a248c9f9c1c6" data-wf-component-context="%5B%7B%22componentId%22%3A%2244d88c6f-e301-88dd-76a8-1c1aa05d8e39%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c05403e8%22%7D%2C%7B%22componentId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1af%22%2C%22instanceId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1ae%22%7D%5D" href="/solutions/construction" class="nav-link-2 landing-page-329 w-inline-block"><p class="navigation-text-2 landing-page-330">Construction</p><img loading="lazy" src="https://cdn.prod.website-files.com/69ab3be012d7cecdf8586048/69ab3be012d7cecdf8586240_coral-arrow.svg" alt="" class="arrow is-nav landing-page-331"/></a><a data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c05403e8:9d43a3b4-fed8-e928-cfd9-a248c9f9c1ae:9d43a3b4-fed8-e928-cfd9-a248c9f9c1ca" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="9d43a3b4-fed8-e928-cfd9-a248c9f9c1ca" data-wf-component-context="%5B%7B%22componentId%22%3A%2244d88c6f-e301-88dd-76a8-1c1aa05d8e39%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c05403e8%22%7D%2C%7B%22componentId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1af%22%2C%22instanceId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1ae%22%7D%5D" href="/solutions/urban-operations" class="nav-link-2 landing-page-329 w-inline-block"><p class="navigation-text-2 landing-page-330">Urban Operations</p><img loading="lazy" src="https://cdn.prod.website-files.com/69ab3be012d7cecdf8586048/69ab3be012d7cecdf8586240_coral-arrow.svg" alt="" class="arrow is-nav landing-page-331"/></a><a data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c05403e8:9d43a3b4-fed8-e928-cfd9-a248c9f9c1ae:9d43a3b4-fed8-e928-cfd9-a248c9f9c1ce" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="9d43a3b4-fed8-e928-cfd9-a248c9f9c1ce" data-wf-component-context="%5B%7B%22componentId%22%3A%2244d88c6f-e301-88dd-76a8-1c1aa05d8e39%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c05403e8%22%7D%2C%7B%22componentId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1af%22%2C%22instanceId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1ae%22%7D%5D" href="/solutions/industrial-energy" class="nav-link-2 landing-page-329 w-inline-block"><p class="navigation-text-2 landing-page-330">Industrial &amp; Energy</p><img loading="lazy" src="https://cdn.prod.website-files.com/69ab3be012d7cecdf8586048/69ab3be012d7cecdf8586240_coral-arrow.svg" alt="" class="arrow is-nav landing-page-331"/></a><a data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c05403e8:9d43a3b4-fed8-e928-cfd9-a248c9f9c1ae:9d43a3b4-fed8-e928-cfd9-a248c9f9c1d2" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="9d43a3b4-fed8-e928-cfd9-a248c9f9c1d2" data-wf-component-context="%5B%7B%22componentId%22%3A%2244d88c6f-e301-88dd-76a8-1c1aa05d8e39%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c05403e8%22%7D%2C%7B%22componentId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1af%22%2C%22instanceId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1ae%22%7D%5D" href="/solutions/federal" target="_blank" class="nav-link-2 landing-page-329 w-inline-block"><p class="navigation-text-2 landing-page-330">Federal</p><img loading="lazy" src="https://cdn.prod.website-files.com/69ab3be012d7cecdf8586048/69ab3be012d7cecdf8586240_coral-arrow.svg" alt="" class="arrow is-nav landing-page-331"/></a><a href="/solutions" data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c05403e8:9d43a3b4-fed8-e928-cfd9-a248c9f9c1ae:9d43a3b4-fed8-e928-cfd9-a248c9f9c1d6" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="9d43a3b4-fed8-e928-cfd9-a248c9f9c1d6" data-wf-component-context="%5B%7B%22componentId%22%3A%2244d88c6f-e301-88dd-76a8-1c1aa05d8e39%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c05403e8%22%7D%2C%7B%22componentId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1af%22%2C%22instanceId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1ae%22%7D%5D" class="nav-link-2 landing-page-329 w-inline-block"><p class="navigation-text-2 landing-page-330">More</p><img loading="lazy" src="https://cdn.prod.website-files.com/69ab3be012d7cecdf8586048/69ab3be012d7cecdf8586240_coral-arrow.svg" alt="" class="arrow is-nav landing-page-331"/></a></div></nav></div></div><div class="menu-link-2 is-dm landing-page-313"><div data-delay="0" data-hover="false" data-w-id="9d43a3b4-fed8-e928-cfd9-a248c9f9c1db" class="dropdown-2 landing-page-314 w-dropdown"><div data-w-id="9d43a3b4-fed8-e928-cfd9-a248c9f9c1dc" data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c05403e8:9d43a3b4-fed8-e928-cfd9-a248c9f9c1ae:9d43a3b4-fed8-e928-cfd9-a248c9f9c1dc" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="9d43a3b4-fed8-e928-cfd9-a248c9f9c1dc" data-wf-component-context="%5B%7B%22componentId%22%3A%2244d88c6f-e301-88dd-76a8-1c1aa05d8e39%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c05403e8%22%7D%2C%7B%22componentId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1af%22%2C%22instanceId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1ae%22%7D%5D" class="dropdown-toggle-3 landing-page-315 w-dropdown-toggle"><div class="text-block-6 landing-page-337">Solutions</div><img loading="eager" src="https://cdn.prod.website-files.com/69ab3be012d7cecdf8586048/69ab3be012d7cecdf8586247_dropdown-arrow-white.svg" alt="" class="dropdown-arrow landing-page-317"/></div><nav class="dropdown-list w-variant-ec6b3ab6-2353-20fa-fa86-d2621a025a84 landing-page-318 w-dropdown-list"><div class="div-block-31 landing-page-319"><a href="/solutions" data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c05403e8:9d43a3b4-fed8-e928-cfd9-a248c9f9c1ae:9d43a3b4-fed8-e928-cfd9-a248c9f9c1e2" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="9d43a3b4-fed8-e928-cfd9-a248c9f9c1e2" data-wf-component-context="%5B%7B%22componentId%22%3A%2244d88c6f-e301-88dd-76a8-1c1aa05d8e39%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c05403e8%22%7D%2C%7B%22componentId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1af%22%2C%22instanceId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1ae%22%7D%5D" class="nav-link-2 landing-page-329 is-first landing-page-320 w-inline-block"><p class="navigation-text-2 landing-page-330">Solutions Overview</p><img loading="lazy" src="https://cdn.prod.website-files.com/69ab3be012d7cecdf8586048/69ab3be012d7cecdf8586240_coral-arrow.svg" alt="" class="arrow is-nav landing-page-331"/></a><a data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c05403e8:9d43a3b4-fed8-e928-cfd9-a248c9f9c1ae:9d43a3b4-fed8-e928-cfd9-a248c9f9c1e6" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="9d43a3b4-fed8-e928-cfd9-a248c9f9c1e6" data-wf-component-context="%5B%7B%22componentId%22%3A%2244d88c6f-e301-88dd-76a8-1c1aa05d8e39%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c05403e8%22%7D%2C%7B%22componentId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1af%22%2C%22instanceId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1ae%22%7D%5D" href="/solutions/construction" class="nav-link-2 landing-page-329 w-inline-block"><p class="navigation-text-2 landing-page-330">Construction</p><img loading="lazy" src="https://cdn.prod.website-files.com/69ab3be012d7cecdf8586048/69ab3be012d7cecdf8586240_coral-arrow.svg" alt="" class="arrow is-nav landing-page-331"/></a><a data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c05403e8:9d43a3b4-fed8-e928-cfd9-a248c9f9c1ae:9d43a3b4-fed8-e928-cfd9-a248c9f9c1ea" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="9d43a3b4-fed8-e928-cfd9-a248c9f9c1ea" data-wf-component-context="%5B%7B%22componentId%22%3A%2244d88c6f-e301-88dd-76a8-1c1aa05d8e39%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c05403e8%22%7D%2C%7B%22componentId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1af%22%2C%22instanceId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1ae%22%7D%5D" href="/solutions/urban-operations" class="nav-link-2 landing-page-329 w-inline-block"><p class="navigation-text-2 landing-page-330">Urban Operations</p><img loading="lazy" src="https://cdn.prod.website-files.com/69ab3be012d7cecdf8586048/69ab3be012d7cecdf8586240_coral-arrow.svg" alt="" class="arrow is-nav landing-page-331"/></a><a data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c05403e8:9d43a3b4-fed8-e928-cfd9-a248c9f9c1ae:9d43a3b4-fed8-e928-cfd9-a248c9f9c1ee" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="9d43a3b4-fed8-e928-cfd9-a248c9f9c1ee" data-wf-component-context="%5B%7B%22componentId%22%3A%2244d88c6f-e301-88dd-76a8-1c1aa05d8e39%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c05403e8%22%7D%2C%7B%22componentId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1af%22%2C%22instanceId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1ae%22%7D%5D" href="/solutions/industrial-energy" class="nav-link-2 landing-page-329 w-inline-block"><p class="navigation-text-2 landing-page-330">Industrial &amp; Energy</p><img loading="lazy" src="https://cdn.prod.website-files.com/69ab3be012d7cecdf8586048/69ab3be012d7cecdf8586240_coral-arrow.svg" alt="" class="arrow is-nav landing-page-331"/></a><a data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c05403e8:9d43a3b4-fed8-e928-cfd9-a248c9f9c1ae:9d43a3b4-fed8-e928-cfd9-a248c9f9c1f2" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="9d43a3b4-fed8-e928-cfd9-a248c9f9c1f2" data-wf-component-context="%5B%7B%22componentId%22%3A%2244d88c6f-e301-88dd-76a8-1c1aa05d8e39%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c05403e8%22%7D%2C%7B%22componentId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1af%22%2C%22instanceId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1ae%22%7D%5D" href="/solutions/federal" target="_blank" class="nav-link-2 landing-page-329 w-inline-block"><p class="navigation-text-2 landing-page-330">Federal</p><img loading="lazy" src="https://cdn.prod.website-files.com/69ab3be012d7cecdf8586048/69ab3be012d7cecdf8586240_coral-arrow.svg" alt="" class="arrow is-nav landing-page-331"/></a><a href="/solutions" data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c05403e8:9d43a3b4-fed8-e928-cfd9-a248c9f9c1ae:9d43a3b4-fed8-e928-cfd9-a248c9f9c1f6" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="9d43a3b4-fed8-e928-cfd9-a248c9f9c1f6" data-wf-component-context="%5B%7B%22componentId%22%3A%2244d88c6f-e301-88dd-76a8-1c1aa05d8e39%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c05403e8%22%7D%2C%7B%22componentId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1af%22%2C%22instanceId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1ae%22%7D%5D" class="nav-link-2 landing-page-329 w-inline-block"><p class="navigation-text-2 landing-page-330">More</p><img loading="lazy" src="https://cdn.prod.website-files.com/69ab3be012d7cecdf8586048/69ab3be012d7cecdf8586240_coral-arrow.svg" alt="" class="arrow is-nav landing-page-331"/></a></div></nav></div></div><div class="menu-link-2 is-dd landing-page-86"><div data-delay="0" data-hover="true" data-w-id="9d43a3b4-fed8-e928-cfd9-a248c9f9c1fb" class="dropdown-2 landing-page-314 w-dropdown"><div data-w-id="9d43a3b4-fed8-e928-cfd9-a248c9f9c1fc" data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c05403e8:9d43a3b4-fed8-e928-cfd9-a248c9f9c1ae:9d43a3b4-fed8-e928-cfd9-a248c9f9c1fc" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="9d43a3b4-fed8-e928-cfd9-a248c9f9c1fc" data-wf-component-context="%5B%7B%22componentId%22%3A%2244d88c6f-e301-88dd-76a8-1c1aa05d8e39%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c05403e8%22%7D%2C%7B%22componentId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1af%22%2C%22instanceId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1ae%22%7D%5D" class="dropdown-toggle-3 landing-page-315 w-dropdown-toggle"><a href="/technology" data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c05403e8:9d43a3b4-fed8-e928-cfd9-a248c9f9c1ae:9d43a3b4-fed8-e928-cfd9-a248c9f9c1fd" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="9d43a3b4-fed8-e928-cfd9-a248c9f9c1fd" data-wf-component-context="%5B%7B%22componentId%22%3A%2244d88c6f-e301-88dd-76a8-1c1aa05d8e39%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c05403e8%22%7D%2C%7B%22componentId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1af%22%2C%22instanceId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1ae%22%7D%5D" class="dropdown-link-2 dropdown-link-light landing-page-227 w-inline-block"><div class="text-block-6 landing-page-337">TECHNOLOGY</div><img loading="eager" src="https://cdn.prod.website-files.com/69ab3be012d7cecdf8586048/69ab3be012d7cecdf8586247_dropdown-arrow-white.svg" alt="" class="dropdown-arrow landing-page-317"/></a></div><nav class="dropdown-list w-variant-ec6b3ab6-2353-20fa-fa86-d2621a025a84 landing-page-318 w-dropdown-list"><div class="div-block-31 landing-page-319"><a href="/technology" data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c05403e8:9d43a3b4-fed8-e928-cfd9-a248c9f9c1ae:9d43a3b4-fed8-e928-cfd9-a248c9f9c203" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="9d43a3b4-fed8-e928-cfd9-a248c9f9c203" data-wf-component-context="%5B%7B%22componentId%22%3A%2244d88c6f-e301-88dd-76a8-1c1aa05d8e39%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c05403e8%22%7D%2C%7B%22componentId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1af%22%2C%22instanceId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1ae%22%7D%5D" class="nav-link-2 landing-page-329 is-first landing-page-320 w-inline-block"><p class="navigation-text-2 landing-page-330">Technology</p><img loading="lazy" src="https://cdn.prod.website-files.com/69ab3be012d7cecdf8586048/69ab3be012d7cecdf8586240_coral-arrow.svg" alt="" class="arrow is-nav landing-page-331"/></a></div></nav></div></div><div class="menu-link-2 is-dm landing-page-313"><div data-delay="0" data-hover="true" class="dropdown-2 landing-page-314 w-dropdown"><div data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c05403e8:9d43a3b4-fed8-e928-cfd9-a248c9f9c1ae:9d43a3b4-fed8-e928-cfd9-a248c9f9c20d" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="9d43a3b4-fed8-e928-cfd9-a248c9f9c20d" data-wf-component-context="%5B%7B%22componentId%22%3A%2244d88c6f-e301-88dd-76a8-1c1aa05d8e39%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c05403e8%22%7D%2C%7B%22componentId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1af%22%2C%22instanceId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1ae%22%7D%5D" class="dropdown-toggle-3 landing-page-315 w-dropdown-toggle"><div class="text-block-6 landing-page-337">Technology</div><img loading="eager" src="https://cdn.prod.website-files.com/69ab3be012d7cecdf8586048/69ab3be012d7cecdf8586247_dropdown-arrow-white.svg" alt="" class="dropdown-arrow landing-page-317"/></div><nav class="dropdown-list w-variant-ec6b3ab6-2353-20fa-fa86-d2621a025a84 landing-page-318 w-dropdown-list"><div class="div-block-31 landing-page-319"><a href="/technology" data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c05403e8:9d43a3b4-fed8-e928-cfd9-a248c9f9c1ae:9d43a3b4-fed8-e928-cfd9-a248c9f9c213" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="9d43a3b4-fed8-e928-cfd9-a248c9f9c213" data-wf-component-context="%5B%7B%22componentId%22%3A%2244d88c6f-e301-88dd-76a8-1c1aa05d8e39%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c05403e8%22%7D%2C%7B%22componentId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1af%22%2C%22instanceId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1ae%22%7D%5D" class="nav-link-2 landing-page-329 is-first landing-page-320 w-inline-block"><p class="navigation-text-2 landing-page-330">Technology</p><img loading="lazy" src="https://cdn.prod.website-files.com/69ab3be012d7cecdf8586048/69ab3be012d7cecdf8586240_coral-arrow.svg" alt="" class="arrow is-nav landing-page-331"/></a></div></nav></div></div><div class="menu-link-2 is-dd landing-page-86"><div data-delay="0" data-hover="true" class="dropdown-2 landing-page-314 w-dropdown"><div data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c05403e8:9d43a3b4-fed8-e928-cfd9-a248c9f9c1ae:9d43a3b4-fed8-e928-cfd9-a248c9f9c21d" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="9d43a3b4-fed8-e928-cfd9-a248c9f9c21d" data-wf-component-context="%5B%7B%22componentId%22%3A%2244d88c6f-e301-88dd-76a8-1c1aa05d8e39%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c05403e8%22%7D%2C%7B%22componentId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1af%22%2C%22instanceId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1ae%22%7D%5D" class="dropdown-toggle-3 landing-page-315 w-dropdown-toggle"><a href="/journey" data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c05403e8:9d43a3b4-fed8-e928-cfd9-a248c9f9c1ae:9d43a3b4-fed8-e928-cfd9-a248c9f9c21e" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="9d43a3b4-fed8-e928-cfd9-a248c9f9c21e" data-wf-component-context="%5B%7B%22componentId%22%3A%2244d88c6f-e301-88dd-76a8-1c1aa05d8e39%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c05403e8%22%7D%2C%7B%22componentId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1af%22%2C%22instanceId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1ae%22%7D%5D" class="dropdown-link-2 dropdown-link-light landing-page-227 w-inline-block"><div class="text-block-6 landing-page-337">OUR JOURNEY</div><img loading="eager" src="https://cdn.prod.website-files.com/69ab3be012d7cecdf8586048/69ab3be012d7cecdf8586247_dropdown-arrow-white.svg" alt="" class="dropdown-arrow landing-page-317"/></a></div><nav class="dropdown-list w-variant-ec6b3ab6-2353-20fa-fa86-d2621a025a84 landing-page-318 w-dropdown-list"><div class="div-block-31 landing-page-319"><a href="/journey" data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c05403e8:9d43a3b4-fed8-e928-cfd9-a248c9f9c1ae:9d43a3b4-fed8-e928-cfd9-a248c9f9c224" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="9d43a3b4-fed8-e928-cfd9-a248c9f9c224" data-wf-component-context="%5B%7B%22componentId%22%3A%2244d88c6f-e301-88dd-76a8-1c1aa05d8e39%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c05403e8%22%7D%2C%7B%22componentId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1af%22%2C%22instanceId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1ae%22%7D%5D" class="nav-link-2 landing-page-329 is-first landing-page-320 w-inline-block"><p class="navigation-text-2 landing-page-330">Our Journey</p><img loading="lazy" src="https://cdn.prod.website-files.com/69ab3be012d7cecdf8586048/69ab3be012d7cecdf8586240_coral-arrow.svg" alt="" class="arrow is-nav landing-page-331"/></a><a href="/team" data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c05403e8:9d43a3b4-fed8-e928-cfd9-a248c9f9c1ae:9d43a3b4-fed8-e928-cfd9-a248c9f9c22c" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="9d43a3b4-fed8-e928-cfd9-a248c9f9c22c" data-wf-component-context="%5B%7B%22componentId%22%3A%2244d88c6f-e301-88dd-76a8-1c1aa05d8e39%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c05403e8%22%7D%2C%7B%22componentId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1af%22%2C%22instanceId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1ae%22%7D%5D" class="nav-link-2 landing-page-329 w-inline-block"><p class="navigation-text-2 landing-page-330">Our Team</p><img loading="lazy" src="https://cdn.prod.website-files.com/69ab3be012d7cecdf8586048/69ab3be012d7cecdf8586240_coral-arrow.svg" alt="" class="arrow is-nav landing-page-331"/></a><a href="/news" data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c05403e8:9d43a3b4-fed8-e928-cfd9-a248c9f9c1ae:9d43a3b4-fed8-e928-cfd9-a248c9f9c230" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="9d43a3b4-fed8-e928-cfd9-a248c9f9c230" data-wf-component-context="%5B%7B%22componentId%22%3A%2244d88c6f-e301-88dd-76a8-1c1aa05d8e39%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c05403e8%22%7D%2C%7B%22componentId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1af%22%2C%22instanceId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1ae%22%7D%5D" class="nav-link-2 landing-page-329 w-inline-block"><p class="navigation-text-2 landing-page-330">Latest News</p><img loading="lazy" src="https://cdn.prod.website-files.com/69ab3be012d7cecdf8586048/69ab3be012d7cecdf8586240_coral-arrow.svg" alt="" class="arrow is-nav landing-page-331"/></a></div></nav></div></div><div class="menu-link-2 is-dm landing-page-313"><div data-delay="0" data-hover="true" class="dropdown-2 landing-page-314 w-dropdown"><div data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c05403e8:9d43a3b4-fed8-e928-cfd9-a248c9f9c1ae:9d43a3b4-fed8-e928-cfd9-a248c9f9c236" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="9d43a3b4-fed8-e928-cfd9-a248c9f9c236" data-wf-component-context="%5B%7B%22componentId%22%3A%2244d88c6f-e301-88dd-76a8-1c1aa05d8e39%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c05403e8%22%7D%2C%7B%22componentId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1af%22%2C%22instanceId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1ae%22%7D%5D" class="dropdown-toggle-3 landing-page-315 w-dropdown-toggle"><div class="text-block-6 landing-page-337">Our Journey</div><img loading="eager" src="https://cdn.prod.website-files.com/69ab3be012d7cecdf8586048/69ab3be012d7cecdf8586247_dropdown-arrow-white.svg" alt="" class="dropdown-arrow landing-page-317"/></div><nav class="dropdown-list w-variant-ec6b3ab6-2353-20fa-fa86-d2621a025a84 landing-page-318 w-dropdown-list"><div class="div-block-31 landing-page-319"><a href="/journey" data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c05403e8:9d43a3b4-fed8-e928-cfd9-a248c9f9c1ae:9d43a3b4-fed8-e928-cfd9-a248c9f9c23c" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="9d43a3b4-fed8-e928-cfd9-a248c9f9c23c" data-wf-component-context="%5B%7B%22componentId%22%3A%2244d88c6f-e301-88dd-76a8-1c1aa05d8e39%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c05403e8%22%7D%2C%7B%22componentId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1af%22%2C%22instanceId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1ae%22%7D%5D" class="nav-link-2 landing-page-329 is-first landing-page-320 w-inline-block"><p class="navigation-text-2 landing-page-330">Our Journey</p><img loading="lazy" src="https://cdn.prod.website-files.com/69ab3be012d7cecdf8586048/69ab3be012d7cecdf8586240_coral-arrow.svg" alt="" class="arrow is-nav landing-page-331"/></a><a href="/team" data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c05403e8:9d43a3b4-fed8-e928-cfd9-a248c9f9c1ae:9d43a3b4-fed8-e928-cfd9-a248c9f9c244" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="9d43a3b4-fed8-e928-cfd9-a248c9f9c244" data-wf-component-context="%5B%7B%22componentId%22%3A%2244d88c6f-e301-88dd-76a8-1c1aa05d8e39%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c05403e8%22%7D%2C%7B%22componentId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1af%22%2C%22instanceId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1ae%22%7D%5D" class="nav-link-2 landing-page-329 w-inline-block"><p class="navigation-text-2 landing-page-330">Our Team</p><img loading="lazy" src="https://cdn.prod.website-files.com/69ab3be012d7cecdf8586048/69ab3be012d7cecdf8586240_coral-arrow.svg" alt="" class="arrow is-nav landing-page-331"/></a><a href="/news" data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c05403e8:9d43a3b4-fed8-e928-cfd9-a248c9f9c1ae:9d43a3b4-fed8-e928-cfd9-a248c9f9c248" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="9d43a3b4-fed8-e928-cfd9-a248c9f9c248" data-wf-component-context="%5B%7B%22componentId%22%3A%2244d88c6f-e301-88dd-76a8-1c1aa05d8e39%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c05403e8%22%7D%2C%7B%22componentId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1af%22%2C%22instanceId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1ae%22%7D%5D" class="nav-link-2 landing-page-329 w-inline-block"><p class="navigation-text-2 landing-page-330">Latest News</p><img loading="lazy" src="https://cdn.prod.website-files.com/69ab3be012d7cecdf8586048/69ab3be012d7cecdf8586240_coral-arrow.svg" alt="" class="arrow is-nav landing-page-331"/></a></div></nav></div></div><a href="/fairi" data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c05403e8:9d43a3b4-fed8-e928-cfd9-a248c9f9c1ae:9d43a3b4-fed8-e928-cfd9-a248c9f9c252" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="9d43a3b4-fed8-e928-cfd9-a248c9f9c252" data-wf-component-context="%5B%7B%22componentId%22%3A%2244d88c6f-e301-88dd-76a8-1c1aa05d8e39%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c05403e8%22%7D%2C%7B%22componentId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1af%22%2C%22instanceId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1ae%22%7D%5D" class="menu-link-2 menu-link-light landing-page-334 w-inline-block"><div class="text-block-6 landing-page-337">FAIRI</div></a><a href="/careers" data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c05403e8:9d43a3b4-fed8-e928-cfd9-a248c9f9c1ae:9d43a3b4-fed8-e928-cfd9-a248c9f9c255" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="9d43a3b4-fed8-e928-cfd9-a248c9f9c255" data-wf-component-context="%5B%7B%22componentId%22%3A%2244d88c6f-e301-88dd-76a8-1c1aa05d8e39%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c05403e8%22%7D%2C%7B%22componentId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1af%22%2C%22instanceId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1ae%22%7D%5D" class="menu-link-2 menu-link-light landing-page-334 w-inline-block"><div class="text-block-6 landing-page-337">CAREERS</div></a></div><div class="nav-landing-bottom landing-page-336"><div class="text-block-6 landing-page-337">Get in touch now.</div><a button-attribute="" class="lp-button w-inline-block" lp="button" data-wf-component-context="%5B%7B%22componentId%22%3A%2244d88c6f-e301-88dd-76a8-1c1aa05d8e39%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c05403e8%22%7D%2C%7B%22componentId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1af%22%2C%22instanceId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1ae%22%7D%5D" data-wf-element-id="9d43a3b4-fed8-e928-cfd9-a248c9f9c25b" href="#" anim="" data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c05403e8:9d43a3b4-fed8-e928-cfd9-a248c9f9c1ae:9d43a3b4-fed8-e928-cfd9-a248c9f9c25b" data-wf-ao-click-engagement-tracking="true"><div class="lp-button_square"></div><div class="lp-mono-s">Contact Us</div></a></div></div><div class="nav-menu-mobile landing-page-273 w-variant-ec6b3ab6-2353-20fa-fa86-d2621a025a84"><div lp-nav-close-siblings="true" lp-nav="dropdown-group" class="nav-menu-left w-variant-ec6b3ab6-2353-20fa-fa86-d2621a025a84"><div class="menu-link is-dm w-variant-ec6b3ab6-2353-20fa-fa86-d2621a025a84"><div lp-nav-status="not-active" lp-nav="dropdown-item" class="dropdown w-variant-ec6b3ab6-2353-20fa-fa86-d2621a025a84"><div lp-nav="dropdown-toggle" class="dropdown-toggle w-variant-ec6b3ab6-2353-20fa-fa86-d2621a025a84"><div class="text-block-2">Solutions</div><img lp-nav="dropdown-icon" loading="eager" alt="" src="https://cdn.prod.website-files.com/69ab3be012d7cecdf8586048/69ab3be012d7cecdf8586247_dropdown-arrow-white.svg" class="dropdown-arrow landing-page-317"/></div><div lp-nav="dropdown-list-wrap" class="dropdown-list w-variant-ec6b3ab6-2353-20fa-fa86-d2621a025a84"><div lp-nav="dropdown-list" class="div-block-31"><a href="/solutions" data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c05403e8:9d43a3b4-fed8-e928-cfd9-a248c9f9c1ae:9d43a3b4-fed8-e928-cfd9-a248c9f9c27b" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="9d43a3b4-fed8-e928-cfd9-a248c9f9c27b" data-wf-component-context="%5B%7B%22componentId%22%3A%2244d88c6f-e301-88dd-76a8-1c1aa05d8e39%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c05403e8%22%7D%2C%7B%22componentId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1af%22%2C%22instanceId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1ae%22%7D%5D" class="nav-link-2 landing-page-329 is-first landing-page-320 w-inline-block"><p class="navigation-text-2 landing-page-330">Solutions Overview</p><img loading="lazy" src="https://cdn.prod.website-files.com/69ab3be012d7cecdf8586048/69ab3be012d7cecdf8586240_coral-arrow.svg" alt="" class="arrow is-nav landing-page-331"/></a><a data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c05403e8:9d43a3b4-fed8-e928-cfd9-a248c9f9c1ae:9d43a3b4-fed8-e928-cfd9-a248c9f9c27f" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="9d43a3b4-fed8-e928-cfd9-a248c9f9c27f" data-wf-component-context="%5B%7B%22componentId%22%3A%2244d88c6f-e301-88dd-76a8-1c1aa05d8e39%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c05403e8%22%7D%2C%7B%22componentId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1af%22%2C%22instanceId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1ae%22%7D%5D" href="/solutions/construction" class="nav-link-2 landing-page-329 w-inline-block"><p class="navigation-text-2 landing-page-330">Construction</p><img loading="lazy" src="https://cdn.prod.website-files.com/69ab3be012d7cecdf8586048/69ab3be012d7cecdf8586240_coral-arrow.svg" alt="" class="arrow is-nav landing-page-331"/></a><a data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c05403e8:9d43a3b4-fed8-e928-cfd9-a248c9f9c1ae:9d43a3b4-fed8-e928-cfd9-a248c9f9c283" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="9d43a3b4-fed8-e928-cfd9-a248c9f9c283" data-wf-component-context="%5B%7B%22componentId%22%3A%2244d88c6f-e301-88dd-76a8-1c1aa05d8e39%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c05403e8%22%7D%2C%7B%22componentId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1af%22%2C%22instanceId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1ae%22%7D%5D" href="/solutions/urban-operations" class="nav-link-2 landing-page-329 w-inline-block"><p class="navigation-text-2 landing-page-330">Urban Operations</p><img loading="lazy" src="https://cdn.prod.website-files.com/69ab3be012d7cecdf8586048/69ab3be012d7cecdf8586240_coral-arrow.svg" alt="" class="arrow is-nav landing-page-331"/></a><a data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c05403e8:9d43a3b4-fed8-e928-cfd9-a248c9f9c1ae:9d43a3b4-fed8-e928-cfd9-a248c9f9c287" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="9d43a3b4-fed8-e928-cfd9-a248c9f9c287" data-wf-component-context="%5B%7B%22componentId%22%3A%2244d88c6f-e301-88dd-76a8-1c1aa05d8e39%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c05403e8%22%7D%2C%7B%22componentId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1af%22%2C%22instanceId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1ae%22%7D%5D" href="/solutions/industrial-energy" class="nav-link-2 landing-page-329 w-inline-block"><p class="navigation-text-2 landing-page-330">Industrial &amp; Energy</p><img loading="lazy" src="https://cdn.prod.website-files.com/69ab3be012d7cecdf8586048/69ab3be012d7cecdf8586240_coral-arrow.svg" alt="" class="arrow is-nav landing-page-331"/></a><a data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c05403e8:9d43a3b4-fed8-e928-cfd9-a248c9f9c1ae:9d43a3b4-fed8-e928-cfd9-a248c9f9c28b" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="9d43a3b4-fed8-e928-cfd9-a248c9f9c28b" data-wf-component-context="%5B%7B%22componentId%22%3A%2244d88c6f-e301-88dd-76a8-1c1aa05d8e39%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c05403e8%22%7D%2C%7B%22componentId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1af%22%2C%22instanceId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1ae%22%7D%5D" href="/solutions/federal" target="_blank" class="nav-link-2 landing-page-329 w-inline-block"><p class="navigation-text-2 landing-page-330">Federal</p><img loading="lazy" src="https://cdn.prod.website-files.com/69ab3be012d7cecdf8586048/69ab3be012d7cecdf8586240_coral-arrow.svg" alt="" class="arrow is-nav landing-page-331"/></a><a href="/solutions" data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c05403e8:9d43a3b4-fed8-e928-cfd9-a248c9f9c1ae:9d43a3b4-fed8-e928-cfd9-a248c9f9c28f" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="9d43a3b4-fed8-e928-cfd9-a248c9f9c28f" data-wf-component-context="%5B%7B%22componentId%22%3A%2244d88c6f-e301-88dd-76a8-1c1aa05d8e39%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c05403e8%22%7D%2C%7B%22componentId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1af%22%2C%22instanceId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1ae%22%7D%5D" class="nav-link-2 landing-page-329 w-inline-block"><p class="navigation-text-2 landing-page-330">More</p><img loading="lazy" src="https://cdn.prod.website-files.com/69ab3be012d7cecdf8586048/69ab3be012d7cecdf8586240_coral-arrow.svg" alt="" class="arrow is-nav landing-page-331"/></a></div></div></div></div><div class="menu-link is-dm w-variant-ec6b3ab6-2353-20fa-fa86-d2621a025a84"><div lp-nav-status="not-active" lp-nav="dropdown-item" class="dropdown-2 landing-page-314"><div lp-nav="dropdown-toggle" class="dropdown-toggle-3 landing-page-315"><div class="text-block-6 landing-page-337">Technology</div><img lp-nav="dropdown-icon" loading="eager" alt="" src="https://cdn.prod.website-files.com/69ab3be012d7cecdf8586048/69ab3be012d7cecdf8586247_dropdown-arrow-white.svg" class="dropdown-arrow landing-page-317"/></div><div lp-nav="dropdown-list-wrap" class="dropdown-list w-variant-ec6b3ab6-2353-20fa-fa86-d2621a025a84"><div lp-nav="dropdown-list" class="div-block-31"><a href="/technology" data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c05403e8:9d43a3b4-fed8-e928-cfd9-a248c9f9c1ae:9d43a3b4-fed8-e928-cfd9-a248c9f9c29b" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="9d43a3b4-fed8-e928-cfd9-a248c9f9c29b" data-wf-component-context="%5B%7B%22componentId%22%3A%2244d88c6f-e301-88dd-76a8-1c1aa05d8e39%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c05403e8%22%7D%2C%7B%22componentId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1af%22%2C%22instanceId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1ae%22%7D%5D" class="nav-link-2 landing-page-329 is-first landing-page-320 w-inline-block"><p class="navigation-text-2 landing-page-330">Technology</p><img loading="lazy" src="https://cdn.prod.website-files.com/69ab3be012d7cecdf8586048/69ab3be012d7cecdf8586240_coral-arrow.svg" alt="" class="arrow is-nav landing-page-331"/></a></div></div></div></div><div class="menu-link is-dm w-variant-ec6b3ab6-2353-20fa-fa86-d2621a025a84"><div lp-nav-status="not-active" lp-nav="dropdown-item" class="dropdown-2 landing-page-314"><div lp-nav="dropdown-toggle" class="dropdown-toggle-3 landing-page-315"><div class="text-block-6 landing-page-337">Our Journey</div><img lp-nav="dropdown-icon" loading="eager" alt="" src="https://cdn.prod.website-files.com/69ab3be012d7cecdf8586048/69ab3be012d7cecdf8586247_dropdown-arrow-white.svg" class="dropdown-arrow landing-page-317"/></div><div lp-nav="dropdown-list-wrap" class="dropdown-list w-variant-ec6b3ab6-2353-20fa-fa86-d2621a025a84 landing-page-318"><div lp-nav="dropdown-list" class="div-block-31"><a href="/journey" data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c05403e8:9d43a3b4-fed8-e928-cfd9-a248c9f9c1ae:9d43a3b4-fed8-e928-cfd9-a248c9f9c2ab" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="9d43a3b4-fed8-e928-cfd9-a248c9f9c2ab" data-wf-component-context="%5B%7B%22componentId%22%3A%2244d88c6f-e301-88dd-76a8-1c1aa05d8e39%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c05403e8%22%7D%2C%7B%22componentId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1af%22%2C%22instanceId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1ae%22%7D%5D" class="nav-link-2 landing-page-329 is-first landing-page-320 w-inline-block"><p class="navigation-text-2 landing-page-330">Our Journey</p><img loading="lazy" src="https://cdn.prod.website-files.com/69ab3be012d7cecdf8586048/69ab3be012d7cecdf8586240_coral-arrow.svg" alt="" class="arrow is-nav landing-page-331"/></a><a href="/team" data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c05403e8:9d43a3b4-fed8-e928-cfd9-a248c9f9c1ae:9d43a3b4-fed8-e928-cfd9-a248c9f9c2b3" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="9d43a3b4-fed8-e928-cfd9-a248c9f9c2b3" data-wf-component-context="%5B%7B%22componentId%22%3A%2244d88c6f-e301-88dd-76a8-1c1aa05d8e39%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c05403e8%22%7D%2C%7B%22componentId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1af%22%2C%22instanceId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1ae%22%7D%5D" class="nav-link-2 landing-page-329 w-inline-block"><p class="navigation-text-2 landing-page-330">Our Team</p><img loading="lazy" src="https://cdn.prod.website-files.com/69ab3be012d7cecdf8586048/69ab3be012d7cecdf8586240_coral-arrow.svg" alt="" class="arrow is-nav landing-page-331"/></a><a href="/news" data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c05403e8:9d43a3b4-fed8-e928-cfd9-a248c9f9c1ae:9d43a3b4-fed8-e928-cfd9-a248c9f9c2b7" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="9d43a3b4-fed8-e928-cfd9-a248c9f9c2b7" data-wf-component-context="%5B%7B%22componentId%22%3A%2244d88c6f-e301-88dd-76a8-1c1aa05d8e39%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c05403e8%22%7D%2C%7B%22componentId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1af%22%2C%22instanceId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1ae%22%7D%5D" class="nav-link-2 landing-page-329 w-inline-block"><p class="navigation-text-2 landing-page-330">Latest News</p><img loading="lazy" src="https://cdn.prod.website-files.com/69ab3be012d7cecdf8586048/69ab3be012d7cecdf8586240_coral-arrow.svg" alt="" class="arrow is-nav landing-page-331"/></a></div></div></div></div><a href="/fairi" data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c05403e8:9d43a3b4-fed8-e928-cfd9-a248c9f9c1ae:9d43a3b4-fed8-e928-cfd9-a248c9f9c2bb" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="9d43a3b4-fed8-e928-cfd9-a248c9f9c2bb" data-wf-component-context="%5B%7B%22componentId%22%3A%2244d88c6f-e301-88dd-76a8-1c1aa05d8e39%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c05403e8%22%7D%2C%7B%22componentId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1af%22%2C%22instanceId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1ae%22%7D%5D" class="menu-link menu-link-light w-variant-ec6b3ab6-2353-20fa-fa86-d2621a025a84 w-inline-block"><div class="text-block-6 landing-page-337">FAIRI</div></a><a href="/careers" data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c05403e8:9d43a3b4-fed8-e928-cfd9-a248c9f9c1ae:9d43a3b4-fed8-e928-cfd9-a248c9f9c2be" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="9d43a3b4-fed8-e928-cfd9-a248c9f9c2be" data-wf-component-context="%5B%7B%22componentId%22%3A%2244d88c6f-e301-88dd-76a8-1c1aa05d8e39%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c05403e8%22%7D%2C%7B%22componentId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1af%22%2C%22instanceId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1ae%22%7D%5D" class="menu-link menu-link-light w-variant-ec6b3ab6-2353-20fa-fa86-d2621a025a84 w-inline-block"><div class="text-block-6 landing-page-337">Careers</div></a></div><div class="nav-landing-bottom landing-page-336"><div class="text-block-6 landing-page-337">Get in touch now.</div><a button-attribute="" class="lp-button w-inline-block" lp="button" data-wf-component-context="%5B%7B%22componentId%22%3A%2244d88c6f-e301-88dd-76a8-1c1aa05d8e39%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c05403e8%22%7D%2C%7B%22componentId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1af%22%2C%22instanceId%22%3A%229d43a3b4-fed8-e928-cfd9-a248c9f9c1ae%22%7D%5D" data-wf-element-id="9d43a3b4-fed8-e928-cfd9-a248c9f9c2c4" href="/contact" anim="" data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c05403e8:9d43a3b4-fed8-e928-cfd9-a248c9f9c1ae:9d43a3b4-fed8-e928-cfd9-a248c9f9c2c4" data-wf-ao-click-engagement-tracking="true"><div class="lp-button_square"></div><div class="lp-mono-s">Contact Us</div></a></div></div><div id="w-node-_9d43a3b4-fed8-e928-cfd9-a248c9f9c2da-c9f9c1af" data-w-id="9d43a3b4-fed8-e928-cfd9-a248c9f9c2da" class="menu-button landing-page-338"><div class="menu-line-top-2 light-menu-line landing-page-134"></div><div class="menu-line-bottom-2 light-menu-line landing-page-135"></div></div></div></footer><div><div class="animations w-embed w-script"><script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  gsap.registerPlugin(ScrollTrigger, SplitText);
+
+  function fadeInAnimation() {
+    const DURATION = 0.6;
+    const EASE = "power2.out";
+
+    const elements = gsap.utils.toArray('[anim="fade-in"]');
+
+    elements.forEach((el) => {
+      gsap.set(el, {
+        opacity: 0,
+        y: 40
+      });
+
+      gsap.to(el, {
+        opacity: 1,
+        y: 0,
+        duration: DURATION,
+        ease: EASE,
+        scrollTrigger: {
+          trigger: el,
+          start: "top 85%",
+          toggleActions: "play none none reverse"
+        }
+      });
+    });
+  }
+
+  function opacityInAnimation() {
+    const DURATION = 0.6;
+    const EASE = "power2.out";
+
+    const elements = gsap.utils.toArray('[anim="op-in"]');
+
+    elements.forEach((el) => {
+      gsap.set(el, {
+        opacity: 0
+      });
+
+      gsap.to(el, {
+        opacity: 1,
+        duration: DURATION,
+        ease: EASE,
+        scrollTrigger: {
+          trigger: el,
+          start: "top 85%",
+          toggleActions: "play none none reverse"
+        }
+      });
+    });
+  }
+
+  function wordsAnimation() {
+    const DURATION = 0.8;
+    const EASE = "power3.out";
+    const STAGGER = 0.08;
+    const Y_OFFSET = 24;
+
+    const elements = gsap.utils.toArray('[anim="words"]');
+
+    elements.forEach((el) => {
+      const split = SplitText.create(el, {
+        type: "words"
+      });
+
+      gsap.set(split.words, {
+        opacity: 0,
+        y: Y_OFFSET
+      });
+
+      gsap.to(split.words, {
+        opacity: 1,
+        y: 0,
+        duration: DURATION,
+        ease: EASE,
+        stagger: STAGGER,
+        scrollTrigger: {
+          trigger: el,
+          start: "top 85%",
+          toggleActions: "play none none reverse"
+        }
+      });
+    });
+  }
+
+  function staggerInAnimation() {
+    const DURATION = 0.6;
+    const EASE = "power2.out";
+    const STAGGER = 0.15;
+    const Y_OFFSET = 40;
+
+    const items = gsap.utils.toArray('[anim="stagger-in"]');
+
+    if (!items.length) return;
+
+    gsap.set(items, {
+      opacity: 0,
+      y: Y_OFFSET
+    });
+
+    gsap.to(items, {
+      opacity: 1,
+      y: 0,
+      duration: DURATION,
+      ease: EASE,
+      stagger: STAGGER,
+      scrollTrigger: {
+        trigger: items[0].parentElement,
+        start: "top 85%",
+        toggleActions: "play none none reverse"
+      }
+    });
+  }
+
+  function widthAnimation() {
+    const DURATION = 1;
+    const EASE = "power2.out";
+
+    const elements = gsap.utils.toArray('[anim="width"]');
+
+    elements.forEach((el) => {
+      gsap.set(el, {
+        width: "0%"
+      });
+
+      gsap.to(el, {
+        width: "100%",
+        duration: DURATION,
+        ease: EASE,
+        scrollTrigger: {
+          trigger: el,
+          start: "top 85%",
+          toggleActions: "play none none reverse"
+        }
+      });
+    });
+  }
+
+  fadeInAnimation();
+  opacityInAnimation();
+  wordsAnimation();
+  staggerInAnimation();
+  widthAnimation();
+
+});
+</script>
+
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const nav = document.querySelector('[navbar]');
+  if (!nav) return;
+
+  const INIT_THRESHOLD = 50;
+  const TOP_GUARD = 80;
+
+  let isInitialized = false;
+  let isHidden = false;
+  let lastScrollY = window.pageYOffset || document.documentElement.scrollTop;
+
+  const getScrollY = () =>
+    window.pageYOffset ||
+    document.documentElement.scrollTop ||
+    0;
+
+  const onScroll = () => {
+    const scrollY = getScrollY();
+    const direction = scrollY > lastScrollY ? 1 : scrollY < lastScrollY ? -1 : 0;
+    lastScrollY = scrollY;
+
+    if (!isInitialized) {
+      if (scrollY < INIT_THRESHOLD) return;
+      isInitialized = true;
+    }
+
+    if (scrollY <= TOP_GUARD) {
+      if (isHidden) {
+        nav.style.transform = 'translateY(0)';
+        isHidden = false;
+      }
+      return;
+    }
+
+    if (direction === 1 && !isHidden) {
+      nav.style.transform = 'translateY(-101%)';
+      isHidden = true;
+    } else if (direction === -1 && isHidden) {
+      nav.style.transform = 'translateY(0)';
+      isHidden = false;
+    }
+  };
+
+  window.addEventListener('scroll', onScroll, { passive: true });
+});
+</script></div><div class="css w-embed"><style>
+
+[navbar].navbar-2.navbar-2.navbar-2.navbar-2.navbar-2 {
+	position: absolute;
+}
+.lp_body [navbar].navbar-2.navbar-2.navbar-2.navbar-2.navbar-2 {
+	position: fixed;
+}
+
+[navbar] {
+  transition: transform 0.8s ease;
+}
+
+html.wf-design-mode .lp-link {
+  pointer-events: none;
+}
+
+[hero="bg"],
+[button-attribute="hero"] {
+  opacity: 0;
+}
+
+html.wf-design-mode [hero="bg"],
+html.wf-design-mode [button-attribute="hero"] {
+  opacity: 1;
+}
+
+.lp-sequence-poster,
+  .lp-sequence-canvas {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+
+  .lp-sequence-poster {
+    object-fit: cover;
+    z-index: 1;
+    transition: opacity 0.25s ease;
+  }
+
+  .lp-sequence-poster.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .lp-sequence-canvas {
+    z-index: 2;
+  }
+
+[hover="scale"] img {
+  transition: transform 600ms ease;
+}
+
+[hover="scale"]:hover img {
+  transform: scale(1.05);
+}
+
+[anim="split-text"] .word {
+  white-space: nowrap;
+}
+
+.wwd-video-cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+[lp="reveal-wrap"] {
+  position: absolute;
+  inset: 0;
+  clip-path: inset(100% 0 0 0);
+}
+
+[lp="reveal-image"] {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+</style></div></div></nav><div hero="bg" class="lp-hero_bg"><div lp="canvas" class="lp-hero_sticky"><div class="lp-hero-wipe wipe-reveal-142"><div class="hero-wipe_base wipe-reveal-143"><div class="hero_image wipe-reveal-146 wrapper"><div class="image-full z-0 w-embed w-script"><!-- Old embed -->
+
+<!-- <video class="wwd-video-cover" muted playsinline preload="metadata">
+  <source src="https://player.vimeo.com/progressive_redirect/playback/1173908585/rendition/2160p/file.mp4%20%282160p%29.mp4?loc=external&signature=6e6512acade7cf2e123f1dba015884f5802d7e3c8a1413962202f5f190401654" type="video/mp4">
+</video>
+-->
+
+
+<!-- New embed -->
+<div class="video-wrapper wwd-video-cover" style="position: relative; overflow: hidden; height:100%">
+    <img class="video-poster-overlay"
+        src="https://cdn.prod.website-files.com/66f60ba0b55a2bf61129d179/69ba1d5cffe4646de2e6dadc_homepage_preloader%20copy.webp"
+        style="position: absolute; inset: 0; width: 100%; height: 100%; opacity: 1; filter: blur(0px);
+                object-fit: cover; z-index: 1; transition: opacity 0.8s ease, filter 0.8s ease;" />
+    <video class="" style="width: 100%; height: 100%;
+                object-fit: cover; z-index: 1; transition: opacity 0.8s ease;"
+        data-old-poster="https://cdn.prod.website-files.com/66f60ba0b55a2bf61129d179/69b86cb8df3fe6b56302fa38_4afdc65c0ca91ddf8ec6f8a48ff7b35d_fai_made-to-move-in-the-real-world_website-deployment_v1.00_00_32_15.Still001.webp"
+        playsinline loop muted autoplay
+        data-hls="https://player.vimeo.com/external/1173881574.m3u8?s=e5bc821969ac88f4c1f4fadb397f708902679072&logging=false"
+        data-mp4="https://player.vimeo.com/progressive_redirect/playback/1173881574/rendition/720p/file.mp4%20%28720p%29.mp4?loc=external&signature=d70e940f5751180fcafbdb908c30723d5c049964575e0bc34f997464e96ffe2a"
+        data-object-fit="cover">
+    </video>
+</div>
+
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // Find all video elements with HLS/MP4 data attributes
+        var videos = document.querySelectorAll('video[data-hls][data-mp4]');
+
+        videos.forEach(function (video) {
+            var hlsSrc = video.getAttribute('data-hls');
+            var mp4Src = video.getAttribute('data-mp4');
+
+
+            if (window.Hls && Hls.isSupported()) {
+                var hls = new Hls({
+                    capLevelToPlayerSize: true,
+                    startLevel: -1,
+                    maxMaxBufferLength: 10
+                });
+                hls.loadSource(hlsSrc);
+                hls.attachMedia(video);
+                hls.on(Hls.Events.MANIFEST_PARSED, function () {
+                    video.play().catch(function () { });
+                });
+                video._hls = hls;
+
+            } else {
+                // Native HLS + MP4 fallback — browser tries HLS first,
+                // falls through to MP4 if it can't actually play it
+                var hlsSource = document.createElement('source');
+                hlsSource.src = hlsSrc;
+                hlsSource.type = 'application/x-mpegURL';
+
+                var mp4Source = document.createElement('source');
+                mp4Source.src = mp4Src;
+                mp4Source.type = 'video/mp4';
+
+                video.appendChild(hlsSource);
+                video.appendChild(mp4Source);
+                video.load();
+                video.play().catch(function () { });
+            }
+
+            // Wait for actual frames to render, then fade the poster
+            video.addEventListener('playing', function () {
+                // Small delay ensures at least one frame has painted
+                setTimeout(function () {
+                    var overlay = video.closest('.video-wrapper')
+                        .querySelector('.video-poster-overlay');
+                    if (overlay) {
+                        overlay.style.opacity = '0';
+                        overlay.style.filter = 'blur(4px)';
+                        // Remove from DOM after transition completes
+                        overlay.addEventListener('transitionend', function () {
+                            overlay.remove();
+                        });
+                    }
+                }, 150);
+            });
+        });
+    });
+</script></div><div class="home-overlay new-landing"></div></div></div><div lp="reveal-wrap" class="hero-wipe_reveal wipe-reveal-145"><div class="lp-sequence-poster wipe-reveal-140"></div><img sizes="100vw" srcset="https://cdn.prod.website-files.com/66f60ba0b55a2bf61129d179/69b84a1237c614e2b20c81e2_LINE_UP_16x9_00108000-v2-p-500.jpg 500w, https://cdn.prod.website-files.com/66f60ba0b55a2bf61129d179/69b84a1237c614e2b20c81e2_LINE_UP_16x9_00108000-v2-p-800.jpg 800w, https://cdn.prod.website-files.com/66f60ba0b55a2bf61129d179/69b84a1237c614e2b20c81e2_LINE_UP_16x9_00108000-v2-p-1080.jpg 1080w, https://cdn.prod.website-files.com/66f60ba0b55a2bf61129d179/69b84a1237c614e2b20c81e2_LINE_UP_16x9_00108000-v2-p-1600.jpg 1600w, https://cdn.prod.website-files.com/66f60ba0b55a2bf61129d179/69b84a1237c614e2b20c81e2_LINE_UP_16x9_00108000-v2-p-2000.jpg 2000w, https://cdn.prod.website-files.com/66f60ba0b55a2bf61129d179/69b84a1237c614e2b20c81e2_LINE_UP_16x9_00108000-v2-p-2600.jpg 2600w, https://cdn.prod.website-files.com/66f60ba0b55a2bf61129d179/69b84a1237c614e2b20c81e2_LINE_UP_16x9_00108000-v2-p-3200.jpg 3200w, https://cdn.prod.website-files.com/66f60ba0b55a2bf61129d179/69b84a1237c614e2b20c81e2_LINE_UP_16x9_00108000-v2.jpg 3840w" alt="" src="https://cdn.prod.website-files.com/66f60ba0b55a2bf61129d179/69b84a1237c614e2b20c81e2_LINE_UP_16x9_00108000-v2.jpg" loading="eager" class="lp-sequence-poster wipe-reveal-140"/><div class="js wipe-reveal-158 w-embed w-script"><script>
+
+    document.addEventListener("DOMContentLoaded", () => {
+        const prefix = "https://s3.amazonaws.com/webflow-prod-assets/66f60ba0b55a2bf61129d179/";
+        const seqAssets = [
+            "69b84a1237c614e2b20c81e2_LINE_UP_16x9_00108000-v2.jpg",
+            "69b84a101cbe1bb51d8fde26_LINE_UP_16x9_00108001-v2.jpg",
+            "69b84a0ec78b582a859fa23a_LINE_UP_16x9_00108002-v2.jpg",
+            "69b84a0eb1c0683033f09f86_LINE_UP_16x9_00108003-v2.jpg",
+            "69b84a1125a96fc7fee47fb1_LINE_UP_16x9_00108004-v2.jpg",
+            "69b84a11b9cc6c6a7b8309fe_LINE_UP_16x9_00108005-v2.jpg",
+            "69b84a132e7f74ccc462eb51_LINE_UP_16x9_00108006-v2.jpg",
+            "69b84a12afda4da60da9b5fc_LINE_UP_16x9_00108007-v2.jpg",
+            "69b84a17e67824d9d6c65dac_LINE_UP_16x9_00108008-v2.jpg",
+            "69b84a17e8fc4de5cec54bc6_LINE_UP_16x9_00108009-v2.jpg",
+            "69b84a11e1683b95b43b77eb_LINE_UP_16x9_00108010-v2.jpg",
+            "69b84a11c950f2446aa33018_LINE_UP_16x9_00108011-v2.jpg",
+            "69b84a130ce71d02b4a5b5b4_LINE_UP_16x9_00108012-v2.jpg",
+            "69b84a12c4c627a875c1f6ef_LINE_UP_16x9_00108013-v2.jpg",
+            "69b84a107d72a709632bc42f_LINE_UP_16x9_00108014-v2.jpg",
+            "69b84a0f3e5a21ce629c0200_LINE_UP_16x9_00108015-v2.jpg",
+            "69b84a0eea69eaaf52dd0ab3_LINE_UP_16x9_00108016-v2.jpg",
+            "69b84a0fdf66480f6699f994_LINE_UP_16x9_00108017-v2.jpg",
+            "69b84a1ac69de7d2084db3cb_LINE_UP_16x9_00108018-v2.jpg",
+            "69b84a19eea57b75d6b56f88_LINE_UP_16x9_00108019-v2.jpg",
+            "69b84a1619c3fc59223a1ba6_LINE_UP_16x9_00108020-v2.jpg",
+            "69b84a185b4a52c01f6e71d2_LINE_UP_16x9_00108021-v2.jpg",
+            "69b84a15ea69eaaf52dd0bbf_LINE_UP_16x9_00108022-v2.jpg",
+            "69b84a15d43f2c2a2f11e2ea_LINE_UP_16x9_00108023-v2.jpg",
+            "69b84a1add85956a22d42367_LINE_UP_16x9_00108024-v2.jpg",
+            "69b84a196af94ad99a6a96f0_LINE_UP_16x9_00108025-v2.jpg",
+            "69b84a1b035d4c9af5eb402e_LINE_UP_16x9_00108026-v2.jpg",
+            "69b84a1c219adc28c68ee050_LINE_UP_16x9_00108027-v2.jpg",
+            "69b84a104f61bd5ff327a8a7_LINE_UP_16x9_00108028-v2.jpg",
+            "69b84a0f78e1a908fa541c2d_LINE_UP_16x9_00108029-v2.jpg",
+            "69b84a1a66a77758b35ea9f2_LINE_UP_16x9_00108030-v2.jpg",
+            "69b84a19b15e7c7338074302_LINE_UP_16x9_00108031-v2.jpg",
+            "69b84a1b43505441473c50ac_LINE_UP_16x9_00108032-v2.jpg",
+            "69b84a1c586b6db055b2bdad_LINE_UP_16x9_00108033-v2.jpg",
+            "69b84a16ebac7df78f985044_LINE_UP_16x9_00108034-v2.jpg",
+            "69b84a17dd21c27a321e3c6a_LINE_UP_16x9_00108035-v2.jpg",
+            "69b84a15beb3f4bed7eec4c2_LINE_UP_16x9_00108036-v2.jpg",
+            "69b84a15d394b58f2a750ed8_LINE_UP_16x9_00108037-v2.jpg",
+            "69b84a11084e9dafe6e92221_LINE_UP_16x9_00108038-v2.jpg",
+            "69b84a11e1c2d1d272d26cfd_LINE_UP_16x9_00108039-v2.jpg",
+            "69b84a1d60b4edb6707d6e58_LINE_UP_16x9_00108040-v2.jpg",
+            "69b84a1f7fc274237ed8b288_LINE_UP_16x9_00108041-v2.jpg",
+            "69b84a21e694c8f376167bed_LINE_UP_16x9_00108042-v2.jpg",
+            "69b84a1f4541f03ffd89e614_LINE_UP_16x9_00108043-v2.jpg",
+            "69b84a26a21080ffa3081fa1_LINE_UP_16x9_00108044-v2.jpg",
+            "69b84a2482d64f17171eabaa_LINE_UP_16x9_00108045-v2.jpg",
+            "69b84a2273b07a66d8ba302e_LINE_UP_16x9_00108046-v2.jpg",
+            "69b84a2443a447d8ca1993bb_LINE_UP_16x9_00108047-v2.jpg",
+            "69b84a077dfb5426260a10ae_LINE_UP_16x9_00108048-v2.jpg",
+            "69b84a06d109f94cf0a9aa5e_LINE_UP_16x9_00108049-v2.jpg",
+            "69b84a264541f03ffd89eae4_LINE_UP_16x9_00108050-v2.jpg",
+            "69b84a254541f03ffd89ea97_LINE_UP_16x9_00108051-v2.jpg",
+            "69b84a22dd85956a22d428ad_LINE_UP_16x9_00108052-v2.jpg",
+            "69b84a2466ee0656d3ca2a8b_LINE_UP_16x9_00108053-v2.jpg",
+            "69b84a1d115ac6812887b216_LINE_UP_16x9_00108054-v2.jpg",
+            "69b84a1f34ee01f122fc2a9a_LINE_UP_16x9_00108055-v2.jpg",
+            "69b84a20a0ad4ed202f97a15_LINE_UP_16x9_00108056-v2.jpg",
+            "69b84a1fc62231597ac97d3c_LINE_UP_16x9_00108057-v2.jpg",
+            "69b84a0c35f5d79c6a014c0c_LINE_UP_16x9_00108058-v2.jpg",
+            "69b84a0d963c48d054d50f1d_LINE_UP_16x9_00108059-v2.jpg",
+            "69b84a074f71f3fb323bf286_LINE_UP_16x9_00108060-v2.jpg",
+            "69b84a06df66480f6699ed8a_LINE_UP_16x9_00108061-v2.jpg",
+            "69b84a08381b626e392b49b9_LINE_UP_16x9_00108062-v2.jpg",
+            "69b84a0a1746f4b7da10caeb_LINE_UP_16x9_00108063-v2.jpg",
+            "69b84a0c928018fe520142ff_LINE_UP_16x9_00108064-v2.jpg",
+            "69b84a0d6b4fd14eaf5263eb_LINE_UP_16x9_00108065-v2.jpg",
+            "69b84a0a8486a2f933ba34c7_LINE_UP_16x9_00108066-v2.jpg",
+            "69b84a09b2d60ec26ae76010_LINE_UP_16x9_00108067-v2.jpg",
+            "69b84a1c3e5a21ce629c11e7_LINE_UP_16x9_00108068-v2.jpg",
+            "69b84a1fe67824d9d6c65e9a_LINE_UP_16x9_00108069-v2.jpg",
+            "69b84a0b3076f774a863ea38_LINE_UP_16x9_00108070-v2.jpg",
+            "69b84a0ca0ad4ed202f97664_LINE_UP_16x9_00108071-v2.jpg",
+            "69b84a0b554c764cae39fd99_LINE_UP_16x9_00108072-v2.jpg",
+            "69b84a09a66eac58119dce09_LINE_UP_16x9_00108073-v2.jpg",
+            "69b84a07b4409f85c2e99d5f_LINE_UP_16x9_00108074-v2.jpg",
+            "69b84a0619c3fc59223a18e0_LINE_UP_16x9_00108075-v2.jpg",
+            "69b84a08c13dfbd5bbad67f0_LINE_UP_16x9_00108076-v2.jpg",
+            "69b84a09ebe5efe93d7ff901_LINE_UP_16x9_00108077-v2.jpg",
+            "69b84a2601f0323516b2591a_LINE_UP_16x9_00108078-v2.jpg",
+            "69b84a25c4c627a875c1fa69_LINE_UP_16x9_00108079-v2.jpg",
+            "69b84a20018be0f73ba2f781_LINE_UP_16x9_00108080-v2.jpg",
+            "69b84a2157443bcffc276f6c_LINE_UP_16x9_00108081-v2.jpg",
+            "69b84a1fa2133b2ce95b68d5_LINE_UP_16x9_00108082-v2.jpg",
+            "69b84a1def6f024daf960d28_LINE_UP_16x9_00108083-v2.jpg",
+            "69b84a24ae05abda00795670_LINE_UP_16x9_00108084-v2.jpg",
+            "69b84a220ce71d02b4a5b795_LINE_UP_16x9_00108085-v2.jpg",
+            "69b84a24d460c5032d5669b4_LINE_UP_16x9_00108086-v2.jpg",
+            "69b84a25b15e7c7338074565_LINE_UP_16x9_00108087-v2.jpg",
+            "69b84a080a543da059dc88ff_LINE_UP_16x9_00108088-v2.jpg",
+            "69b84a08afda4da60da9b465_LINE_UP_16x9_00108089-v2.jpg",
+            "69b84a2409057ec72c5453ef_LINE_UP_16x9_00108090-v2.jpg",
+            "69b84a2211c76cefa2264db7_LINE_UP_16x9_00108091-v2.jpg",
+            "69b84a25c9395cc2cf45da69_LINE_UP_16x9_00108092-v2.jpg",
+            "69b84a25d59c528e8b51de86_LINE_UP_16x9_00108093-v2.jpg",
+            "69b84a2071d68241118334ac_LINE_UP_16x9_00108094-v2.jpg",
+            "69b84a20c290b797f3fc5d4b_LINE_UP_16x9_00108095-v2.jpg",
+            "69b84a1ee8fc4de5cec54c70_LINE_UP_16x9_00108096-v2.jpg",
+            "69b84a1e2da68aabe91e5de4_LINE_UP_16x9_00108097-v2.jpg",
+            "69b84a09ad9e108637591842_LINE_UP_16x9_00108098-v2.jpg",
+            "69b84a0a963c48d054d50eb1_LINE_UP_16x9_00108099-v2.jpg",
+            "69b84a07ebeef9cf7c0e382e_LINE_UP_16x9_00108100-v2.jpg",
+            "69b84a068ccdee763dc5763a_LINE_UP_16x9_00108101-v2.jpg",
+            "69b84a086b4fd14eaf526365_LINE_UP_16x9_00108102-v2.jpg",
+            "69b84a091d4e79d75f55f6e2_LINE_UP_16x9_00108103-v2.jpg",
+            "69b84a0c64800102760daafb_LINE_UP_16x9_00108104-v2.jpg",
+            "69b84a0dbee5898ce733c28c_LINE_UP_16x9_00108105-v2.jpg",
+            "69b84a0a9af96ab8132862f2_LINE_UP_16x9_00108106-v2.jpg",
+            "69b84a09dd21c27a321e2c90_LINE_UP_16x9_00108107-v2.jpg",
+            "69b84a1c928018fe52014673_LINE_UP_16x9_00108108-v2.jpg",
+            "69b84a1f53d5a6a53ca94a3c_LINE_UP_16x9_00108109-v2.jpg",
+            "69b84a0cfb01d0cbf5cab551_LINE_UP_16x9_00108110-v2.jpg",
+            "69b84a0d1d31b81e7644a547_LINE_UP_16x9_00108111-v2.jpg",
+            "69b84a0af521775b2ca1c3c4_LINE_UP_16x9_00108112-v2.jpg",
+            "69b84a095c6c0e7ce36b5806_LINE_UP_16x9_00108113-v2.jpg",
+            "69b84a07b2d60ec26ae75fc4_LINE_UP_16x9_00108114-v2.jpg",
+            "69b84a067cd858bd3e6166c3_LINE_UP_16x9_00108115-v2.jpg",
+            "69b84a07e1c2d1d272d26ae8_LINE_UP_16x9_00108116-v2.jpg",
+            "69b84a095e2dc7cedb93927a_LINE_UP_16x9_00108117-v2.jpg",
+            "69b84a2523a6bc339328fffb_LINE_UP_16x9_00108118-v2.jpg",
+            "69b84a25b49c888379ed60bd_LINE_UP_16x9_00108119-v2.jpg",
+            "69b84a1c43a447d8ca1992c7_LINE_UP_16x9_00108120-v2.jpg",
+            "69b84a33bee5898ce733e7f3_LINE_UP_16x9_00108121-v2.jpg",
+            "69b84a21afda4da60da9c71c_LINE_UP_16x9_00108122-v2.jpg",
+            "69b84a1fb2d60ec26ae764ac_LINE_UP_16x9_00108123-v2.jpg",
+            "69b84a267f3acfedaa9edeef_LINE_UP_16x9_00108124-v2.jpg",
+            "69b84a2301f0323516b258a7_LINE_UP_16x9_00108125-v2.jpg",
+            "69b84a2201f0323516b2583b_LINE_UP_16x9_00108126-v2.jpg",
+            "69b84a23a1100b642e0ba315_LINE_UP_16x9_00108127-v2.jpg",
+            "69b84a07963c48d054d50e31_LINE_UP_16x9_00108128-v2.jpg",
+            "69b84a0625a96fc7fee47e28_LINE_UP_16x9_00108129-v2.jpg",
+            "69b84a26e1c2d1d272d27005_LINE_UP_16x9_00108130-v2.jpg",
+            "69b84a24a144af9d61f20311_LINE_UP_16x9_00108131-v2.jpg",
+            "69b84a2103e6ae8fdc8cf268_LINE_UP_16x9_00108132-v2.jpg",
+            "69b84a24ad9e108637591d32_LINE_UP_16x9_00108133-v2.jpg",
+            "69b84a1c3c520349195a6ea4_LINE_UP_16x9_00108134-v2.jpg",
+            "69b84a1f5e2dc7cedb939869_LINE_UP_16x9_00108135-v2.jpg",
+            "69b84a21c9395cc2cf45d9a9_LINE_UP_16x9_00108136-v2.jpg",
+            "69b84a1fc950f2446aa33279_LINE_UP_16x9_00108137-v2.jpg",
+            "69b84a0b206b70fcb8cd3284_LINE_UP_16x9_00108138-v2.jpg",
+            "69b84a0dc5be65e1b8cd34e0_LINE_UP_16x9_00108139-v2.jpg",
+            "69b84a1678e1a908fa541d07_LINE_UP_16x9_00108140-v2.jpg",
+            "69b84a18dd21c27a321e3cbb_LINE_UP_16x9_00108141-v2.jpg",
+            "69b84a1643a447d8ca1991d6_LINE_UP_16x9_00108142-v2.jpg",
+            "69b84a139af96ab813286f89_LINE_UP_16x9_00108143-v2.jpg",
+            "69b84a1a1b569e0613dcd235_LINE_UP_16x9_00108144-v2.jpg",
+            "69b84a19e3982a8cf15e515b_LINE_UP_16x9_00108145-v2.jpg",
+            "69b84a1ba21080ffa3081e3e_LINE_UP_16x9_00108146-v2.jpg",
+            "69b84a1c477d41700d6228bd_LINE_UP_16x9_00108147-v2.jpg",
+            "69b84a101b569e0613dcd0ad_LINE_UP_16x9_00108148-v2.jpg",
+            "69b84a0f34ee01f122fc1c36_LINE_UP_16x9_00108149-v2.jpg",
+            "69b84a1a928018fe520145e6_LINE_UP_16x9_00108150-v2.jpg",
+            "69b84a19a64d84f1c3467291_LINE_UP_16x9_00108151-v2.jpg",
+            "69b84a1b5e2dc7cedb9397d7_LINE_UP_16x9_00108152-v2.jpg",
+            "69b84a1c04bce883f7a4065e_LINE_UP_16x9_00108153-v2.jpg",
+            "69b84a1634da1d27827d255f_LINE_UP_16x9_00108154-v2.jpg",
+            "69b84a185c6c0e7ce36b5987_LINE_UP_16x9_00108155-v2.jpg",
+            "69b84a160126fde0fa00e94c_LINE_UP_16x9_00108156-v2.jpg",
+            "69b84a13819894db5ca5939c_LINE_UP_16x9_00108157-v2.jpg",
+            "69b84a1173b07a66d8ba2dd2_LINE_UP_16x9_00108158-v2.jpg",
+            "69b84a12ebac7df78f9847dc_LINE_UP_16x9_00108159-v2.jpg",
+            "69b84a1057443bcffc275fbf_LINE_UP_16x9_00108160-v2.jpg",
+            "69b84a0febff593610d42bfd_LINE_UP_16x9_00108161-v2.jpg",
+            "69b84a0dd43f2c2a2f11e205_LINE_UP_16x9_00108162-v2.jpg",
+            "69b84a0f554350dab9bd6ee3_LINE_UP_16x9_00108163-v2.jpg",
+            "69b84a1025a96fc7fee47f6e_LINE_UP_16x9_00108164-v2.jpg",
+            "69b84a1241f4546ef70c98d9_LINE_UP_16x9_00108165-v2.jpg",
+            "69b84a132da68aabe91e5bac_LINE_UP_16x9_00108166-v2.jpg",
+            "69b84a1280ee951f7e9770b5_LINE_UP_16x9_00108167-v2.jpg",
+            "69b84a165247d90d3654c7e7_LINE_UP_16x9_00108168-v2.jpg",
+            "69b84a18963c48d054d51114_LINE_UP_16x9_00108169-v2.jpg",
+            "69b84a10e4fffb6be7ab30ce_LINE_UP_16x9_00108170-v2.jpg",
+            "69b84a127b091916ff21569d_LINE_UP_16x9_00108171-v2.jpg",
+            "69b84a136bcde745378dd1d5_LINE_UP_16x9_00108172-v2.jpg",
+            "69b84a1201f0323516b256b8_LINE_UP_16x9_00108173-v2.jpg",
+            "69b84a10c78b582a859fa279_LINE_UP_16x9_00108174-v2.jpg",
+            "69b84a0f2da68aabe91e4208_LINE_UP_16x9_00108175-v2.jpg",
+            "69b84a0e7fc274237ed8a1c8_LINE_UP_16x9_00108176-v2.jpg",
+            "69b84a0f8bbb13a66faebde5_LINE_UP_16x9_00108177-v2.jpg",
+            "69b84a1a7fc274237ed8b214_LINE_UP_16x9_00108178-v2.jpg",
+            "69b84a1960b4edb6707d6e10_LINE_UP_16x9_00108179-v2.jpg",
+            "69b84a158a9b3fe4cdcc00ce_LINE_UP_16x9_00108180-v2.jpg",
+            "69b84a1607251f25c09cb351_LINE_UP_16x9_00108181-v2.jpg",
+            "69b84a189f60c281ccc882f6_LINE_UP_16x9_00108182-v2.jpg",
+            "69b84a16b5c7416ddfd49450_LINE_UP_16x9_00108183-v2.jpg",
+            "69b84a1ce20f83be792a804f_LINE_UP_16x9_00108184-v2.jpg",
+            "69b84a1bc23e0b734b27295b_LINE_UP_16x9_00108185-v2.jpg",
+            "69b84a1991a11e7702377ea8_LINE_UP_16x9_00108186-v2.jpg",
+            "69b84a1a53d5a6a53ca9496a_LINE_UP_16x9_00108187-v2.jpg",
+            "69b84a0f9932c2463075ef6b_LINE_UP_16x9_00108188-v2.jpg",
+            "69b84a0ec4c627a875c1e9d1_LINE_UP_16x9_00108189-v2.jpg",
+            "69b84a1cc58e121bd03d6d79_LINE_UP_16x9_00108190-v2.jpg",
+            "69b84a1b7b3f066550b81f7f_LINE_UP_16x9_00108191-v2.jpg",
+            "69b84a19b2d3807130bceeab_LINE_UP_16x9_00108192-v2.jpg",
+            "69b84a1a3076f774a863ede4_LINE_UP_16x9_00108193-v2.jpg",
+            "69b84a14d109f94cf0a9ad2a_LINE_UP_16x9_00108194-v2.jpg",
+            "69b84a166cb2328d942d35d3_LINE_UP_16x9_00108195-v2.jpg",
+            "69b84a18ef6f024daf960bd4_LINE_UP_16x9_00108196-v2.jpg",
+            "69b84a16219adc28c68edde5_LINE_UP_16x9_00108197-v2.jpg",
+            "69b84a1235f8d6aa2db3247c_LINE_UP_16x9_00108198-v2.jpg",
+            "69b84a135b4a52c01f6e63dd_LINE_UP_16x9_00108199-v2.jpg",
+            "69b84a0e7b3f066550b80f9b_LINE_UP_16x9_00108200-v2.jpg",
+            "69b84a0eed42a6d779767e76_LINE_UP_16x9_00108201-v2.jpg",
+            "69b84a0f01f0323516b24a34_LINE_UP_16x9_00108202-v2.jpg",
+            "69b84a10be869c57d593349b_LINE_UP_16x9_00108203-v2.jpg",
+            "69b84a25ad192840a8bf6079_LINE_UP_16x9_00108204-v2.jpg",
+            "69b84a12c3282b3dd729373f_LINE_UP_16x9_00108205-v2.jpg",
+            "69b84a11f919bbbe02dc20e8_LINE_UP_16x9_00108206-v2.jpg",
+            "69b84a11815e004d28b70e28_LINE_UP_16x9_00108207-v2.jpg",
+            "69b84a1519c3fc59223a1b76_LINE_UP_16x9_00108208-v2.jpg",
+            "69b84a15a881d2bcea3ba74a_LINE_UP_16x9_00108209-v2.jpg",
+            "69b84a136b4fd14eaf527040_LINE_UP_16x9_00108210-v2.jpg",
+            "69b84a12a0ad4ed202f9773b_LINE_UP_16x9_00108211-v2.jpg",
+            "69b84a111746f4b7da10d811_LINE_UP_16x9_00108212-v2.jpg",
+            "69b84a11b5c7416ddfd49312_LINE_UP_16x9_00108213-v2.jpg",
+            "69b84a0e53ef32f60c84d68e_LINE_UP_16x9_00108214-v2.jpg",
+            "69b84a0e0ce71d02b4a5b574_LINE_UP_16x9_00108215-v2.jpg",
+            "69b84a100049c900d70fde03_LINE_UP_16x9_00108216-v2.jpg",
+            "69b84a0f018be0f73ba2f5a3_LINE_UP_16x9_00108217-v2.jpg",
+            "69b84a1ba17f035697a8a5da_LINE_UP_16x9_00108218-v2.jpg",
+            "69b84a1b4f71f3fb323c0285_LINE_UP_16x9_00108219-v2.jpg",
+            "69b84a157cd858bd3e61695e_LINE_UP_16x9_00108220-v2.jpg",
+            "69b84a15554c764cae39ff1a_LINE_UP_16x9_00108221-v2.jpg",
+            "69b84a181d31b81e7644bf6d_LINE_UP_16x9_00108222-v2.jpg",
+            "69b84a18b69d73f5745e1337_LINE_UP_16x9_00108223-v2.jpg",
+            "69b84a1b47c084579c4f37df_LINE_UP_16x9_00108224-v2.jpg",
+            "69b84a1c2e7f74ccc462ec83_LINE_UP_16x9_00108225-v2.jpg",
+            "69b84a191746f4b7da10da94_LINE_UP_16x9_00108226-v2.jpg",
+            "69b84a19b730f6a67826d625_LINE_UP_16x9_00108227-v2.jpg",
+            "69b84a0e7d72a709632bc3bd_LINE_UP_16x9_00108228-v2.jpg",
+            "69b84a0ed109f94cf0a9ab84_LINE_UP_16x9_00108229-v2.jpg",
+            "69b84a1b12eb4394c1fa1204_LINE_UP_16x9_00108230-v2.jpg",
+            "69b84a1bdd21c27a321e3d2f_LINE_UP_16x9_00108231-v2.jpg",
+            "69b84a1abe9d117338f947b5_LINE_UP_16x9_00108232-v2.jpg",
+            "69b84a19032074e2912d3862_LINE_UP_16x9_00108233-v2.jpg",
+            "69b84a1551cafd694a09a899_LINE_UP_16x9_00108234-v2.jpg",
+            "69b84a15a1100b642e0b9ef3_LINE_UP_16x9_00108235-v2.jpg",
+            "69b84a17c78b582a859fb099_LINE_UP_16x9_00108236-v2.jpg",
+            "69b84a1871d6824111833320_LINE_UP_16x9_00108237-v2.jpg",
+            "69b84a136af94ad99a6a95ed_LINE_UP_16x9_00108238-v2.jpg",
+            "69b84a12c23e0b734b272853_LINE_UP_16x9_00108239-v2.jpg",
+            "69b84a2024ae9a461f2051d0_LINE_UP_16x9_00108240-v2.jpg",
+            "69b84a20c5be65e1b8cd376e_LINE_UP_16x9_00108241-v2.jpg",
+            "69b84a1ee20f83be792a8ff9_LINE_UP_16x9_00108242-v2.jpg",
+            "69b84a1d64800102760dad07_LINE_UP_16x9_00108243-v2.jpg",
+            "69b84a224541f03ffd89e8cc_LINE_UP_16x9_00108244-v2.jpg",
+            "69b84a243abaefc67d248d12_LINE_UP_16x9_00108245-v2.jpg",
+            "69b84a252b3d2a284178152d_LINE_UP_16x9_00108246-v2.jpg",
+            "69b84a244869b682194308e3_LINE_UP_16x9_00108247-v2.jpg",
+            "69b84a08997a22e29a506205_LINE_UP_16x9_00108248-v2.jpg",
+            "69b84a08963c48d054d50e80_LINE_UP_16x9_00108249-v2.jpg",
+            "69b84a225dc06d6daaf7c511_LINE_UP_16x9_00108250-v2.jpg",
+            "69b84a2451cafd694a09ab39_LINE_UP_16x9_00108251-v2.jpg",
+            "69b84a26afda4da60da9d925_LINE_UP_16x9_00108252-v2.jpg",
+            "69b84a2a0bb0ce2d0e991ad1_LINE_UP_16x9_00108253-v2.jpg",
+            "69b84a22ebff593610d42efb_LINE_UP_16x9_00108254-v2.jpg",
+            "69b84a20c4c627a875c1f86d_LINE_UP_16x9_00108255-v2.jpg",
+            "69b84a1d166bdd23c9716256_LINE_UP_16x9_00108256-v2.jpg",
+            "69b84a1e43cfd96ef398f659_LINE_UP_16x9_00108257-v2.jpg",
+            "69b84a0bbe9d117338f92af3_LINE_UP_16x9_00108258-v2.jpg",
+            "69b84a0bd971034a9091ac3c_LINE_UP_16x9_00108259-v2.jpg",
+            "69b84a08cf49bd5d09599074_LINE_UP_16x9_00108260-v2.jpg",
+            "69b84a0897bc8b9c47b13400_LINE_UP_16x9_00108261-v2.jpg",
+            "69b84a07554c764cae39fcfd_LINE_UP_16x9_00108262-v2.jpg",
+            "69b84a06ea594ae97b8e194b_LINE_UP_16x9_00108263-v2.jpg",
+            "69b84a0bc23e0b734b27278b_LINE_UP_16x9_00108264-v2.jpg",
+            "69b84a0aa3c8625d3c056bd9_LINE_UP_16x9_00108265-v2.jpg",
+            "69b84a0c0115a55f1e54a2ea_LINE_UP_16x9_00108266-v2.jpg",
+            "69b84a0dc950f2446aa32ea3_LINE_UP_16x9_00108267-v2.jpg",
+            "69b84a2064791de40c03d69c_LINE_UP_16x9_00108268-v2.jpg",
+            "69b84a202c7f2659ca153338_LINE_UP_16x9_00108269-v2.jpg",
+            "69b84a0a3dbcf7a121bbdc98_LINE_UP_16x9_00108270-v2.jpg",
+            "69b84a0ab61b161e860e3e75_LINE_UP_16x9_00108271-v2.jpg",
+            "69b84a0ca21080ffa3080d5d_LINE_UP_16x9_00108272-v2.jpg",
+            "69b84a0d7ed26bce23bacb43_LINE_UP_16x9_00108273-v2.jpg",
+            "69b84a082b3d2a2841780ce7_LINE_UP_16x9_00108274-v2.jpg",
+            "69b84a082da68aabe91e3582_LINE_UP_16x9_00108275-v2.jpg",
+            "69b84a07d59c528e8b51cf70_LINE_UP_16x9_00108276-v2.jpg",
+            "69b84a0624ae9a461f202fc9_LINE_UP_16x9_00108277-v2.jpg",
+            "69b84a22a604cdee755af691_LINE_UP_16x9_00108278-v2.jpg",
+            "69b84a23a17f035697a8a7d7_LINE_UP_16x9_00108279-v2.jpg",
+            "69b84a1debac7df78f9851f5_LINE_UP_16x9_00108280-v2.jpg",
+            "69b84a1d8fff42800ca18539_LINE_UP_16x9_00108281-v2.jpg",
+            "69b84a20a3c8625d3c05715a_LINE_UP_16x9_00108282-v2.jpg",
+            "69b84a206cb2328d942d4674_LINE_UP_16x9_00108283-v2.jpg",
+            "69b84a25588d70ea9a15a3a5_LINE_UP_16x9_00108284-v2.jpg",
+            "69b84a25703cfe403ad1fb1f_LINE_UP_16x9_00108285-v2.jpg",
+            "69b84a23ea69eaaf52dd14cd_LINE_UP_16x9_00108286-v2.jpg",
+            "69b84a22a144af9d61f20291_LINE_UP_16x9_00108287-v2.jpg",
+            "69b84a06259ec6bcefcafc3e_LINE_UP_16x9_00108288-v2.jpg",
+            "69b84a0671d6824111832db3_LINE_UP_16x9_00108289-v2.jpg",
+            "69b84a2583aed0d492838f17_LINE_UP_16x9_00108290-v2.jpg",
+            "69b84a25e66b40b3a7138bd1_LINE_UP_16x9_00108291-v2.jpg",
+            "69b84a2251cafd694a09ab13_LINE_UP_16x9_00108292-v2.jpg",
+            "69b84a22ea69eaaf52dd14b6_LINE_UP_16x9_00108293-v2.jpg",
+            "69b84a1d084e9dafe6e93200_LINE_UP_16x9_00108294-v2.jpg",
+            "69b84a1df75f901e753b13b1_LINE_UP_16x9_00108295-v2.jpg",
+            "69b84a204f2ca9907725a825_LINE_UP_16x9_00108296-v2.jpg",
+            "69b84a209f60c281ccc883ca_LINE_UP_16x9_00108297-v2.jpg",
+            "69b84a0c2b3d2a2841780d54_LINE_UP_16x9_00108298-v2.jpg",
+            "69b84a0d23b2885328693c54_LINE_UP_16x9_00108299-v2.jpg",
+            "69b84a07eae2294b78a6a775_LINE_UP_16x9_00108300-v2.jpg",
+            "69b84a090950ff334d3e2151_LINE_UP_16x9_00108301-v2.jpg",
+            "69b84a07f919bbbe02dc1f4d_LINE_UP_16x9_00108302-v2.jpg",
+            "69b84a06908691fa1c38faa3_LINE_UP_16x9_00108303-v2.jpg",
+            "69b84a0cb69d73f5745e11d6_LINE_UP_16x9_00108304-v2.jpg",
+            "69b84a09ebe5efe93d7ff8e9_LINE_UP_16x9_00108305-v2.jpg",
+            "69b84a0c703cfe403ad1f85d_LINE_UP_16x9_00108306-v2.jpg",
+            "69b84a0dc950f2446aa32e8c_LINE_UP_16x9_00108307-v2.jpg",
+            "69b84a271d4e79d75f55fb1a_LINE_UP_16x9_00108308-v2.jpg"
+        ];
+
+        if (typeof gsap === "undefined" || typeof ScrollTrigger === "undefined") return;
+        gsap.registerPlugin(ScrollTrigger);
+
+        const scrollSection = document.querySelector('[hero="bg"]');
+        const canvasWrapper = document.querySelector('[lp="reveal-wrap"]') || document.querySelector('[lp="canvas"]');
+
+        if (!scrollSection || !canvasWrapper) return;
+
+        /* =========================================
+           SEQUENCE CONFIG — EDIT ONLY THIS BLOCK
+        ========================================= */
+
+        const DESKTOP_FRAME_COUNT = seqAssets.length - 2;
+        const MOBILE_FRAME_COUNT = seqAssets.length - 2;
+
+        // const getDesktopFrameUrl = (index) =>
+        //   `https://webflow-cms-images-prod.s3.us-east-1.amazonaws.com/fieldai/END/END_SEQ_${String(index).padStart(4, "0")}.jpg`;
+
+        // const getMobileFrameUrl = (index) =>
+        //   `https://webflow-cms-images-prod.s3.us-east-1.amazonaws.com/fieldai/END/END_SEQ_${String(index).padStart(4, "0")}.jpg`;
+
+        const getDesktopFrameUrl = (index) => {
+            return prefix + seqAssets[index];
+        }
+
+        const getMobileFrameUrl = getDesktopFrameUrl;
+
+        /* ========================================= */
+
+        const isMobile = window.matchMedia("(max-width: 767px)").matches;
+
+        // const frameCount = isMobile ? MOBILE_FRAME_COUNT : DESKTOP_FRAME_COUNT;
+        // const getFrameUrl = isMobile ? getMobileFrameUrl : getDesktopFrameUrl;
+
+        
+        // If mobile, use a smaller frame count and get the frame url from the mobile seq assets
+
+        const MOBILE_FRAME_STEP = 3;
+        const DESKTOP_FRAME_STEP = 1;
+
+        const mobileSeqAssets = isMobile
+            ? seqAssets.filter((_, i) => i % MOBILE_FRAME_STEP === 0)
+            : seqAssets.filter((_, i) => i % DESKTOP_FRAME_STEP === 0);
+
+        const frameCount = mobileSeqAssets.length - 2;
+
+        const getFrameUrl = (index) => prefix + mobileSeqAssets[index];
+
+        // HERO / PERFORMANCE TUNING
+        const INITIAL_BLOCKING_FRAMES = isMobile ? 12 : 20;
+        // const AHEAD_PRELOAD_COUNT = isMobile ? 10 : 18;
+        const AHEAD_PRELOAD_COUNT = isMobile ? 30 : 60;
+        const BEHIND_PRELOAD_COUNT = isMobile ? 4 : 8;
+        const MAX_CONCURRENT_LOADS = isMobile ? 3 : 6;
+        const MAX_CACHED_IMAGES = isMobile ? 160 : 310;
+        const RESIZE_DEBOUNCE = 180;
+        const ORIENTATION_DELAY = 320;
+
+        const canvas = document.createElement("canvas");
+        canvas.className = "lp-sequence-canvas";
+        canvasWrapper.appendChild(canvas);
+
+        const context = canvas.getContext("2d", { alpha: true });
+
+        const sequence = { frame: 0 };
+        const images = new Array(frameCount).fill(null);
+        const loaded = new Array(frameCount).fill(false);
+        const loading = new Array(frameCount).fill(false);
+
+        let animationInitialized = false;
+        let resizeTimeout = null;
+        let rafId = null;
+        let lastRenderedFrame = -1;
+        let lastDrawnFrame = -1;
+        let lastRequestedNeighborhoodCenter = -9999;
+        let canvasCssWidth = 0;
+        let canvasCssHeight = 0;
+        let canvasDpr = 1;
+        let activeLoads = 0;
+        let scrollTween = null;
+
+        const loadQueueHigh = [];
+        const loadQueueNormal = [];
+        const queuedHigh = new Set();
+        const queuedNormal = new Set();
+
+        const lruLoadedFrames = [];
+
+        function getDpr() {
+            const dpr = window.devicePixelRatio || 1;
+            return isMobile ? Math.min(dpr, 1.25) : Math.min(dpr, 2);
+        }
+
+        function measureCanvas() {
+            canvasCssWidth = canvasWrapper.offsetWidth;
+            canvasCssHeight = canvasWrapper.offsetHeight;
+            canvasDpr = getDpr();
+        }
+
+        function setCanvasSize() {
+            measureCanvas();
+
+            canvas.width = Math.max(1, Math.round(canvasCssWidth * canvasDpr));
+            canvas.height = Math.max(1, Math.round(canvasCssHeight * canvasDpr));
+            canvas.style.width = canvasCssWidth + "px";
+            canvas.style.height = canvasCssHeight + "px";
+
+            context.setTransform(1, 0, 0, 1, 0, 0);
+            context.scale(canvasDpr, canvasDpr);
+
+            lastRenderedFrame = -1;
+            drawFrame(true);
+        }
+
+        function drawImageCover(img) {
+            if (!img || !img.width || !img.height || !canvasCssWidth || !canvasCssHeight) return;
+
+            const imgRatio = img.width / img.height;
+            const boxRatio = canvasCssWidth / canvasCssHeight;
+
+            let drawWidth, drawHeight, x, y;
+
+            if (imgRatio > boxRatio) {
+                drawHeight = canvasCssHeight;
+                drawWidth = drawHeight * imgRatio;
+                x = (canvasCssWidth - drawWidth) / 2;
+                y = 0;
+            } else {
+                drawWidth = canvasCssWidth;
+                drawHeight = drawWidth / imgRatio;
+                x = 0;
+                y = (canvasCssHeight - drawHeight) / 2;
+            }
+
+            context.clearRect(0, 0, canvasCssWidth, canvasCssHeight);
+            context.drawImage(img, x, y, drawWidth, drawHeight);
+        }
+
+        function markFrameAsRecentlyUsed(index) {
+            const existingIndex = lruLoadedFrames.indexOf(index);
+            if (existingIndex !== -1) lruLoadedFrames.splice(existingIndex, 1);
+            lruLoadedFrames.push(index);
+        }
+
+        function releaseFarFrames(currentFrame) {
+            if (lruLoadedFrames.length <= MAX_CACHED_IMAGES) return;
+
+            let i = 0;
+            while (lruLoadedFrames.length > MAX_CACHED_IMAGES && i < lruLoadedFrames.length) {
+                const frameIndex = lruLoadedFrames[i];
+                const distance = Math.abs(frameIndex - currentFrame);
+
+                // Protegemos la vecindad visible / útil
+                if (distance <= Math.max(AHEAD_PRELOAD_COUNT, BEHIND_PRELOAD_COUNT) + 6) {
+                    i++;
+                    continue;
+                }
+
+                if (frameIndex === lastDrawnFrame) {
+                    i++;
+                    continue;
+                }
+
+                images[frameIndex] = null;
+                loaded[frameIndex] = false;
+                lruLoadedFrames.splice(i, 1);
+            }
+        }
+
+        function findNearestLoadedFrame(targetFrame) {
+            if (loaded[targetFrame] && images[targetFrame]) return targetFrame;
+
+            const maxDistance = Math.max(targetFrame, frameCount - 1 - targetFrame);
+
+            for (let offset = 1; offset <= maxDistance; offset++) {
+                const next = targetFrame + offset;
+                const prev = targetFrame - offset;
+
+                if (next < frameCount && loaded[next] && images[next]) return next;
+                if (prev >= 0 && loaded[prev] && images[prev]) return prev;
+            }
+
+            return -1;
+        }
+
+        function drawFrame(force = false) {
+            const targetFrame = Math.max(0, Math.min(frameCount - 1, Math.round(sequence.frame)));
+
+            if (!force && targetFrame === lastRenderedFrame) return;
+
+            let frameToDraw = targetFrame;
+
+            if (!loaded[frameToDraw] || !images[frameToDraw]) {
+                frameToDraw = findNearestLoadedFrame(targetFrame);
+            }
+
+            if (frameToDraw === -1 || !images[frameToDraw]) return;
+
+            drawImageCover(images[frameToDraw]);
+            lastRenderedFrame = targetFrame;
+            lastDrawnFrame = frameToDraw;
+
+            markFrameAsRecentlyUsed(frameToDraw);
+            releaseFarFrames(targetFrame);
+        }
+
+        function requestDraw() {
+            const currentFrame = Math.max(0, Math.min(frameCount - 1, Math.round(sequence.frame)));
+            enqueueNeighborhood(currentFrame);
+
+            if (rafId) return;
+
+            rafId = requestAnimationFrame(() => {
+                rafId = null;
+                drawFrame();
+            });
+        }
+
+        function internalLoadImage(index, priority = false) {
+            return new Promise((resolve) => {
+                if (index < 0 || index >= frameCount) {
+                    resolve(null);
+                    return;
+                }
+
+                if (loaded[index] && images[index]) {
+                    markFrameAsRecentlyUsed(index);
+                    resolve(images[index]);
+                    return;
+                }
+
+                if (loading[index]) {
+                    const checkLoaded = () => {
+                        if (!loading[index]) {
+                            resolve(images[index] || null);
+                        } else {
+                            requestAnimationFrame(checkLoaded);
+                        }
+                    };
+                    checkLoaded();
+                    return;
+                }
+
+                loading[index] = true;
+
+                const img = new Image();
+
+                // Remove the sync/priority branching for decoding
+                img.decoding = "async";
+
+                if (priority) {
+                    img.fetchPriority = "high";
+                    img.loading = "eager";
+                    // no decoding: "sync" — let decode() handle it
+                }
+
+                // if (priority) {
+                //     img.fetchPriority = "high";
+                //     img.loading = "eager";
+                //     img.decoding = "sync";
+                // } else {
+                //     img.decoding = "async";
+                // }
+
+                // img.onload = () => {
+                //     images[index] = img;
+                //     loaded[index] = true;
+                //     loading[index] = false;
+
+                //     markFrameAsRecentlyUsed(index);
+
+                //     // si es justo el frame visible, lo pintamos cuanto antes
+                //     const currentFrame = Math.round(sequence.frame);
+                //     if (index === currentFrame || lastDrawnFrame === -1) {
+                //         drawFrame(true);
+                //     }
+
+                //     resolve(img);
+                // };
+
+                img.onload = () => {
+                    const finish = () => {
+                        images[index] = img;
+                        loaded[index] = true;
+                        loading[index] = false;
+                        markFrameAsRecentlyUsed(index);
+
+                        const currentFrame = Math.round(sequence.frame);
+                        if (index === currentFrame || lastDrawnFrame === -1) {
+                            drawFrame(true);
+                        }
+                        resolve(img);
+                    };
+
+                    // Only decode sync for frame 0 (first paint).
+                    // Everything else decodes async so the main thread stays free.
+                    if (index === 0) {
+                        finish();
+                    } else {
+                        img.decode().then(finish).catch(finish);
+                    }
+                };
+
+                img.onerror = () => {
+                    images[index] = null;
+                    loaded[index] = false;
+                    loading[index] = false;
+                    resolve(null);
+                };
+
+                img.src = getFrameUrl(index);
+            });
+        }
+
+        function processQueue() {
+            while (activeLoads < MAX_CONCURRENT_LOADS) {
+                let index = null;
+                let priority = false;
+
+                if (loadQueueHigh.length) {
+                    index = loadQueueHigh.shift();
+                    queuedHigh.delete(index);
+                    priority = true;
+                } else if (loadQueueNormal.length) {
+                    index = loadQueueNormal.shift();
+                    queuedNormal.delete(index);
+                } else {
+                    break;
+                }
+
+                if (index === null) break;
+                if (index < 0 || index >= frameCount) continue;
+                if (loaded[index] || images[index] || loading[index]) continue;
+
+                activeLoads++;
+
+                internalLoadImage(index, priority)
+                    .finally(() => {
+                        activeLoads--;
+                        processQueue();
+                    });
+            }
+        }
+
+        function enqueueFrame(index, priority = false) {
+            if (index < 0 || index >= frameCount) return;
+            if (loaded[index] || images[index] || loading[index]) return;
+
+            if (priority) {
+                if (queuedHigh.has(index)) return;
+                if (queuedNormal.has(index)) {
+                    const normalIndex = loadQueueNormal.indexOf(index);
+                    if (normalIndex !== -1) loadQueueNormal.splice(normalIndex, 1);
+                    queuedNormal.delete(index);
+                }
+                loadQueueHigh.push(index);
+                queuedHigh.add(index);
+            } else {
+                if (queuedHigh.has(index) || queuedNormal.has(index)) return;
+                loadQueueNormal.push(index);
+                queuedNormal.add(index);
+            }
+
+            processQueue();
+        }
+
+        function enqueueNeighborhood(centerFrame) {
+            if (Math.abs(centerFrame - lastRequestedNeighborhoodCenter) < 2) return;
+            lastRequestedNeighborhoodCenter = centerFrame;
+
+            enqueueFrame(centerFrame, true);
+
+            for (let offset = 1; offset <= AHEAD_PRELOAD_COUNT; offset++) {
+                enqueueFrame(centerFrame + offset, true);
+            }
+
+            for (let offset = 1; offset <= BEHIND_PRELOAD_COUNT; offset++) {
+                enqueueFrame(centerFrame - offset, true);
+            }
+
+            // relleno secundario algo más amplio
+            for (let offset = AHEAD_PRELOAD_COUNT + 1; offset <= AHEAD_PRELOAD_COUNT + 18; offset++) {
+                enqueueFrame(centerFrame + offset, false);
+            }
+
+            for (let offset = BEHIND_PRELOAD_COUNT + 1; offset <= BEHIND_PRELOAD_COUNT + 10; offset++) {
+                enqueueFrame(centerFrame - offset, false);
+            }
+        }
+
+        async function preloadInitialFrames() {
+            // Cargamos primero el primer frame sí o sí
+            await internalLoadImage(0, true);
+            drawFrame(true);
+
+            // Luego aseguramos un pequeño bloque inicial para que el usuario nuevo
+            // pueda empezar a hacer scroll sin notar cortes
+            const initialPromises = [];
+            for (let i = 1; i < Math.min(INITIAL_BLOCKING_FRAMES, frameCount); i++) {
+                initialPromises.push(internalLoadImage(i, true));
+            }
+            await Promise.all(initialPromises);
+
+            drawFrame(true);
+        }
+
+        function warmRestOfSequence() {
+            // Cola progresiva, sin lanzar 300 requests de golpe
+            for (let i = INITIAL_BLOCKING_FRAMES; i < frameCount; i++) {
+                enqueueFrame(i, false);
+            }
+        }
+
+        function initScrollAnimation() {
+            if (animationInitialized) return;
+            animationInitialized = true;
+
+            scrollTween = gsap.to(sequence, {
+                frame: frameCount - 1,
+                ease: "none",
+                snap: { frame: 1 },
+                onUpdate: requestDraw,
+                scrollTrigger: {
+                    trigger: scrollSection,
+                    start: "45% top",
+                    end: "bottom bottom",
+                    scrub: isMobile ? 0.45 : true,
+                    invalidateOnRefresh: true,
+                    fastScrollEnd: true,
+                    anticipatePin: 1,
+                    onRefresh: () => {
+                        requestDraw();
+                    }
+                }
+            });
+
+            ScrollTrigger.refresh();
+            requestDraw();
+            drawFrame(true);
+        }
+
+        async function boot() {
+            setCanvasSize();
+
+            await preloadInitialFrames();
+            enqueueNeighborhood(0);
+            initScrollAnimation();
+            warmRestOfSequence();
+
+            // catch late layout shifts
+            requestAnimationFrame(() => {
+                requestAnimationFrame(() => {
+                    ScrollTrigger.refresh();
+                });
+            });
+
+            // segunda ola suave para dejar más hero preparado
+            setTimeout(() => {
+                enqueueNeighborhood(Math.min(24, frameCount - 1));
+                processQueue();
+            }, 300);
+
+            setTimeout(() => {
+                enqueueNeighborhood(Math.min(48, frameCount - 1));
+                processQueue();
+            }, 900);
+        }
+
+        boot();
+
+        window.addEventListener("load", () => {
+            setCanvasSize();
+            ScrollTrigger.refresh();
+            requestDraw();
+            drawFrame(true);
+        });
+
+        window.addEventListener("orientationchange", () => {
+            setTimeout(() => {
+                setCanvasSize();
+                ScrollTrigger.refresh();
+                requestDraw();
+                drawFrame(true);
+            }, ORIENTATION_DELAY);
+        });
+
+        window.addEventListener("resize", () => {
+            clearTimeout(resizeTimeout);
+            resizeTimeout = setTimeout(() => {
+                const prevWidth = canvasCssWidth;
+                const prevHeight = canvasCssHeight;
+
+                measureCanvas();
+
+                if (
+                    Math.abs(prevWidth - canvasCssWidth) > 20 ||
+                    Math.abs(prevHeight - canvasCssHeight) > 20
+                ) {
+                    setCanvasSize();
+                    ScrollTrigger.refresh();
+                    requestDraw();
+                    drawFrame(true);
+                }
+            }, RESIZE_DEBOUNCE);
+        }, { passive: true });
+    });
+</script></div></div></div></div></div><div class="lp-hero_content"><div hero-block-first="" class="lp-hero_first"><div class="lp-hero_block is-first"><div class="container small-gap custom-padding-below"><div class="lp-hero_heading"><h1 hero="heading" class="lp-h1">Redefining General <br/>Robot Intelligence</h1><h2 anim="words" class="lp-h3">Leading the frontier of Physical AI with deployments across three continents. </h2></div><div class="full-width flex-vertical small-gap margin-bottom-1"><div class="divider light"></div><div><p class="lp-body opacity-80">Built by veterans from DeepMind, NASA JPL, Tesla, NVIDIA, Amazon, and beyond.</p></div></div><div class="code-embed-4 w-embed"><style>
+.custom-padding-below.custom-padding-below.custom-padding-below {
+padding-bottom: 2rem;
+padding-bottom: calc((100vh - 100svh));
+padding-bottom: calc((100vh - 100svh) / 2);
+}
+</style></div></div></div></div><div hero-block-second="" class="lp-hero_block"><div class="container"><div class="lp-hero_heading wipe-reveal-151 is-second"><div class="flex-vertical row-gap-50"><div anim="words" class="lp-h2 wipe-reveal-156">Introducing EDGE™ <br/></div><h2 anim="words" class="lp-h3">General-Purpose Robot Brain</h2></div><p anim="op-in" class="lp-body wipe-reveal-157">One brain across robots, tasks, and environments</p><a button-attribute="" class="lp-button w-inline-block" lp="button" data-wf-component-context="%5B%7B%22componentId%22%3A%2244d88c6f-e301-88dd-76a8-1c1aa05d8e39%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c05403e8%22%7D%2C%7B%22componentId%22%3A%22cd712bc7-1c45-17b4-bb70-6ab2f589f24f%22%2C%22instanceId%22%3A%227ca784d5-8003-7e98-147d-c6905550a291%22%7D%5D" data-wf-element-id="cd712bc7-1c45-17b4-bb70-6ab2f589f24f" href="/technology" anim="op-in" data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c05403e8:7ca784d5-8003-7e98-147d-c6905550a291:cd712bc7-1c45-17b4-bb70-6ab2f589f24f" data-wf-ao-click-engagement-tracking="true"><div class="lp-mono-s">TECHNOLOGY</div></a></div></div></div><div class="js wipe-reveal-158 w-embed w-script"><script>
+document.addEventListener("DOMContentLoaded", function () {
+  gsap.registerPlugin(ScrollTrigger);
+
+  function heroTransition() {
+    const DURATION = 0.4;
+    const EASE = "power2.out";
+
+    const heroFirst = document.querySelector("[hero-block-first]");
+    const heroSecond = document.querySelector("[hero-block-second]");
+
+    if (!heroFirst || !heroSecond) return;
+
+    // Estado inicial forzado
+    gsap.set(heroFirst, {
+      opacity: 1,
+      y: 0
+    });
+
+    ScrollTrigger.create({
+      trigger: heroSecond,
+      start: "top bottom+=20%",
+      onEnter: () => {
+        gsap.to(heroFirst, {
+          opacity: 0,
+          y: -40,
+          duration: DURATION,
+          ease: EASE,
+          overwrite: "auto"
+        });
+      },
+      onLeaveBack: () => {
+        gsap.to(heroFirst, {
+          opacity: 1,
+          y: 0,
+          duration: DURATION,
+          ease: EASE,
+          overwrite: "auto"
+        });
+      }
+    });
+  }
+
+  heroTransition();
+  ScrollTrigger.refresh();
+});
+</script></div></div></div><div data-wf--lp-rising-graph--variant="video" class="section-lp wwd_section"><div wwd-sequence="bg" class="lp-hero_bg"><div class="wwd_video"><div class="wwd-video-cover"><img src="https://cdn.prod.website-files.com/66f60ba0b55a2bf61129d179/69b78addbf9ae94d989dad0d_homepage_uncertainty_V3jpg%20copy.webp" loading="lazy" alt="" class="fullscreen"/></div><div class="lp-mask"></div><div class="js w-embed w-script"><script>
+document.addEventListener("DOMContentLoaded", function () {
+  gsap.registerPlugin(ScrollTrigger);
+
+  const videos = gsap.utils.toArray('[wwd="first-video"]');
+
+  videos.forEach((video) => {
+    ScrollTrigger.create({
+      trigger: video,
+      start: "top bottom",
+      end: "bottom top",
+      onEnter: () => video.play().catch(() => {}),
+      onEnterBack: () => video.play().catch(() => {}),
+      onLeave: () => video.pause(),
+      onLeaveBack: () => video.pause()
+    });
+  });
+});
+</script></div></div></div><div class="container-5"><div class="wwd_content"><div class="wwd_heading"><div class="wwd_heading_sticky"><div class="lp-deployments_heading"><div anim="op-in" class="lp-tag"><div class="lp-mono-s">[</div><div class="lp-mono-s">BELIEF WORLD MODEL</div><div class="lp-mono-s">]</div></div><h2 anim="words" class="lp-h3">The Intelligence Behind EDGE™ </h2><p anim="op-in" class="lp-body wipe-reveal-157">Field Foundation Models™ (FFMs) introduce a new class of risk-aware robotics AI built around a Belief World Model (BWM). The BWM serves as the predictive engine that reasons under uncertainty, enabling robots to operate reliably in real-world environments even in the presence of unexpected events.</p></div></div></div><div class="wwd_list"><div class="wwd_item"><div anim="width" class="wwd_line"></div><div anim="fade-in" class="lp-mono-wwd"><strong>ON-EDGE AUTONOMY</strong></div></div><div class="wwd_item"><div anim="width" class="wwd_line"></div><div anim="fade-in" class="lp-mono-wwd"><strong>RISK-AWARE WORLD MODELING</strong></div></div><div class="wwd_item"><div anim="width" class="wwd_line"></div><div anim="fade-in" class="lp-mono-wwd"><strong>PROVEN GLOBAL DEPLOYMENT</strong></div></div><div class="wwd_item"><div anim="width" class="wwd_line"></div><div anim="fade-in" class="lp-mono-wwd"><strong>ONE BRAIN FOR ANY MACHINE</strong></div></div></div></div></div><div anim="split-trigger" class="wwd_second"><div class="wwd_bg"><div wwd="second-bg" class="wwd_sticky"><div class="lp-video w-embed"><!-- <video class="wwd-video-cover" muted playsinline preload="metadata">
+  <source src="https://player.vimeo.com/progressive_redirect/playback/1173908585/rendition/2160p/file.mp4%20%282160p%29.mp4?loc=external&signature=6e6512acade7cf2e123f1dba015884f5802d7e3c8a1413962202f5f190401654" type="video/mp4">
+</video>
+-->
+
+
+<video class="wwd-video-cover"
+    playsinline loop muted autoplay
+  	poster="https://cdn.prod.website-files.com/66f60ba0b55a2bf61129d179/69b86cb8df3fe6b56302fa38_4afdc65c0ca91ddf8ec6f8a48ff7b35d_fai_made-to-move-in-the-real-world_website-deployment_v1.00_00_32_15.Still001.webp"
+    data-hls="https://player.vimeo.com/external/1173908585.m3u8?s=78557dfb3a15e813347a6a5d196b7bd2a47ec52e&logging=false"
+    data-mp4="https://player.vimeo.com/progressive_redirect/playback/1173908585/rendition/720p/file.mp4%20%28720p%29.mp4?loc=external&signature=65bd226b4788f3e9875b497ea855c5a518a24696181468f90cf0cf3796258433"
+    data-object-fit="cover">
+</video></div></div></div><div wwd="trigger" class="wwd_content is-second"><div class="container-5"><div class="wwd_second_text"><p wwd="words" anim="split-text" class="lp-h2 text-white">Field-proven autonomy with unlimited use-cases.</p><a button-attribute="button-op" class="lp-button w-inline-block" lp="button" data-wf-component-context="%5B%7B%22componentId%22%3A%224ce5fff4-8618-4295-39fc-50dde7a05f45%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c05403e9%22%7D%2C%7B%22componentId%22%3A%22cd712bc7-1c45-17b4-bb70-6ab2f589f24f%22%2C%22instanceId%22%3A%22cd712bc7-1c45-17b4-bb70-6ab2f589f24e%22%7D%5D" data-wf-element-id="cd712bc7-1c45-17b4-bb70-6ab2f589f24f" href="/solutions" anim="" data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c05403e9:cd712bc7-1c45-17b4-bb70-6ab2f589f24e:cd712bc7-1c45-17b4-bb70-6ab2f589f24f" data-wf-ao-click-engagement-tracking="true"><div class="lp-mono-s">SOLUTIONS</div></a></div></div><div class="js w-embed w-script"><script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  gsap.registerPlugin(ScrollTrigger);
+
+  function wwdAnimation() {
+
+    const DURATION = 0.6;
+    const EASE = "power2.out";
+
+    const trigger = document.querySelector('[wwd="trigger"]');
+    const text = document.querySelector('[wwd="words"]');
+
+    if (!trigger || !text) return;
+
+    gsap.set(text, {
+      opacity: 0
+    });
+
+    gsap.to(text, {
+      opacity: 1,
+      duration: DURATION,
+      ease: EASE,
+      scrollTrigger: {
+        trigger: trigger,
+        start: "top top",
+        toggleActions: "play none none reverse"
+      }
+    });
+
+  }
+
+  wwdAnimation();
+
+});
+</script></div></div><div class="js w-embed w-script"><script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  gsap.registerPlugin(ScrollTrigger, SplitText);
+
+  const trigger = document.querySelector('[anim="split-trigger"]');
+  const text = document.querySelector('[anim="split-text"]');
+  const button = document.querySelector('[button-attribute="button-op"]');
+
+  if (!trigger || !text) return;
+
+  const split = SplitText.create(text, {
+    type: "words, chars"
+  });
+
+  gsap.set(split.chars, {
+    opacity: 0.2
+  });
+
+  if (button) {
+    gsap.set(button, {
+      opacity: 0
+    });
+  }
+
+  gsap.to(split.chars, {
+    opacity: 1,
+    stagger: 0.03,
+    ease: "none",
+    scrollTrigger: {
+      trigger: trigger,
+      start: "center 80%",
+      end: "bottom bottom",
+      scrub: true
+    }
+  });
+
+  if (button) {
+    gsap.to(button, {
+      opacity: 1,
+      duration: 0.3,
+      ease: "linear",
+      scrollTrigger: {
+        trigger: trigger,
+        start: "bottom bottom+=30%",
+        toggleActions: "play none none reverse"
+      }
+    });
+  }
+
+  ScrollTrigger.refresh();
+
+});
+</script></div></div><div class="js w-embed w-script"><script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+
+<script>
+
+document.addEventListener("DOMContentLoaded", function () {
+
+  gsap.registerPlugin(ScrollTrigger);
+
+  const element = document.querySelector('[wwd="second-bg"]');
+
+  if (element) {
+    gsap.fromTo(
+      element,
+      { scale: 0.6 },
+      {
+        scale: 1,
+        ease: "none",
+        scrollTrigger: {
+          trigger: element,
+          start: "top 80%",
+          end: "top 20%",
+          scrub: true
+        }
+      }
+    );
+  }
+
+});
+</script></div></div><div class="section-2 lp-deployments_section"><div class="lp-deployments_content"><div class="container-7"><div class="lp-deployments_top"><div class="w-layout-hflex flex-row spacer middle-row-to-column bottom-aligned-desktop"><div class="lp-deployments_heading full-width"><div anim="op-in" class="lp-tag"><div class="lp-mono-s">[</div><div class="lp-mono-s">Deployments</div><div class="lp-mono-s">]</div></div><h2 anim="words" class="lp-h2">Production Deployments.<br/>Numerous Sites.<br/>Global Footprint.</h2><div class="lp-deployments_paragraph"><p anim="op-in" class="lp-body opacity-80">Trusted by global industry leaders with many more strategic partnerships to be announced soon.</p></div></div><div class="custom-3"><img class="image-5" src="https://cdn.prod.website-files.com/66f60ba0b55a2bf61129d179/69b88e1eb4409f85c2f5f0f8_web_deployment-map_V8.png" alt="" anim="op-in" sizes="(max-width: 1347px) 100vw, 1347px" loading="lazy" srcset="https://cdn.prod.website-files.com/66f60ba0b55a2bf61129d179/69b88e1eb4409f85c2f5f0f8_web_deployment-map_V8-p-500.png 500w, https://cdn.prod.website-files.com/66f60ba0b55a2bf61129d179/69b88e1eb4409f85c2f5f0f8_web_deployment-map_V8-p-800.png 800w, https://cdn.prod.website-files.com/66f60ba0b55a2bf61129d179/69b88e1eb4409f85c2f5f0f8_web_deployment-map_V8-p-1080.png 1080w, https://cdn.prod.website-files.com/66f60ba0b55a2bf61129d179/69b88e1eb4409f85c2f5f0f8_web_deployment-map_V8.png 1347w"/></div></div></div></div><div class="lp-deployments_bottom"><div data-css-marquee="" class="lp-deployments_marquee"><div class="css w-embed"><style>
+[data-css-marquee] {
+  overflow: hidden;
+}
+
+[data-css-marquee-track] {
+  display: flex;
+  width: max-content;
+  animation: translateX 110s linear infinite;
+}
+
+[data-css-marquee-track-invert] {
+  display: flex;
+  width: max-content;
+  animation: translateX 110s linear infinite reverse;
+}
+
+[data-css-marquee-list] {
+  flex-shrink: 0;
+  width: max-content;
+}
+
+@keyframes translateX { 
+  to {
+    transform: translateX(-50%);
+  }
+}
+</style></div><div data-css-marquee-track="" class="lp-marquee_track"><div anim="op-in" data-css-marquee-list="" class="lp-marquee_list"><div class="lp-marquee_item"><p class="lp-mono-xl text-white">MANUFACTURING</p></div><div class="lp-marquee_item"><p class="lp-mono-xl text-white">AUTOMAKER</p></div><div class="lp-marquee_item"><p class="lp-mono-xl text-white">SEMI-CONDUCTOR</p></div><div class="lp-marquee_item"><p class="lp-mono-xl text-white">DATABASE</p></div><div class="lp-marquee_item"><p class="lp-mono-xl text-white">INDUSTRIAL</p></div><div class="lp-marquee_item"><p class="lp-mono-xl text-white">EQUIPMENT</p></div><div class="lp-marquee_item"><p class="lp-mono-xl text-white">SECURITY</p></div></div><div anim="op-in" data-css-marquee-list="" class="lp-marquee_list"><div class="lp-marquee_item"><p class="lp-mono-xl text-white">MANUFACTURING</p></div><div class="lp-marquee_item"><p class="lp-mono-xl text-white">AUTOMAKER</p></div><div class="lp-marquee_item"><p class="lp-mono-xl text-white">SEMI-CONDUCTOR</p></div><div class="lp-marquee_item"><p class="lp-mono-xl text-white">DATABASE</p></div><div class="lp-marquee_item"><p class="lp-mono-xl text-white">INDUSTRIAL</p></div><div class="lp-marquee_item"><p class="lp-mono-xl text-white">EQUIPMENT</p></div><div class="lp-marquee_item"><p class="lp-mono-xl text-white">SECURITY</p></div></div></div></div><div data-css-marquee="" class="lp-deployments_marquee"><div data-css-marquee-track-invert="" class="lp-marquee_track"><div anim="op-in" data-css-marquee-list="" class="lp-marquee_list"><div class="lp-marquee_item"><p class="lp-mono-xl text-white">Austin</p></div><div class="lp-marquee_item"><p class="lp-mono-xl text-white">Boston</p></div><div class="lp-marquee_item"><p class="lp-mono-xl text-white">Delhi</p></div><div class="lp-marquee_item"><p class="lp-mono-xl text-white">Falls Church</p></div><div class="lp-marquee_item"><p class="lp-mono-xl text-white">Houston</p></div><div class="lp-marquee_item"><p class="lp-mono-xl text-white">Las Vegas</p></div><div class="lp-marquee_item"><p class="lp-mono-xl text-white">Mineral</p></div><div class="lp-marquee_item"><p class="lp-mono-xl text-white">Plano</p></div><div class="lp-marquee_item"><p class="lp-mono-xl text-white">Salt Lake City</p></div><div class="lp-marquee_item"><p class="lp-mono-xl text-white">Tampa</p></div><div class="lp-marquee_item"><p class="lp-mono-xl text-white">Tempe</p></div><div class="lp-marquee_item"><p class="lp-mono-xl text-white">Worcester</p></div><div class="lp-marquee_item"><p class="lp-mono-xl text-white">Dubai</p></div><div class="lp-marquee_item"><p class="lp-mono-xl text-white">Germany</p></div><div class="lp-marquee_item"><p class="lp-mono-xl text-white">Hokkaido</p></div><div class="lp-marquee_item"><p class="lp-mono-xl text-white">London</p></div><div class="lp-marquee_item"><p class="lp-mono-xl text-white">Singapore</p></div><div class="lp-marquee_item"><p class="lp-mono-xl text-white">Tokyo</p></div></div><div anim="op-in" data-css-marquee-list="" class="lp-marquee_list"><div class="lp-marquee_item"><p class="lp-mono-xl text-white">Austin</p></div><div class="lp-marquee_item"><p class="lp-mono-xl text-white">Boston</p></div><div class="lp-marquee_item"><p class="lp-mono-xl text-white">Delhi</p></div><div class="lp-marquee_item"><p class="lp-mono-xl text-white">Falls Church</p></div><div class="lp-marquee_item"><p class="lp-mono-xl text-white">Houston, TX</p></div><div class="lp-marquee_item"><p class="lp-mono-xl text-white">Las Vegas, NV</p></div><div class="lp-marquee_item"><p class="lp-mono-xl text-white">Mineral, VA</p></div><div class="lp-marquee_item"><p class="lp-mono-xl text-white">Plano, TX</p></div><div class="lp-marquee_item"><p class="lp-mono-xl text-white">Salt Lake City, UT</p></div><div class="lp-marquee_item"><p class="lp-mono-xl text-white">Tampa, FL</p></div><div class="lp-marquee_item"><p class="lp-mono-xl text-white">Tempe, AZ</p></div><div class="lp-marquee_item"><p class="lp-mono-xl text-white">Worcester, MA</p></div><div class="lp-marquee_item"><p class="lp-mono-xl text-white">Dubai</p></div><div class="lp-marquee_item"><p class="lp-mono-xl text-white">Germany</p></div><div class="lp-marquee_item"><p class="lp-mono-xl text-white">Hokkaido</p></div><div class="lp-marquee_item"><p class="lp-mono-xl text-white">London</p></div><div class="lp-marquee_item"><p class="lp-mono-xl text-white">Singapore</p></div><div class="lp-marquee_item"><p class="lp-mono-xl text-white">Tokyo</p></div></div></div></div></div></div></div><div class="section-lp industries_section"><div class="container-6"><div class="industries_content"><div class="industries_heading"><div anim="op-in" class="lp-tag"><div class="lp-mono-s">[</div><div class="lp-mono-s">Industries</div><div class="lp-mono-s">]</div></div><h2 anim="words" class="lp-h2"><strong class="bold-text">Built for the Industries that Build and Power the World.</strong></h2><div class="lp-deployments_paragraph"><p anim="op-in" class="lp-body opacity-80">Transforming operations with greater efficiency, safety, precision, and reliability.</p></div></div><div class="industries_collection_list w-dyn-list"><div role="list" class="industries_list w-dyn-items"><div role="listitem" class="w-dyn-item"><div industry="card" anim="fade-in" class="industries_card"><div class="industries_bg"><img industry="image" loading="lazy" alt="" src="https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b5ef21113974b99a71b3d1_thumbnail_construction.jpg" sizes="100vw" srcset="https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b5ef21113974b99a71b3d1_thumbnail_construction-p-500.jpg 500w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b5ef21113974b99a71b3d1_thumbnail_construction-p-800.jpg 800w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b5ef21113974b99a71b3d1_thumbnail_construction-p-1080.jpg 1080w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b5ef21113974b99a71b3d1_thumbnail_construction-p-1600.jpg 1600w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b5ef21113974b99a71b3d1_thumbnail_construction-p-2000.jpg 2000w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b5ef21113974b99a71b3d1_thumbnail_construction.jpg 2428w" class="industries_image"/><div class="industries_overlay"></div></div><div class="industries_text"><div industry="square" class="industries_square"></div><div industry="text" class="lp-mono-card">Construction</div></div><a data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c05403fa_instance-0:a5ce7935-07c1-146b-1adb-11e74532222c_instance-0" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="a5ce7935-07c1-146b-1adb-11e74532222c" data-wf-cms-context="%5B%7B%22collectionId%22%3A%2266f65305f9eb4ef912bc40e8%22%2C%22itemId%22%3A%2266f65c7089fcca795213119a%22%7D%5D" data-wf-component-context="%5B%7B%22componentId%22%3A%22a5ce7935-07c1-146b-1adb-11e745322224%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c05403fa%22%7D%5D" href="/solutions/construction" class="lp-link w-inline-block"></a></div></div><div role="listitem" class="w-dyn-item"><div industry="card" anim="fade-in" class="industries_card"><div class="industries_bg"><img industry="image" loading="lazy" alt="" src="https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b53d5f0b5ea111b7f1e44f_industries-2.webp" sizes="100vw" srcset="https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b53d5f0b5ea111b7f1e44f_industries-2-p-500.webp 500w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b53d5f0b5ea111b7f1e44f_industries-2-p-800.webp 800w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b53d5f0b5ea111b7f1e44f_industries-2-p-1080.webp 1080w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b53d5f0b5ea111b7f1e44f_industries-2-p-1600.webp 1600w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b53d5f0b5ea111b7f1e44f_industries-2-p-2000.webp 2000w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b53d5f0b5ea111b7f1e44f_industries-2-p-2600.webp 2600w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b53d5f0b5ea111b7f1e44f_industries-2.webp 3000w" class="industries_image"/><div class="industries_overlay"></div></div><div class="industries_text"><div industry="square" class="industries_square"></div><div industry="text" class="lp-mono-card">Urban Operations</div></div><a data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c05403fa_instance-1:a5ce7935-07c1-146b-1adb-11e74532222c_instance-1" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="a5ce7935-07c1-146b-1adb-11e74532222c" data-wf-cms-context="%5B%7B%22collectionId%22%3A%2266f65305f9eb4ef912bc40e8%22%2C%22itemId%22%3A%2266f65cf12c231ebc271f7b13%22%7D%5D" data-wf-component-context="%5B%7B%22componentId%22%3A%22a5ce7935-07c1-146b-1adb-11e745322224%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c05403fa%22%7D%5D" href="/solutions/urban-operations" class="lp-link w-inline-block"></a></div></div><div role="listitem" class="w-dyn-item"><div industry="card" anim="fade-in" class="industries_card"><div class="industries_bg"><img industry="image" loading="lazy" alt="" src="https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b5ecee552b7732c8b92940_thumbnail_energy.jpg" sizes="100vw" srcset="https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b5ecee552b7732c8b92940_thumbnail_energy-p-500.jpg 500w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b5ecee552b7732c8b92940_thumbnail_energy-p-800.jpg 800w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b5ecee552b7732c8b92940_thumbnail_energy-p-1080.jpg 1080w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b5ecee552b7732c8b92940_thumbnail_energy.jpg 1500w" class="industries_image"/><div class="industries_overlay"></div></div><div class="industries_text"><div industry="square" class="industries_square"></div><div industry="text" class="lp-mono-card">Industrial &amp; Energy</div></div><a data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c05403fa_instance-2:a5ce7935-07c1-146b-1adb-11e74532222c_instance-2" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="a5ce7935-07c1-146b-1adb-11e74532222c" data-wf-cms-context="%5B%7B%22collectionId%22%3A%2266f65305f9eb4ef912bc40e8%22%2C%22itemId%22%3A%2266f65cd87f3669f1ceb79baf%22%7D%5D" data-wf-component-context="%5B%7B%22componentId%22%3A%22a5ce7935-07c1-146b-1adb-11e745322224%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c05403fa%22%7D%5D" href="/solutions/industrial-energy" class="lp-link w-inline-block"></a></div></div><div role="listitem" class="w-dyn-item"><div industry="card" anim="fade-in" class="industries_card"><div class="industries_bg"><img industry="image" loading="lazy" alt="" src="https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b5eb0723c055c14db19983_thumbnail_federal.jpg" sizes="100vw" srcset="https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b5eb0723c055c14db19983_thumbnail_federal-p-500.jpg 500w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b5eb0723c055c14db19983_thumbnail_federal-p-800.jpg 800w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b5eb0723c055c14db19983_thumbnail_federal-p-1080.jpg 1080w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b5eb0723c055c14db19983_thumbnail_federal-p-1600.jpg 1600w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b5eb0723c055c14db19983_thumbnail_federal-p-2000.jpg 2000w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b5eb0723c055c14db19983_thumbnail_federal.jpg 2428w" class="industries_image"/><div class="industries_overlay"></div></div><div class="industries_text"><div industry="square" class="industries_square"></div><div industry="text" class="lp-mono-card">Federal</div></div><a data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c05403fa_instance-3:a5ce7935-07c1-146b-1adb-11e74532222c_instance-3" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="a5ce7935-07c1-146b-1adb-11e74532222c" data-wf-cms-context="%5B%7B%22collectionId%22%3A%2266f65305f9eb4ef912bc40e8%22%2C%22itemId%22%3A%2266f65d11b2bb2700c37d3d5e%22%7D%5D" data-wf-component-context="%5B%7B%22componentId%22%3A%22a5ce7935-07c1-146b-1adb-11e745322224%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c05403fa%22%7D%5D" href="/solutions/federal" class="lp-link w-inline-block"></a></div></div><div role="listitem" class="w-dyn-item"><div industry="card" anim="fade-in" class="industries_card"><div class="industries_bg"><img industry="image" loading="lazy" alt="" src="https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b73eedd305b6d57ee934c0_thumbnail_manufacturing_v2.jpg" sizes="100vw" srcset="https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b73eedd305b6d57ee934c0_thumbnail_manufacturing_v2-p-500.jpg 500w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b73eedd305b6d57ee934c0_thumbnail_manufacturing_v2-p-800.jpg 800w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b73eedd305b6d57ee934c0_thumbnail_manufacturing_v2-p-1080.jpg 1080w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b73eedd305b6d57ee934c0_thumbnail_manufacturing_v2.jpg 1500w" class="industries_image"/><div class="industries_overlay"></div></div><div class="industries_text"><div industry="square" class="industries_square"></div><div industry="text" class="lp-mono-card">Manufacturing</div></div><a data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c05403fa_instance-4:a5ce7935-07c1-146b-1adb-11e74532222c_instance-4" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="a5ce7935-07c1-146b-1adb-11e74532222c" data-wf-cms-context="%5B%7B%22collectionId%22%3A%2266f65305f9eb4ef912bc40e8%22%2C%22itemId%22%3A%2266f6532b0d56b153c392f3d9%22%7D%5D" data-wf-component-context="%5B%7B%22componentId%22%3A%22a5ce7935-07c1-146b-1adb-11e745322224%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c05403fa%22%7D%5D" href="/solutions/manufacturing" class="lp-link w-inline-block"></a></div></div><div role="listitem" class="w-dyn-item"><div industry="card" anim="fade-in" class="industries_card"><div class="industries_bg"><img industry="image" loading="lazy" alt="" src="https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b73e431f6920a2e7d7dd6c_thumbnail_mining_V2.jpg" sizes="100vw" srcset="https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b73e431f6920a2e7d7dd6c_thumbnail_mining_V2-p-500.jpg 500w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b73e431f6920a2e7d7dd6c_thumbnail_mining_V2-p-800.jpg 800w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b73e431f6920a2e7d7dd6c_thumbnail_mining_V2-p-1080.jpg 1080w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b73e431f6920a2e7d7dd6c_thumbnail_mining_V2.jpg 1500w" class="industries_image"/><div class="industries_overlay"></div></div><div class="industries_text"><div industry="square" class="industries_square"></div><div industry="text" class="lp-mono-card">Mining</div></div><a data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c05403fa_instance-5:a5ce7935-07c1-146b-1adb-11e74532222c_instance-5" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="a5ce7935-07c1-146b-1adb-11e74532222c" data-wf-cms-context="%5B%7B%22collectionId%22%3A%2266f65305f9eb4ef912bc40e8%22%2C%22itemId%22%3A%2266f6538294a55313461922b2%22%7D%5D" data-wf-component-context="%5B%7B%22componentId%22%3A%22a5ce7935-07c1-146b-1adb-11e745322224%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c05403fa%22%7D%5D" href="/solutions/mining" class="lp-link w-inline-block"></a></div></div><div role="listitem" class="w-dyn-item"><div industry="card" anim="fade-in" class="industries_card"><div class="industries_bg"><img industry="image" loading="lazy" alt="" src="https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b5f3bb1c0fa2dfa65a8be4_thumbnail_power-utility.jpg" sizes="100vw" srcset="https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b5f3bb1c0fa2dfa65a8be4_thumbnail_power-utility-p-500.jpg 500w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b5f3bb1c0fa2dfa65a8be4_thumbnail_power-utility-p-800.jpg 800w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b5f3bb1c0fa2dfa65a8be4_thumbnail_power-utility-p-1080.jpg 1080w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b5f3bb1c0fa2dfa65a8be4_thumbnail_power-utility.jpg 1500w" class="industries_image"/><div class="industries_overlay"></div></div><div class="industries_text"><div industry="square" class="industries_square"></div><div industry="text" class="lp-mono-card">Power &amp; Utility</div></div><a data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c05403fa_instance-6:a5ce7935-07c1-146b-1adb-11e74532222c_instance-6" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="a5ce7935-07c1-146b-1adb-11e74532222c" data-wf-cms-context="%5B%7B%22collectionId%22%3A%2266f65305f9eb4ef912bc40e8%22%2C%22itemId%22%3A%2266f6536c29efa469f302440f%22%7D%5D" data-wf-component-context="%5B%7B%22componentId%22%3A%22a5ce7935-07c1-146b-1adb-11e745322224%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c05403fa%22%7D%5D" href="/solutions/power-utility" class="lp-link w-inline-block"></a></div></div><div role="listitem" class="w-dyn-item"><div industry="card" anim="fade-in" class="industries_card"><div class="industries_bg"><img industry="image" loading="lazy" alt="" src="https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b53e165684a79dfe152585_industries-8.webp" sizes="100vw" srcset="https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b53e165684a79dfe152585_industries-8-p-500.webp 500w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b53e165684a79dfe152585_industries-8-p-800.webp 800w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b53e165684a79dfe152585_industries-8-p-1080.webp 1080w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b53e165684a79dfe152585_industries-8-p-1600.webp 1600w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b53e165684a79dfe152585_industries-8-p-2000.webp 2000w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b53e165684a79dfe152585_industries-8-p-2600.webp 2600w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b53e165684a79dfe152585_industries-8-p-3200.webp 3200w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b53e165684a79dfe152585_industries-8.webp 3474w" class="industries_image"/><div class="industries_overlay"></div></div><div class="industries_text"><div industry="square" class="industries_square"></div><div industry="text" class="lp-mono-card">Agriculture</div></div><a data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c05403fa_instance-7:a5ce7935-07c1-146b-1adb-11e74532222c_instance-7" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="a5ce7935-07c1-146b-1adb-11e74532222c" data-wf-cms-context="%5B%7B%22collectionId%22%3A%2266f65305f9eb4ef912bc40e8%22%2C%22itemId%22%3A%2266f653996435dbdf8bbcb3e7%22%7D%5D" data-wf-component-context="%5B%7B%22componentId%22%3A%22a5ce7935-07c1-146b-1adb-11e745322224%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c05403fa%22%7D%5D" href="/solutions/agriculture" class="lp-link w-inline-block"></a></div></div></div></div></div></div><div class="css w-embed"><style>
+[industry="square"] {
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+[industry="text"] {
+  transform: translateX(0);
+  transition: transform 0.4s ease;
+}
+
+[industry="image"] {
+  /* opacity: 0.4; */
+  opacity: 0.7;
+  transition: opacity 0.4s ease;
+}
+
+[industry="card"]:hover [industry="square"] {
+  opacity: 1;
+}
+
+[industry="card"]:hover [industry="text"] {
+  transform: translateX(1.875rem);
+}
+
+[industry="card"]:hover [industry="image"] {
+  opacity: 1;
+}
+</style></div></div><div class="section-3 lp-team_section"><div class="container-8"><div class="lp-team_content"><div class="lp-deployments_heading"><div anim="op-in" class="lp-tag"><div class="lp-mono-s">[</div><div class="lp-mono-s">Our Journey</div><div class="lp-mono-s">]</div></div><div class="lp-team_top"><h2 anim="words" class="lp-h2">Pioneering Physical AI<br/></h2><div class="lp-deployments_paragraph"><p anim="op-in" class="lp-body opacity-80">Built by the veterans behind decades of defining breakthroughs in modern robotics</p></div><a button-attribute="" class="lp-button w-inline-block" lp="button" data-wf-component-context="%5B%7B%22componentId%22%3A%22cd712bc7-1c45-17b4-bb70-6ab2f589f24f%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c05404fd%22%7D%5D" data-wf-element-id="cd712bc7-1c45-17b4-bb70-6ab2f589f24f" href="/journey" anim="op-in" data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c05404fd:cd712bc7-1c45-17b4-bb70-6ab2f589f24f" data-wf-ao-click-engagement-tracking="true"><div class="lp-mono-s">Our Journey</div></a></div></div><div anim="fade-in" class="lp_team_right"><img sizes="(max-width: 1500px) 100vw, 1500px, 100vw" srcset="https://cdn.prod.website-files.com/66f60ba0b55a2bf61129d179/69b781bdc64b6976f0b97818_hoempage_team-exploration-p-500.jpg 500w, https://cdn.prod.website-files.com/66f60ba0b55a2bf61129d179/69b781bdc64b6976f0b97818_hoempage_team-exploration-p-800.jpg 800w, https://cdn.prod.website-files.com/66f60ba0b55a2bf61129d179/69b781bdc64b6976f0b97818_hoempage_team-exploration-p-1080.jpg 1080w, https://cdn.prod.website-files.com/66f60ba0b55a2bf61129d179/69b781bdc64b6976f0b97818_hoempage_team-exploration.jpg 1500w" alt="" loading="lazy" src="https://cdn.prod.website-files.com/66f60ba0b55a2bf61129d179/69b781bdc64b6976f0b97818_hoempage_team-exploration.jpg" class="lp-team_image"/></div></div></div></div><div class="section-3 lp-video_section"><div class="lp-video_content"><div data-poster-url="https://cdn.prod.website-files.com/69ab3be012d7cecdf8586048%2F69b32ce3e4b8c18717ebca3f_homepage-video-loop_poster.0000000.jpg" data-video-urls="https://cdn.prod.website-files.com/69ab3be012d7cecdf8586048%2F69b32ce3e4b8c18717ebca3f_homepage-video-loop_mp4.mp4,https://cdn.prod.website-files.com/69ab3be012d7cecdf8586048%2F69b32ce3e4b8c18717ebca3f_homepage-video-loop_webm.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" class="lp-video w-background-video w-background-video-atom"><video id="19483dc4-efe9-8960-84a2-f514c0540503-video" autoplay="" loop="" style="background-image:url(&quot;https://cdn.prod.website-files.com/69ab3be012d7cecdf8586048%2F69b32ce3e4b8c18717ebca3f_homepage-video-loop_poster.0000000.jpg&quot;)" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover"><source src="https://cdn.prod.website-files.com/69ab3be012d7cecdf8586048%2F69b32ce3e4b8c18717ebca3f_homepage-video-loop_mp4.mp4" data-wf-ignore="true"/><source src="https://cdn.prod.website-files.com/69ab3be012d7cecdf8586048%2F69b32ce3e4b8c18717ebca3f_homepage-video-loop_webm.webm" data-wf-ignore="true"/></video></div></div></div><div class="section-3 lp-press_section"><div class="container-9"><div class="lp-press_content"><div class="lp-deployments_heading"><h2 anim="words" class="lp-h2">Press Releases<br/></h2></div><div class="lp-press_collection w-dyn-list"><div role="list" class="lp-press_list w-dyn-items"><div hover="scale" anim="stagger-in" role="listitem" class="lp-press_item w-dyn-item"><div class="divider light"></div><div class="lp-press_image_wrapper"><img loading="lazy" src="https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69ce63a3633bd99424db101a_6Q4A2155%20copy.jpg" alt="" sizes="100vw" srcset="https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69ce63a3633bd99424db101a_6Q4A2155%20copy-p-500.jpg 500w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69ce63a3633bd99424db101a_6Q4A2155%20copy-p-800.jpg 800w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69ce63a3633bd99424db101a_6Q4A2155%20copy-p-1080.jpg 1080w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69ce63a3633bd99424db101a_6Q4A2155%20copy-p-1600.jpg 1600w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69ce63a3633bd99424db101a_6Q4A2155%20copy-p-2000.jpg 2000w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69ce63a3633bd99424db101a_6Q4A2155%20copy-p-2600.jpg 2600w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69ce63a3633bd99424db101a_6Q4A2155%20copy.jpg 3000w" class="lp-press_image"/></div><div class="lp-press_text"><h3 class="heading-style-h3 smaller">Bringing General-Purpose Robots to Every Construction Site: Inside Big-D Construction&#x27;s Expansion with FieldAI</h3><p class="lp-mono-s no-caps">April 2, 2026</p></div><a data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c0540515_instance-0" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="19483dc4-efe9-8960-84a2-f514c0540515" data-wf-cms-context="%5B%7B%22collectionId%22%3A%2266f60ba1b55a2bf61129d23e%22%2C%22itemId%22%3A%2269ce635ce49ca0025b0433b3%22%7D%5D" href="/news/bringing-general-purpose-robots-to-every-construction-site-inside-big-d-constructions-expansion-with-fieldai" class="lp-link w-inline-block"></a></div><div hover="scale" anim="stagger-in" role="listitem" class="lp-press_item w-dyn-item"><div class="divider light"></div><div class="lp-press_image_wrapper"><img loading="lazy" src="https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b731c4c5d12e1d02b02631_FieldAI%20and%20NVIDIA%20Omniverse-1.jpg" alt="From active industrial site to simulation-ready digital twin. A humanoid robot navigates a high-fidelity 3D reconstruction built from real-world data captured during routine activity." sizes="100vw" srcset="https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b731c4c5d12e1d02b02631_FieldAI%20and%20NVIDIA%20Omniverse-1-p-500.jpg 500w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b731c4c5d12e1d02b02631_FieldAI%20and%20NVIDIA%20Omniverse-1-p-800.jpg 800w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b731c4c5d12e1d02b02631_FieldAI%20and%20NVIDIA%20Omniverse-1-p-1080.jpg 1080w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b731c4c5d12e1d02b02631_FieldAI%20and%20NVIDIA%20Omniverse-1-p-1600.jpg 1600w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b731c4c5d12e1d02b02631_FieldAI%20and%20NVIDIA%20Omniverse-1-p-2000.jpg 2000w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b731c4c5d12e1d02b02631_FieldAI%20and%20NVIDIA%20Omniverse-1-p-2600.jpg 2600w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b731c4c5d12e1d02b02631_FieldAI%20and%20NVIDIA%20Omniverse-1-p-3200.jpg 3200w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b731c4c5d12e1d02b02631_FieldAI%20and%20NVIDIA%20Omniverse-1.jpg 3840w" class="lp-press_image"/></div><div class="lp-press_text"><h3 class="heading-style-h3 smaller">FieldAI and NVIDIA Omniverse: Building the Next Generation of Industrial AI</h3><p class="lp-mono-s no-caps">March 16, 2026</p></div><a data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c0540515_instance-1" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="19483dc4-efe9-8960-84a2-f514c0540515" data-wf-cms-context="%5B%7B%22collectionId%22%3A%2266f60ba1b55a2bf61129d23e%22%2C%22itemId%22%3A%2269b7021f07c7d17ce8c47860%22%7D%5D" href="/news/fieldai-and-nvidia-omniverse-building-the-next-generation-of-industrial-ai" class="lp-link w-inline-block"></a></div><div hover="scale" anim="stagger-in" role="listitem" class="lp-press_item w-dyn-item"><div class="divider light"></div><div class="lp-press_image_wrapper"><img loading="lazy" src="https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b6fa3decd7e3e83c5504cb_frame_0288%20copy.jpeg" alt="From active industrial site to simulation-ready digital twin. A humanoid robot navigates a high-fidelity 3D reconstruction built from real-world data captured during routine activity." sizes="100vw" srcset="https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b6fa3decd7e3e83c5504cb_frame_0288%20copy-p-500.jpeg 500w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b6fa3decd7e3e83c5504cb_frame_0288%20copy-p-800.jpeg 800w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b6fa3decd7e3e83c5504cb_frame_0288%20copy-p-1080.jpeg 1080w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b6fa3decd7e3e83c5504cb_frame_0288%20copy-p-1600.jpeg 1600w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b6fa3decd7e3e83c5504cb_frame_0288%20copy-p-2000.jpeg 2000w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b6fa3decd7e3e83c5504cb_frame_0288%20copy-p-2600.jpeg 2600w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b6fa3decd7e3e83c5504cb_frame_0288%20copy-p-3200.jpeg 3200w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b6fa3decd7e3e83c5504cb_frame_0288%20copy.jpeg 3840w" class="lp-press_image"/></div><div class="lp-press_text"><h3 class="heading-style-h3 smaller">FieldAI Accelerates Industrial Customers’ Adoption of AI in Collaboration with NVIDIA</h3><p class="lp-mono-s no-caps">March 16, 2026</p></div><a data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c0540515_instance-2" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="19483dc4-efe9-8960-84a2-f514c0540515" data-wf-cms-context="%5B%7B%22collectionId%22%3A%2266f60ba1b55a2bf61129d23e%22%2C%22itemId%22%3A%2269b1e4133683197e3e14ea75%22%7D%5D" href="/news/fieldai-accelerates-industrial-customers-adoption-of-ai-in-collaboration-with-nvidia" class="lp-link w-inline-block"></a></div><div hover="scale" anim="stagger-in" role="listitem" class="lp-press_item w-dyn-item"><div class="divider light"></div><div class="lp-press_image_wrapper"><img loading="lazy" src="https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b20fed6b34cfef62b20a46_6Q4A2189.jpg" alt="" sizes="100vw" srcset="https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b20fed6b34cfef62b20a46_6Q4A2189-p-500.jpg 500w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b20fed6b34cfef62b20a46_6Q4A2189-p-800.jpg 800w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b20fed6b34cfef62b20a46_6Q4A2189-p-1080.jpg 1080w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b20fed6b34cfef62b20a46_6Q4A2189-p-1600.jpg 1600w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b20fed6b34cfef62b20a46_6Q4A2189-p-2000.jpg 2000w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b20fed6b34cfef62b20a46_6Q4A2189-p-2600.jpg 2600w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b20fed6b34cfef62b20a46_6Q4A2189-p-3200.jpg 3200w, https://cdn.prod.website-files.com/66f60ba1b55a2bf61129d1fa/69b20fed6b34cfef62b20a46_6Q4A2189.jpg 4000w" class="lp-press_image"/></div><div class="lp-press_text"><h3 class="heading-style-h3 smaller">Boston Dynamics and FieldAI Partner to Bring Robots Into Uncharted and Dynamic Environments</h3><p class="lp-mono-s no-caps">March 12, 2026</p></div><a data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c0540515_instance-3" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="19483dc4-efe9-8960-84a2-f514c0540515" data-wf-cms-context="%5B%7B%22collectionId%22%3A%2266f60ba1b55a2bf61129d23e%22%2C%22itemId%22%3A%2269b210a1208efa44622be655%22%7D%5D" href="/news/boston-dynamics-and-fieldai-partner-to-bring-robots-into-uncharted-and-dynamic-environments" class="lp-link w-inline-block"></a></div></div></div></div></div></div></div><div class="footer"><div class="container small-gap"><div class="footer-header"><div class="w-layout-grid _12-column-grid"><a id="w-node-_7bd52e20-814a-b5dd-e4fd-e002cb7da761-cb7da75d" data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c0540519:7bd52e20-814a-b5dd-e4fd-e002cb7da761" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="7bd52e20-814a-b5dd-e4fd-e002cb7da761" data-wf-component-context="%5B%7B%22componentId%22%3A%227bd52e20-814a-b5dd-e4fd-e002cb7da75d%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c0540519%22%7D%5D" href="/" aria-current="page" class="footer-logo-wrap w-inline-block w--current"><img src="https://cdn.prod.website-files.com/66f60ba0b55a2bf61129d179/693cb87d40912a056f3f3895_FAI_logo-horizontal-color_REVERSE.svg" loading="lazy" alt="" class="footer-logo"/></a></div></div><div class="w-layout-grid _12-column-grid"><div id="w-node-ab5629f4-ce69-98f7-f5d8-fd99afe318f3-cb7da75d" class="footer-title"><h2 id="w-node-_7c70d736-d6ab-3727-4799-3b8eb5ac0b47-cb7da75d" class="display-xl is-footer">Robot intelligence built for the real-world.</h2><div class="footer-flex"><a data-w-id="f107c20f-340f-b9e6-9ede-cb3555c83ba3" data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c0540519:a4f27685-7db3-c501-914d-f666286026d1:f107c20f-340f-b9e6-9ede-cb3555c83ba3" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="f107c20f-340f-b9e6-9ede-cb3555c83ba3" data-wf-component-context="%5B%7B%22componentId%22%3A%227bd52e20-814a-b5dd-e4fd-e002cb7da75d%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c0540519%22%7D%2C%7B%22componentId%22%3A%22f107c20f-340f-b9e6-9ede-cb3555c83ba3%22%2C%22instanceId%22%3A%22a4f27685-7db3-c501-914d-f666286026d1%22%7D%5D" href="/contact" class="light-button w-inline-block"><div class="button-text-wrap"><div class="button-text">Contact us</div><div class="button-text button-hover-text">Contact us</div></div></a></div><div class="footer-flex full-width"><div class="social-flex full-width"><a data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c0540519:409ce0dd-f2fd-1023-adf2-7594a6a3520e" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="409ce0dd-f2fd-1023-adf2-7594a6a3520e" data-wf-component-context="%5B%7B%22componentId%22%3A%227bd52e20-814a-b5dd-e4fd-e002cb7da75d%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c0540519%22%7D%5D" href="https://trust.fieldai.com/" target="_blank" class="social badge w-inline-block"><img src="https://cdn.prod.website-files.com/66f60ba0b55a2bf61129d179/6964196494d70103ab2306bb_SOC2%20T2%20-%20white%20-%20h.png" loading="lazy" alt="" class="social-img image-left"/></a></div></div></div><div id="w-node-_7bd52e20-814a-b5dd-e4fd-e002cb7da76c-cb7da75d" class="flex-vertical is-footer"><div class="display-medium is-footer">Solutions</div><div class="flex-vertical row-gap-75"><a data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c0540519:7bd52e20-814a-b5dd-e4fd-e002cb7da770" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="7bd52e20-814a-b5dd-e4fd-e002cb7da770" data-wf-component-context="%5B%7B%22componentId%22%3A%227bd52e20-814a-b5dd-e4fd-e002cb7da75d%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c0540519%22%7D%5D" href="/solutions" class="footer-link">Solutions Overview</a><a data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c0540519:97d2e4fc-19cd-0287-8711-c5a04beea4d5" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="97d2e4fc-19cd-0287-8711-c5a04beea4d5" data-wf-component-context="%5B%7B%22componentId%22%3A%227bd52e20-814a-b5dd-e4fd-e002cb7da75d%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c0540519%22%7D%5D" href="/solutions/construction" class="footer-link">Construction</a><a data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c0540519:7bd52e20-814a-b5dd-e4fd-e002cb7da776" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="7bd52e20-814a-b5dd-e4fd-e002cb7da776" data-wf-component-context="%5B%7B%22componentId%22%3A%227bd52e20-814a-b5dd-e4fd-e002cb7da75d%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c0540519%22%7D%5D" href="/solutions/urban-operations" class="footer-link">Urban Operations</a><a data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c0540519:7bd52e20-814a-b5dd-e4fd-e002cb7da772" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="7bd52e20-814a-b5dd-e4fd-e002cb7da772" data-wf-component-context="%5B%7B%22componentId%22%3A%227bd52e20-814a-b5dd-e4fd-e002cb7da75d%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c0540519%22%7D%5D" href="/solutions/industrial-energy" class="footer-link">Industrial &amp; Energy</a><a data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c0540519:7bd52e20-814a-b5dd-e4fd-e002cb7da774" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="7bd52e20-814a-b5dd-e4fd-e002cb7da774" data-wf-component-context="%5B%7B%22componentId%22%3A%227bd52e20-814a-b5dd-e4fd-e002cb7da75d%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c0540519%22%7D%5D" href="/solutions/federal" class="footer-link">Federal</a><a data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c0540519:7bd52e20-814a-b5dd-e4fd-e002cb7da778" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="7bd52e20-814a-b5dd-e4fd-e002cb7da778" data-wf-component-context="%5B%7B%22componentId%22%3A%227bd52e20-814a-b5dd-e4fd-e002cb7da75d%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c0540519%22%7D%5D" href="/solutions" class="footer-link">More</a></div></div><div id="w-node-_1632d2f1-5682-98c9-d5e5-0b2614cb3067-cb7da75d" class="flex-vertical is-footer"><div class="display-medium is-footer">Company</div><div class="flex-vertical row-gap-75"><a data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c0540519:1632d2f1-5682-98c9-d5e5-0b2614cb3073" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="1632d2f1-5682-98c9-d5e5-0b2614cb3073" data-wf-component-context="%5B%7B%22componentId%22%3A%227bd52e20-814a-b5dd-e4fd-e002cb7da75d%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c0540519%22%7D%5D" href="/journey" class="footer-link">Our Journey</a><a data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c0540519:1632d2f1-5682-98c9-d5e5-0b2614cb306f" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="1632d2f1-5682-98c9-d5e5-0b2614cb306f" data-wf-component-context="%5B%7B%22componentId%22%3A%227bd52e20-814a-b5dd-e4fd-e002cb7da75d%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c0540519%22%7D%5D" href="/team" class="footer-link">Our Team</a><a data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c0540519:1632d2f1-5682-98c9-d5e5-0b2614cb306d" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="1632d2f1-5682-98c9-d5e5-0b2614cb306d" data-wf-component-context="%5B%7B%22componentId%22%3A%227bd52e20-814a-b5dd-e4fd-e002cb7da75d%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c0540519%22%7D%5D" href="/news" class="footer-link">Latest News</a><a data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c0540519:3c9cd0c2-ad54-fafc-2b77-a43a9d2ce875" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="3c9cd0c2-ad54-fafc-2b77-a43a9d2ce875" data-wf-component-context="%5B%7B%22componentId%22%3A%227bd52e20-814a-b5dd-e4fd-e002cb7da75d%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c0540519%22%7D%5D" href="/careers" class="footer-link">Careers</a></div></div><div id="w-node-_370e9be5-9243-f144-a4d9-21558ca063cd-cb7da75d" class="flex-vertical is-footer"><div class="display-medium is-footer">Quick Links</div><div class="flex-vertical row-gap-75"><a data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c0540519:370e9be5-9243-f144-a4d9-21558ca063d1" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="370e9be5-9243-f144-a4d9-21558ca063d1" data-wf-component-context="%5B%7B%22componentId%22%3A%227bd52e20-814a-b5dd-e4fd-e002cb7da75d%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c0540519%22%7D%5D" href="/technology" class="footer-link">Technology</a><a data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c0540519:370e9be5-9243-f144-a4d9-21558ca063d3" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="370e9be5-9243-f144-a4d9-21558ca063d3" data-wf-component-context="%5B%7B%22componentId%22%3A%227bd52e20-814a-b5dd-e4fd-e002cb7da75d%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c0540519%22%7D%5D" href="/fairi" class="footer-link">FAIRI</a></div></div></div><div class="footer-bottom"><div><div class="legal">Copyright © <span copyright-year="">2025</span> FieldAI. All Rights Reserved.</div></div><div class="div-block-13"><a data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c0540519:becb580a-1b41-c500-e607-66628c6e902a" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="becb580a-1b41-c500-e607-66628c6e902a" data-wf-component-context="%5B%7B%22componentId%22%3A%227bd52e20-814a-b5dd-e4fd-e002cb7da75d%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c0540519%22%7D%5D" href="/terms-of-use" class="legal">Terms of Use</a><a data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c0540519:e00ffdbb-ee7f-f40a-352b-f63087250658" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="e00ffdbb-ee7f-f40a-352b-f63087250658" data-wf-component-context="%5B%7B%22componentId%22%3A%227bd52e20-814a-b5dd-e4fd-e002cb7da75d%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c0540519%22%7D%5D" href="/privacy-policy" class="legal">Privacy Policy</a></div></div></div></div><div class="cw-cookies"><div id="cw-cookie-banner" class="cw-cookie_banner strip"><div class="cw-cookie_content strip"><div class="div-block-28"><div><h3 class="cookie-header">Cookie Settings</h3><p class="cookie-text">We use cookies to provide you with the best possible experience. They also allow us to analyze user behavior in order to constantly improve the website for you. <a href="/privacy-policy" data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c054051a:f110a02f-d91d-bdf3-a378-8ebbb9c928ab" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="f110a02f-d91d-bdf3-a378-8ebbb9c928ab" data-wf-component-context="%5B%7B%22componentId%22%3A%223d8cb889-f990-ab93-1d18-418bd7660935%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c054051a%22%7D%5D">See our Privacy Policy</a></p></div><div class="cw-cookie_buttons"><button id="cw-btn-reject-all" class="dark-button small"><div>Reject All</div></button><button id="cw-options-button" class="dark-button small"><div>I want to choose</div></button><button id="cw-btn-accept-all" class="dark-button small"><div>Accept All</div></button></div></div><div id="cw-cookie-options" class="cw-cookie_selection"><div class="form-block-4 w-form"><form id="email-form" name="email-form" data-name="Email Form" method="get" class="cw-cookie_options" data-wf-page-id="66f60ba1b55a2bf61129d1d3" data-wf-element-id="86f21bae-0317-b765-5cc9-16b85141e05a"><label data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c054051a:86f21bae-0317-b765-5cc9-16b85141e05b" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="86f21bae-0317-b765-5cc9-16b85141e05b" data-wf-component-context="%5B%7B%22componentId%22%3A%223d8cb889-f990-ab93-1d18-418bd7660935%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c054051a%22%7D%5D" class="w-checkbox cw-cookie_checkbox"><div class="w-checkbox-input w-checkbox-input--inputType-custom cw-cookie_checkbox-check w--redirected-checked"></div><input type="checkbox" name="Necessary" id="consent-necessary" data-name="Necessary" style="opacity:0;position:absolute;z-index:-1" checked=""/><span class="w-form-label" for="Necessary">Functionality</span></label><label data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c054051a:86f21bae-0317-b765-5cc9-16b85141e05f" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="86f21bae-0317-b765-5cc9-16b85141e05f" data-wf-component-context="%5B%7B%22componentId%22%3A%223d8cb889-f990-ab93-1d18-418bd7660935%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c054051a%22%7D%5D" class="w-checkbox cw-cookie_checkbox"><div class="w-checkbox-input w-checkbox-input--inputType-custom cw-cookie_checkbox-check w--redirected-checked"></div><input type="checkbox" name="Analytics" id="consent-analytics" data-name="Analytics" style="opacity:0;position:absolute;z-index:-1" checked=""/><span class="w-form-label" for="Analytics">Analytics Storage</span></label><label data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c054051a:86f21bae-0317-b765-5cc9-16b85141e063" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="86f21bae-0317-b765-5cc9-16b85141e063" data-wf-component-context="%5B%7B%22componentId%22%3A%223d8cb889-f990-ab93-1d18-418bd7660935%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c054051a%22%7D%5D" class="w-checkbox cw-cookie_checkbox"><div class="w-checkbox-input w-checkbox-input--inputType-custom cw-cookie_checkbox-check w--redirected-checked"></div><input type="checkbox" name="Marketing" id="consent-ad-marketing" data-name="Marketing" style="opacity:0;position:absolute;z-index:-1" checked=""/><span class="w-form-label" for="Marketing">Ad Storage</span></label><label data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c054051a:86f21bae-0317-b765-5cc9-16b85141e067" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="86f21bae-0317-b765-5cc9-16b85141e067" data-wf-component-context="%5B%7B%22componentId%22%3A%223d8cb889-f990-ab93-1d18-418bd7660935%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c054051a%22%7D%5D" class="w-checkbox cw-cookie_checkbox"><div class="w-checkbox-input w-checkbox-input--inputType-custom cw-cookie_checkbox-check w--redirected-checked"></div><input type="checkbox" name="Preferences" id="consent-ad-user" data-name="Preferences" style="opacity:0;position:absolute;z-index:-1" checked=""/><span class="w-form-label" for="Preferences">Ad User Data</span></label><label data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c054051a:86f21bae-0317-b765-5cc9-16b85141e06b" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="86f21bae-0317-b765-5cc9-16b85141e06b" data-wf-component-context="%5B%7B%22componentId%22%3A%223d8cb889-f990-ab93-1d18-418bd7660935%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c054051a%22%7D%5D" class="w-checkbox cw-cookie_checkbox"><div class="w-checkbox-input w-checkbox-input--inputType-custom cw-cookie_checkbox-check w--redirected-checked"></div><input type="checkbox" name="Preferences" id="consent-ad-personalization" data-name="Preferences" style="opacity:0;position:absolute;z-index:-1" checked=""/><span class="w-form-label" for="Preferences">Ad Personalisation</span></label><label data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c054051a:86f21bae-0317-b765-5cc9-16b85141e06f" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="86f21bae-0317-b765-5cc9-16b85141e06f" data-wf-component-context="%5B%7B%22componentId%22%3A%223d8cb889-f990-ab93-1d18-418bd7660935%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c054051a%22%7D%5D" class="w-checkbox cw-cookie_checkbox"><div class="w-checkbox-input w-checkbox-input--inputType-custom cw-cookie_checkbox-check w--redirected-checked"></div><input type="checkbox" name="Preferences" id="consent-personalization" data-name="Preferences" style="opacity:0;position:absolute;z-index:-1" checked=""/><span class="w-form-label" for="Preferences">Personalization Storage</span></label><label data-wf-native-id-path="19483dc4-efe9-8960-84a2-f514c054051a:86f21bae-0317-b765-5cc9-16b85141e073" data-wf-ao-click-engagement-tracking="true" data-wf-element-id="86f21bae-0317-b765-5cc9-16b85141e073" data-wf-component-context="%5B%7B%22componentId%22%3A%223d8cb889-f990-ab93-1d18-418bd7660935%22%2C%22instanceId%22%3A%2219483dc4-efe9-8960-84a2-f514c054051a%22%7D%5D" class="w-checkbox cw-cookie_checkbox"><div class="w-checkbox-input w-checkbox-input--inputType-custom cw-cookie_checkbox-check w--redirected-checked"></div><input type="checkbox" name="Preferences" id="consent-security" data-name="Preferences" style="opacity:0;position:absolute;z-index:-1" checked=""/><span class="w-form-label" for="Preferences">Security Storage</span></label></form><div class="w-form-done"><div>Thank you! Your submission has been received!</div></div><div class="w-form-fail"><div>Oops! Something went wrong while submitting the form.</div></div></div><button id="cw-btn-accept-some" class="outline-button small"><div>Accept selection</div></button></div></div></div><div class="cw-cookie_script w-embed w-script"><!-- Cookie Consent Mode by Code & Wander -->
+<style>
+    @media screen and (min-width: 992px) {
+        .page-wrapper>*:has(~ .cw-cookies[data-state="banner-visible"]) ._12-column-grid.is-pad.home {
+            padding-bottom: 6rem;
+        }
+    }
+
+    /* Base states: assuming default state shows icon and hides banner/options */
+    .cw-cookies[data-state="default"] #cw-cookie-icon {
+        display: block;
+    }
+
+    .cw-cookies[data-state="default"] #cw-cookie-banner {
+        display: none;
+    }
+
+    /* State when banner should be shown: hide icon, show banner */
+    .cw-cookies[data-state="banner-visible"] #cw-cookie-icon {
+        display: none;
+    }
+
+    .cw-cookies[data-state="banner-visible"] #cw-cookie-banner {
+        display: block;
+    }
+</style>
+
+<script>
+    wf.ready(() => {
+        const isOptedOut = wf.getUserTrackingChoice() === 'deny';
+
+
+        const cookieContainer = document.querySelector('.cw-cookies');
+
+        // Update functions to change parent data-state
+        function hideIcon() {
+            // cookieContainer.dataset.state = 'icon-hidden'; 
+            cookieContainer.dataset.state = 'banner-visible';
+        }
+
+        function showIcon() {
+            cookieContainer.dataset.state = 'default';
+        }
+
+        function hideBanner() {
+            // showIcon();
+            cookieContainer.dataset.state = 'default'; // banner hidden, use default state
+        }
+
+        function showBanner() {
+            // hideIcon();
+            cookieContainer.dataset.state = 'banner-visible';
+        }
+
+        function hideOptions() {
+            // Use a state that implies options are hidden
+            document.getElementById('cw-cookie-options').style.height = '0px';
+        }
+        function showOptions() {
+            // Use a state that implies options are hidden
+            document.getElementById('cw-cookie-options').style.height = 'auto';
+        }
+        hideOptions();
+        // cw-options-button
+        document.getElementById('cw-options-button')?.addEventListener('click', function () {
+            showOptions();
+        })
+
+
+        // If consentMode has not been set, show Cookie Banner
+        if (localStorage.getItem('consentMode') === null) {
+            showBanner();
+        }
+
+        // Check selection
+        document.getElementById('cw-cookie-icon')?.addEventListener('click', function () {
+            setConsentCheckboxes();
+            hideOptions();
+            showBanner();
+        })
+
+        //Logic to populate the preferences
+        function setConsentCheckboxes() {
+            uncheckAllConsentCheckboxes();
+
+            const consentModeString = localStorage.getItem('consentMode');
+
+            if (consentModeString) {
+                const consentMode = JSON.parse(consentModeString);
+
+                const consentMapping = {
+                    'functionality_storage': 'consent-necessary',
+                    'ad_storage': 'consent-ad-marketing',
+                    'analytics_storage': 'consent-analytics',
+                    'ad_user_data': 'consent-ad-user',
+                    'ad_personalization': 'consent-ad-personalization',
+                    'personalization_storage': 'consent-personalization',
+                    'security_storage': 'consent-security',
+                };
+
+                Object.entries(consentMapping).forEach(([storageKey, checkboxId]) => {
+                    const checkbox = document.getElementById(checkboxId);
+
+                    if (checkbox) {
+                        const isChecked = consentMode[storageKey] === 'granted';
+                        checkbox.checked = isChecked;
+
+                        const checkboxDiv = checkbox.previousElementSibling;
+                        if (checkboxDiv) {
+                            if (isChecked) {
+                                checkboxDiv.classList.add('w--redirected-checked');
+                            } else {
+                                checkboxDiv.classList.remove('w--redirected-checked');
+                            }
+                        }
+                    }
+                });
+            }
+        }
+
+        //Logic to uncheck all checkboxes
+        function uncheckAllConsentCheckboxes() {
+            ['consent-analytics', 'consent-ad-personalization', 'consent-ad-marketing', 'consent-ad-user', 'consent-personalization', 'consent-security'].forEach(checkboxId => {
+                const checkbox = document.getElementById(checkboxId);
+                if (checkbox) {
+                    checkbox.checked = false;
+
+                    const checkboxDiv = checkbox.previousElementSibling;
+                    if (checkboxDiv && checkboxDiv.classList.contains('w--redirected-checked')) {
+                        checkboxDiv.classList.remove('w--redirected-checked');
+                    }
+                }
+            });
+        }
+
+        // Logic to update the preferences
+        document.getElementById('cw-btn-accept-all').addEventListener('click', function () {
+            setConsent({
+                necessary: true,
+                analytics: true,
+                adpersonalized: true,
+                admarketing: true,
+                aduser: true,
+                personalized: true,
+                security: true,
+            });
+            hideBanner();
+        });
+
+        document.getElementById('cw-btn-accept-some').addEventListener('click', function () {
+            setConsent({
+                necessary: true,
+                analytics: document.getElementById('consent-analytics').checked,
+                adpersonalized: document.getElementById('consent-ad-personalization').checked,
+                admarketing: document.getElementById('consent-ad-marketing').checked,
+                aduser: document.getElementById('consent-ad-user').checked,
+                personalized: document.getElementById('consent-personalization').checked,
+                security: document.getElementById('consent-security').checked,
+            });
+            hideBanner();
+        });
+
+        document.getElementById('cw-btn-reject-all').addEventListener('click', function () {
+            setConsent({
+                necessary: true,
+                analytics: false,
+                adpersonalized: false,
+                admarketing: false,
+                aduser: false,
+                personalized: false,
+                security: false
+            });
+            hideBanner();
+        });
+
+        // Map the preferences to Google Consent Mode 
+        function setConsent(consent) {
+            const consentMode = {
+                'functionality_storage': consent.necessary ? 'granted' : 'denied',
+                'ad_user_data': consent.aduser ? 'granted' : 'denied',
+                'ad_storage': consent.admarketing ? 'granted' : 'denied',
+                'analytics_storage': consent.analytics ? 'granted' : 'denied',
+                'ad_personalization': consent.adpersonalized ? 'granted' : 'denied',
+                'personalization_storage': consent.personalized ? 'granted' : 'denied',
+                'security_storage': consent.security ? 'granted' : 'denied',
+            };
+            gtag('consent', 'update', consentMode);
+            // Enable or disable webflow analytics
+            consent.analytics ? wf.allowUserTracking() : wf.denyUserTracking();
+
+            const salesforceActivated =
+                consent.admarketing &&
+                consent.aduser &&
+                consent.adpersonalized &&
+                consent.personalized;
+            alterPardotSettings(salesforceActivated);
+
+            localStorage.setItem('consentMode', JSON.stringify(consentMode));
+        }
+    });
+
+</script></div></div></div><script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=66f60ba0b55a2bf61129d179" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script><script src="https://cdn.prod.website-files.com/66f60ba0b55a2bf61129d179/js/webflow.schunk.36b8fb49256177c8.js" type="text/javascript" integrity="sha384-4abIlA5/v7XaW1HMXKBgnUuhnjBYJ/Z9C1OSg4OhmVw9O3QeHJ/qJqFBERCDPv7G" crossorigin="anonymous"></script><script src="https://cdn.prod.website-files.com/66f60ba0b55a2bf61129d179/js/webflow.schunk.4bc5868fc99c0449.js" type="text/javascript" integrity="sha384-8osXOVSUhC8PPmGSHACIy9GHJ7OsEqSkXZigJNoa+ACvnqM1vuYG9Ie4JXt/amL/" crossorigin="anonymous"></script><script src="https://cdn.prod.website-files.com/66f60ba0b55a2bf61129d179/js/webflow.1e73f873.318b9d06677f8987.js" type="text/javascript" integrity="sha384-Ga4zFMLvxE2f4yecdhf+vR5c9kOMkqg+ZNPtrVs3OObWcSXJ/cd+J+aoitjQGJbX" crossorigin="anonymous"></script><script src="https://cdn.prod.website-files.com/gsap/3.14.2/gsap.min.js" type="text/javascript"></script><script src="https://cdn.prod.website-files.com/gsap/3.14.2/ScrollTrigger.min.js" type="text/javascript"></script><script src="https://cdn.prod.website-files.com/gsap/3.14.2/SplitText.min.js" type="text/javascript"></script><script type="text/javascript">gsap.registerPlugin(ScrollTrigger,SplitText);</script><style>
+  
+  body{
+  -webkit-font-smoothing: antialiased;
+  }
+  
+  
+  
+</style>
+
+<!--<script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@v0.2.26/bundled/lenis.js"></script>-->
+
+<script>
+/*const lenis = new Lenis({
+  duration: 1.2, 
+  easing: (t) => (t === 1 ? 1 : 1 - Math.pow(2, -10 * t)), // https://easings.net
+	direction: 'vertical', 
+  smooth: true,
+  smoothTouch: false,
+  touchMultiplier: 1.5,
+})
+*/
+/*
+// allow scrolling on overflow elements
+document
+	.querySelector('.over--scroll')
+  .setAttribute("onwheel", "event.stopPropagation()");
+
+
+// stop page scrolling
+document.querySelector('.stop--scroll')
+	.onclick = function() { 
+  	lenis.stop();
+}
+
+// start page scrolling
+document.querySelector('.start1')
+	.onclick = function() { 
+  	lenis.start();
+}
+
+// start page scrolling
+document.querySelector('.start1-2')
+	.onclick = function() { 
+  	lenis.start();
+}
+
+
+
+// stop page scrolling2
+document.querySelector('.stop2')
+	.onclick = function() { 
+  	lenis.stop();
+}
+
+// start page scrolling2
+document.querySelector('.start2')
+	.onclick = function() { 
+  	lenis.start();
+}
+
+// start page scrolling2
+document.querySelector('.start2-2')
+	.onclick = function() { 
+  	lenis.start();
+}
+
+*/
+/*
+function raf(time) {
+  lenis.raf(time)
+  requestAnimationFrame(raf)
+}
+
+requestAnimationFrame(raf)
+  */
+</script>
+<style>
+
+.vert-flex {
+    position: relative;
+    overflow: hidden;
+}
+/*
+.vert-flex:before {
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    bottom: 4px;
+    width: 50%;
+    background: rgba(255,255,255,0.05);
+}
+  */
+
+.vert-flex .arrow-flex.uses-text, a.vert-flex .image-overlay {
+    transition: all 0.3s;
+}
+
+.vert-flex:hover .arrow-flex.uses-text {
+    opacity: 0;
+}
+
+.vert-flex:hover .image-overlay {
+    opacity: .1;
+}
+
+.vert-flex:hover div.animated-span:nth-of-type(2) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(to right, transparent, var(--color--brand--coral));
+    animation: animate1 2s linear infinite;
+}
+
+@keyframes animate1 {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+.vert-flex:hover div.animated-span:nth-of-type(3) {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(to bottom,transparent, var(--color--brand--coral));
+    animation: animate2 2s linear infinite;
+    animation-delay: 1s;
+}
+
+@keyframes animate2 {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(100%);
+    }
+}
+
+.vert-flex:hover div.animated-span:nth-of-type(4) {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(to left, transparent, var(--color--brand--coral));
+    animation: animate3 2s linear infinite;
+}
+
+@keyframes animate3 {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.vert-flex:hover div.animated-span:nth-of-type(5) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(to top,transparent, var(--color--brand--coral));
+    animation: animate4 2s linear infinite;
+    animation-delay: 1s;
+}
+
+@keyframes animate4 {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(-100%);
+    }
+}
+</style>
+
+
+
+<script type='text/javascript'>
+    piAId = '1101603';
+    piCId = '218706';
+    piHostname = 'go.fieldai.com';
+
+    // (function () {
+    //     function async_load() {
+    //         var s = document.createElement('script'); s.type = 'text/javascript';
+    //         s.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + piHostname + '/pd.js';
+    //         var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+    //     }
+    //     if (window.attachEvent) { window.attachEvent('onload', async_load); }
+    //     else { window.addEventListener('load', async_load, false); }
+    // })();
+
+
+    // var piDomain = 'go.example.com';
+    var piDomain = piHostname;
+
+    (function () {
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//' + piDomain + '/pdt.js';
+        var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+        window['pdt'] = window['pdt'] || function () { (window['pdt'].cq = window['pdt'].cq || []).push(arguments); };
+    })();
+
+    // Creating an analytics tracker requires the following:
+    pdt('create', piAId, piCId, piDomain);
+    pdt("hideConsentBanner", null);
+
+    // Update Account Engagement analytics opt in status to match
+    // pdt('setOptIn', thirdPartyConsentStatus);
+
+    function alterPardotSettings(thirdPartyConsentStatus) {
+        pdt('setOptIn', thirdPartyConsentStatus);
+        console.log("successfully set pardot settings", thirdPartyConsentStatus)
+    }
+</script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const yearEl = document.querySelector('[copyright-year]');
+    if (yearEl) yearEl.textContent = new Date().getFullYear();
+  });
+</script></body></html>
