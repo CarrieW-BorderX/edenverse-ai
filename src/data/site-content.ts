@@ -257,9 +257,9 @@ export type SiteContent = {
 };
 
 const sharedAddress = "";
-const sharedPhoneLabel = "1-800-519-0881";
-const sharedPhoneRaw = "18005190881";
-const sharedEmail = "info@usrobotx.com";
+const sharedPhoneLabel = "1-626-863-8444";
+const sharedPhoneRaw = "16268638444";
+const sharedEmail = "sam@edenverse.ai";
 const homeHeroVideoSrc = "https://cdn.shopify.com/videos/c/o/v/a05b93842a0a418a90b254a6999831db.mp4";
 const homepageHeroVideoSrc = "https://cdn.shopify.com/videos/c/o/v/8431e06f2df64b1686f8a5edb44a3c53.mp4";
 const homepageHeroPosterSrc = "https://cdn.shopify.com/s/files/1/0764/3063/9301/files/unitree-dog-w-rx-brain.jpg?v=1780428427";
