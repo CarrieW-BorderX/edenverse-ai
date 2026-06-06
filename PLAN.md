@@ -1,4 +1,4 @@
-﻿# usrobotx — Plan
+﻿# Edenverse AI — Plan
 
 _Last updated: 2026-05-27_
 
@@ -7,7 +7,7 @@ _Last updated: 2026-05-27_
 ## Intention
 
 ### Original goal
-Code-managed rebuild of `usrobotx.com` as a bilingual marketing site:
+Code-managed rebuild of `edenverse.ai` as a bilingual marketing site:
 
 - `Next.js` App Router, TypeScript
 - Bilingual routing via `src/app/[locale]/` for `en` and `zh`
@@ -17,7 +17,20 @@ Code-managed rebuild of `usrobotx.com` as a bilingual marketing site:
 - Future: Shopify-fed display-only product pages, Netlify deploy, SEO redirects from the legacy WordPress site
 
 ### Current direction
-Raise the visual bar toward premium industrial-robotics marketing sites (reference: [fieldai.com](https://www.fieldai.com/), mirrored at `../robotx-homepage/fieldai-mirror/`). The site should _feel_ like fieldai, not look like a stock Next.js template.
+Raise the visual bar toward premium industrial-robotics marketing sites (reference: [fieldai.com](https://www.fieldai.com/), mirrored at `../fieldai-mirror/`). The site should _feel_ like fieldai, not look like a stock Next.js template.
+
+## Rename & Migration Plan — Edenverse AI
+
+Objective: rename the project from RobotX → Edenverse AI and perform the minimal, safe migration steps to publish under the new brand.
+
+Planned steps:
+- Edit textual content: update `src/data/site-content.ts` copy to reflect `Edenverse AI` and new product names; keep bilingual parity (`en`/`zh`).
+- Update media: replace logo and pulse mark assets, and update CDN references (Shopify CDN preferred) so media points to Edenverse assets.
+- Update CSS & theme: set CSS variables in `src/app/globals.css` to Edenverse color tokens and ensure `--brand-*` variables cover primary/secondary/neutral scales.
+- Deployment & domain: create a Netlify project, configure deploy keys, and purchase/configure the `edenverse.ai` (or chosen) domain to point to the Netlify site.
+- Verify: run `pnpm build`, smoke the site locally (`pnpm dev`), and perform bilingual checks + a simple accessibility pass.
+
+These steps are ordered: content → media → CSS → deploy → verify. Each step is reversible and should be staged in a branch with small commits.
 
 Target experience:
 
@@ -97,7 +110,7 @@ _Last verified: 2026-05-27_
 
 ## Phase 2 — Mobile performance + loading hardening (2026-04-19)
 
-**Trigger:** after the first production deploy, `https://usrobotx.com/` broke on mobile — page would load twice then stop loading. Diagnosis: the home page was fetching ~200 MB of media on mount, and Netlify's default `Cache-Control: public, max-age=0, must-revalidate` defeated the browser cache so every reload re-downloaded everything. Mobile browsers hit memory/bandwidth ceilings and aborted in-flight video fetches, which triggered video-element retry loops, which OOM'd the tab.
+**Trigger:** after the first production deploy, `https://edenverse.ai/` broke on mobile — page would load twice then stop loading. Diagnosis: the home page was fetching ~200 MB of media on mount, and Netlify's default `Cache-Control: public, max-age=0, must-revalidate` defeated the browser cache so every reload re-downloaded everything. Mobile browsers hit memory/bandwidth ceilings and aborted in-flight video fetches, which triggered video-element retry loops, which OOM'd the tab.
 
 ### What shipped (Plan B)
 
@@ -145,7 +158,7 @@ Scoped fix — targets the two biggest wins without touching the hero or rx-brai
 After Plan B landed the user reported (1) the pulse placeholder flashed and vanished faster than the media could load and (2) the rx-brain pinned section was invisible on scroll-down until the end. Both were root-cause fixes:
 
 - **Rx-brain pin regression** — `useGSAP` cleanup killed the ScrollTrigger without `revert = true`, so when the `width` state flipped from SSR-fallback `2000` to the client-picked `1080` on mobile the pin's spacer padding accumulated (observed 3376 px = 2 × 1688). Fix: pass `revertOnUpdate: true` to `useGSAP`. The `useGSAP` contract is "revert on unmount only" by default; `revertOnUpdate: true` extends that to dependency changes.
-- **`MediaLoadingPulse` placeholder** — replaced the full-resolution priority `<img>` on the rx-brain sequence and overlaid far-card videos in the carousel with a pulsing `/media/logos/robotx-square-transparent.png` mark (CSS keyframe, respects `prefers-reduced-motion`). This also removed the Next.js auto-preload hint for rx-brain frame 0.
+- **`MediaLoadingPulse` placeholder** — replaced the full-resolution priority `<img>` on the rx-brain sequence and overlaid far-card videos in the carousel with a pulsing `/media/logos/edenverse-square-transparent.png` mark (CSS keyframe, respects `prefers-reduced-motion`). This also removed the Next.js auto-preload hint for rx-brain frame 0.
 - **`Pudu_CC1-8.webp` removed from code.** It was the universal `imageSrc` / `backgroundPosterSrc` fallback for every carousel card. `SolutionCard.imageSrc` is now optional and consumers fall back to `<MediaLoadingPulse>` if missing. The file stays on disk, unreferenced from `src/`.
 - **Carousel visited-sticky.** Original Plan B removed `<source>` when a card scrolled out of near range, so each re-entry called `video.load()` and flashed a black reload. Now `visitedCards: Set<number>` is sticky — once a card has been near, its source stays forever. After the user scrolls through the carousel every video is loaded and never reloads.
 - **Pulse persists until media is playable.** Carousel pulse is keyed on `loadedCards` (set by `onCanPlay` / `onLoadedData` plus a ref-callback `readyState >= 3` check for cached videos that raced past the React listener). Rx-brain canvas opens at `opacity: 0`; the `MediaLoadingPulse` below shows through until the first `drawFrame(0)` flips `firstFrameDrawn` to true. On slow networks users now see the pulsing X for the full load window.
@@ -183,7 +196,7 @@ See git log for implementation details.
 ### What shipped
 
 1. **All product video and the homepage hero now live on Shopify's CDN** — uploaded to `cdn.shopify.com/s/files/1/0764/3063/9301/...` and referenced by absolute URL from `src/data/site-content.ts` (`homepageHeroVideoSrc`, `homeHeroVideoSrc`, every `backgroundVideoSrc` for solutions cards). Local copies under `public/media/hero/`, `public/media/solutions/`, `public/media/home/` were deleted from the repo. `public/media/news/<slug>/` media followed shortly after (MDX bodies reference Shopify URLs directly).
-2. **Logos and inline imagery** — `logo-transparent.png`, `robotx-square-transparent.png` (pulse mark), `rx-brain-logo-white-transparent.png`, and the hero poster all moved to Shopify CDN. `next.config.ts` whitelists `cdn.shopify.com` as a `next/image` remote pattern. `globals.css` `.media-loading-pulse-mark` background image now points at the Shopify URL; only `favicon.ico` remains under `public/media/logos/`.
+2. **Logos and inline imagery** — `logo-transparent.png`, `edenverse-square-transparent.png` (pulse mark), `rx-brain-logo-white-transparent.png`, and the hero poster all moved to Shopify CDN. `next.config.ts` whitelists `cdn.shopify.com` as a `next/image` remote pattern. `globals.css` `.media-loading-pulse-mark` background image now points at the Shopify URL; only `favicon.ico` remains under `public/media/logos/`.
 3. **Rx-brain frame set trimmed** — `public/media/rx-brain/frames/2000/` deleted entirely; `1080` and `1600` kept. Frame range cropped from 200+ frames to 127 (indices 025–151) and the `rxBrainFrames` manifest updated to match. ~14–17 MB of unused mobile fetch (Phase 2 follow-up item) closed in the same pass.
 4. **`hero-frames.ts` removed** — the dead old-hero scroll-scrubber manifest in `src/data/` was deleted. `scripts/build-hero-frames.mjs` and the `build:hero` npm script are still on disk but unreachable (`public/media/hero/` no longer exists).
 5. **About page + team page filled** — `/about` is now a real page (mission, advantage rail, traction stats, partner panels, vision) backed by `AboutPage` + the new `AboutStats` section component. `/about/team` ships with five leadership bios in both locales. `/about/history` is still the `AboutPlaceholderPage` "Under construction" panel.

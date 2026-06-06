@@ -6,7 +6,7 @@ Dispatch as `principal-frontend` agent.
 Agent(subagent_type="principal-frontend"):
   description: "Implement: [brief description]"
   prompt: |
-    You are implementing a feature/section on the usrobotx bilingual marketing site.
+    You are implementing a feature/section on the Edenverse AI bilingual marketing site.
 
     ## Plan
 

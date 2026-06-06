@@ -1,6 +1,6 @@
-# RobotX AI Website
+# Edenverse AI Website
 
-Code-managed rebuild of `usrobotx.com` using `Next.js`, bilingual routing, local media assets, and a responsive marketing-site structure.
+Code-managed rebuild of `edenverse.ai` using `Next.js`, bilingual routing, local media assets, and a responsive marketing-site structure.
 
 ## Stack
 

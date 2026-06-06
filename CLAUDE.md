@@ -1,4 +1,4 @@
-# CLAUDE.md — usrobotx marketing site
+# CLAUDE.md — Edenverse AI marketing site
 
 Role: Technical Co-Founder. I'm the product owner — I make decisions, you make them happen. Build production-quality code, not prototypes. Push back if I'm overcomplicating things. Present options at decision points instead of picking one silently. No sycophantic openers or closing fluff. User instructions always override this file.
 
@@ -99,7 +99,7 @@ The `superpowers:*` plugin provides composable building blocks for work outside 
 
 ## Project Overview
 
-Bilingual marketing site for `usrobotx.com` — display- and contact-focused, **no e-commerce**.
+Bilingual marketing site for `edenverse.ai` — display- and contact-focused, **no e-commerce**.
 
 - Next.js 16 App Router, React 19, TypeScript
 - Bilingual routing via `src/app/[locale]/`. English is the URL root (`/`, `/solutions`); Chinese is under `/zh`. `src/proxy.ts` rewrites unprefixed paths to `/en/...` internally and redirects `/en/...` → canonical prefix-free URL.
@@ -135,7 +135,7 @@ src/
       image-carousel.tsx, news-badge.tsx, news-video.tsx — MDX body components for news
     motion/
       image-sequence.tsx         — pinned GSAP ScrollTrigger canvas scrubber (rx-brain section)
-      media-loading-pulse.tsx    — pulsing RobotX-X placeholder, shown while media is loading
+      media-loading-pulse.tsx    — pulsing Edenverse mark placeholder, shown while media is loading
       lenis-provider.tsx, use-reduced-motion.ts, use-in-view-autoplay.ts
     pages/                       — page-level section compositions (about, about-team, contact, home, news-*, solutions, plus about-placeholder)
       sections/                  — home-hero, rx-brain-section, latest-events-section, solution-detail-row, about-stats
@@ -191,7 +191,7 @@ Rules of thumb:
 - **Bilingual parity.** Every new string, label, aria tag, and motion caption lands in both `en` and `zh` inside `site-content.ts`. Don't ship one-sided strings.
 - **No hardcoded colors in components.** Use CSS variables defined in `globals.css`.
 - **Respect `prefers-reduced-motion`.** Every scroll/parallax effect needs a reduced-motion fallback.
-- **Loading placeholders use `<MediaLoadingPulse>`.** Any deferred / async media (carousel videos, scroll-scrubbed canvases, per-card autoplay) renders a pulsing RobotX-X mark — the asset URL is set on `.media-loading-pulse-mark` in `globals.css` and points at the Shopify-hosted `robotx-square-transparent.png`. Don't invent per-section placeholders or reach for a different stock image.
+-- **Loading placeholders use `<MediaLoadingPulse>`.** Any deferred / async media (carousel videos, scroll-scrubbed canvases, per-card autoplay) renders a pulsing Edenverse mark — the asset URL is set on `.media-loading-pulse-mark` in `globals.css` and should point at the Shopify-hosted `edenverse-square-transparent.png`. Don't invent per-section placeholders or reach for a different stock image.
 
 ## Deploy
 

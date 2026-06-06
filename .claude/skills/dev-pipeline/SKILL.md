@@ -1,9 +1,9 @@
 ---
 name: dev-pipeline
-description: Use when the user asks to run the full development pipeline, says "pipeline", "plan and implement", "build this section end to end", or wants to go from spec/design to verified, browser-tested code on the usrobotx site
+description: Use when the user asks to run the full development pipeline, says "pipeline", "plan and implement", "build this section end to end", or wants to go from spec/design to verified, browser-tested code on the edenverse site
 ---
 
-# Dev Pipeline — usrobotx
+# Dev Pipeline — edenverse
 
 Orchestrates Plan, Implement, Simplify, Code Review, QA, and Commit as a pipeline using specialized subagents. Adapted for a single-app Next.js 16 bilingual marketing site — no backend, no K8s, no migrations.
 

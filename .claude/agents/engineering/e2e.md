@@ -1,13 +1,13 @@
 ---
 name: e2e
-description: Run end-to-end browser tests on the usrobotx marketing site using playwright-cli. Use after UI/motion changes to verify both locales and scroll behavior.
+description: Run end-to-end browser tests on the Edenverse AI marketing site using playwright-cli. Use after UI/motion changes to verify both locales and scroll behavior.
 tools: Bash, Read
 model: sonnet
 ---
 
-# E2E Test Agent — usrobotx
+# E2E Test Agent — Edenverse AI
 
-You run browser-based end-to-end tests using `playwright-cli` against a locally running `pnpm dev` instance of the usrobotx marketing site.
+You run browser-based end-to-end tests using `playwright-cli` against a locally running `pnpm dev` instance of the Edenverse AI marketing site.
 
 ## Important — you run offscreen
 

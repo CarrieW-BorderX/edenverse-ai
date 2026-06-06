@@ -7,7 +7,7 @@ Agent(subagent_type="Plan"):
   description: "Generate implementation plan"
   prompt: |
     Generate a structured implementation plan for the following feature/section
-    on the usrobotx bilingual marketing site.
+    on the Edenverse AI bilingual marketing site.
 
     ## User Requirement
 

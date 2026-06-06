@@ -1,10 +1,19 @@
-﻿# TODO — usrobotx tech debt
+﻿# TODO — edenverse-ai tech debt
 
 Known issues carried forward as tech debt. Prioritize against `PLAN.md` phases. Delete items when shipped, don't just check them off.
 
 ## Accessibility / bilingual
 
 ## Content
+
+### Migration tasks for Edenverse AI
+
+- **1. Text content update:** Replace references to RobotX and related product names in `src/data/site-content.ts` with `Edenverse AI` copy for both `en` and `zh` locales.
+- **2. Media update:** Replace logo and pulse assets (e.g., `edenverse-square-transparent.png`) and update CDN URLs in `src/data/site-content.ts` and MDX files under `content/news/`.
+- **3. CSS & theme:** Update `src/app/globals.css` to set new brand color variables (`--brand-primary`, `--brand-accent`, `--brand-bg`, etc.) and ensure components consume them.
+- **4. Deploy & domain:** Create a Netlify project, configure deploy settings, and purchase/configure the `edenverse.ai` domain (or chosen domain) to point to Netlify preview/prod.
+- **5. Verification:** Run `pnpm build`, smoke test both locales locally with `pnpm dev`, and verify key pages and motions. Add manual QA checklist entries here.
+
 
 ### 5. History page is still a placeholder
 

@@ -96,12 +96,12 @@ export function SiteHeader({ locale, navigation }: SiteHeaderProps) {
         <Link
           className="site-logo"
           href={localePrefix(locale) || "/"}
-          aria-label="RobotX AI home"
+          aria-label="Edenverse AI home"
           onClick={closeMenu}
         >
           <Image
             src="https://cdn.shopify.com/s/files/1/0764/3063/9301/files/logo-transparent.png?v=1777920552"
-            alt="RobotX AI Inc."
+            alt="Edenverse AI"
             width={320}
             height={96}
             className="site-logo-image"

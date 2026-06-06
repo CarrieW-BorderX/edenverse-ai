@@ -267,7 +267,7 @@ const homepageHeroPosterSrc = "https://cdn.shopify.com/s/files/1/0764/3063/9301/
 const siteContentByLocale: Record<Locale, SiteContent> = {
   en: {
     meta: {
-      title: "RobotX AI Inc.",
+      title: "Edenverse AI",
       description:
         "Advanced robotics solutions for industrial automation, education, and mission-critical safety.",
     },
@@ -296,7 +296,7 @@ const siteContentByLocale: Record<Locale, SiteContent> = {
     },
     footer: {
       tagline: "Future-ready robotics",
-      title: "Build the next field deployment with RobotX AI.",
+      title: "Build the next field deployment with Edenverse AI.",
       description:
         "We design technical robotics experiences that connect advanced hardware, operator insight, and practical deployment.",
       navigationHeading: "Navigate",
@@ -336,7 +336,7 @@ const siteContentByLocale: Record<Locale, SiteContent> = {
       rxBrain: {
         kicker: "Coming soon",
         subtitle:
-          "RX BRAIN™ is the general-purpose intelligence at the core of every RobotX platform.",
+          "RX BRAIN™ is the general-purpose intelligence at the core of every Edenverse AI platform.",
         description:
           "RX BRAIN unifies perception, planning, and control across tasks and environments. Every deployment teaches it. Every robot runs it. Every fleet gets sharper.",
         ctaLabel: "Technology",
@@ -354,10 +354,10 @@ const siteContentByLocale: Record<Locale, SiteContent> = {
         ],
       },
       latestEvents: {
-        kicker: "Latest from RobotX",
+        kicker: "Latest from Edenverse AI",
         title: "Deployments, partnerships, and platform news from the field.",
         description:
-          "A running view of what RobotX is shipping, where our robots are going, and who we are building with.",
+          "A running view of what Edenverse AI is shipping, where our robots are going, and who we are building with.",
         ctaLabel: "View all news",
         ctaHref: "/media-center/news",
         previousLabel: "Previous article",
@@ -444,11 +444,11 @@ const siteContentByLocale: Record<Locale, SiteContent> = {
       ],
       callout: {
         kicker: "Let's build",
-        title: "Ready to put RobotX AI to work in your environment?",
+        title: "Ready to put Edenverse AI to work in your environment?",
         description:
           "Tell us about your operation and we'll map out the right platform, deployment, and support path with you.",
         primaryAction: "Talk to our team",
-        secondaryAction: "About RobotX",
+        secondaryAction: "About Edenverse AI",
       },
     },
     solutions: {
@@ -456,7 +456,7 @@ const siteContentByLocale: Record<Locale, SiteContent> = {
         kicker: "Solutions",
         title: "Robotics platforms aligned to real mission needs.",
         description:
-          "RobotX helps businesses automate operations with intelligent robotics. We don’t just provide solutions—we ensure they continuously improve, with robots learning from daily work, adapting over time, and performing tasks more efficiently.",
+          "Edenverse AI helps businesses automate operations with intelligent robotics. We don’t just provide solutions—we ensure they continuously improve, with robots learning from daily work, adapting over time, and performing tasks more efficiently.",
       },
       cards: [
         {
@@ -545,13 +545,13 @@ const siteContentByLocale: Record<Locale, SiteContent> = {
         kicker: "Physical AI",
         title: "Building the Brain Behind the Machine.",
         description:
-          "RobotX is a physical artificial intelligence company based in Irvine, specializing in advanced robotics applications and next-generation robot intelligence systems. Founded by a team of leading robotics experts, RobotX is dedicated to redefining how robots perceive, think, and act in the real world.",
+          "Edenverse AI is a physical artificial intelligence company based in Irvine, specializing in advanced robotics applications and next-generation robot intelligence systems. Founded by a team of leading robotics experts, Edenverse AI is dedicated to redefining how robots perceive, think, and act in the real world.",
       },
       mission: {
         kicker: "Core Technology — Xmind",
         title: "One Brain. Multiple Robots. Multiple Tasks.",
         description:
-          "At the core of RobotX is our proprietary robot brain model, Xmind — a powerful AI system trained on large-scale multimodal data. Xmind enables a \"one brain, multiple robots, multiple tasks\" architecture, allowing diverse robotic platforms — including humanoid robots, quadrupeds, and robotic arms — to share a unified intelligence layer.",
+          "At the core of Edenverse AI is our proprietary robot brain model, Xmind — a powerful AI system trained on large-scale multimodal data. Xmind enables a \"one brain, multiple robots, multiple tasks\" architecture, allowing diverse robotic platforms — including humanoid robots, quadrupeds, and robotic arms — to share a unified intelligence layer.",
         values: [
           {
             title: "Unified Intelligence",
@@ -574,7 +574,7 @@ const siteContentByLocale: Record<Locale, SiteContent> = {
         kicker: "Solution Focus",
         title: "Scalable Automation for Unstructured Environments.",
         description:
-          "RobotX focuses on deploying intelligent robotic solutions across real-world, unstructured environments where rigid legacy systems have historically failed to scale.",
+          "Edenverse AI focuses on deploying intelligent robotic solutions across real-world, unstructured environments where rigid legacy systems have historically failed to scale.",
         points: [
           {
             index: "01",
@@ -600,7 +600,7 @@ const siteContentByLocale: Record<Locale, SiteContent> = {
         kicker: "Growth",
         title: "$5M Seed Round. Strategic Partnerships.",
         description:
-          "RobotX has secured $5 million in seed funding and established strategic partnerships with leading robotics innovators, accelerating the integration of advanced AI with cutting-edge robotic hardware.",
+          "Edenverse AI has secured $5 million in seed funding and established strategic partnerships with leading robotics innovators, accelerating the integration of advanced AI with cutting-edge robotic hardware.",
         stats: [
           { value: "$5M", label: "Seed Funding Secured" },
           { value: "2+", label: "Strategic Hardware Partners" },
@@ -622,7 +622,7 @@ const siteContentByLocale: Record<Locale, SiteContent> = {
       vision: {
         kicker: "Vision",
         statement:
-          "At RobotX, we believe the future of robotics lies in intelligent, adaptable systems that can operate across forms and functions. By building the brain behind the machine, we are shaping a new era of physical AI.",
+          "At Edenverse AI, we believe the future of robotics lies in intelligent, adaptable systems that can operate across forms and functions. By building the brain behind the machine, we are shaping a new era of physical AI.",
       },
       history: {
         pageHero: {
@@ -630,13 +630,13 @@ const siteContentByLocale: Record<Locale, SiteContent> = {
           title: "History",
           statusBadge: "Under construction",
           description:
-            "We're writing the story of how RobotX AI came to be. Check back soon.",
+            "We're writing the story of how Edenverse AI came to be. Check back soon.",
         },
       },
       team: {
         pageHero: {
           kicker: "The Team",
-          title: "The people building RobotX.",
+          title: "The people building Edenverse AI.",
           description:
             "Meet the leadership team driving innovation in physical AI and intelligent robotics.",
         },
@@ -644,27 +644,27 @@ const siteContentByLocale: Record<Locale, SiteContent> = {
           {
             name: "Sam Li",
             role: "Chief Executive Officer (CEO)",
-            bio: "Sam Li is the Chief Executive Officer of RobotX and a visionary entrepreneur in the field of physical artificial intelligence and robotics. He leads the company's overall strategy, business development, and global expansion. With a strong background in technology innovation and company building, Sam has a proven track record of bringing cutting-edge ideas from concept to commercialization. He is passionate about advancing intelligent robotics and shaping the future of automation across industries.",
+            bio: "Sam Li is the Chief Executive Officer of Edenverse AI and a visionary entrepreneur in the field of physical artificial intelligence and robotics. He leads the company's overall strategy, business development, and global expansion. With a strong background in technology innovation and company building, Sam has a proven track record of bringing cutting-edge ideas from concept to commercialization. He is passionate about advancing intelligent robotics and shaping the future of automation across industries.",
           },
           {
             name: "Jason Liu",
             role: "Chief Technology Officer (CTO)",
-            bio: "Jason serves as the Chief Technology Officer of RobotX, where he leads the development of the company's core AI technologies, including the Xmind robot brain model. With deep expertise in robotics, artificial intelligence, and large-scale systems, Jason has extensive experience in building intelligent platforms that integrate perception, planning, and control. He is responsible for driving technological innovation and ensuring the scalability and performance of RobotX's solutions.",
+            bio: "Jason serves as the Chief Technology Officer of Edenverse AI, where he leads the development of the company's core AI technologies, including the Xmind robot brain model. With deep expertise in robotics, artificial intelligence, and large-scale systems, Jason has extensive experience in building intelligent platforms that integrate perception, planning, and control. He is responsible for driving technological innovation and ensuring the scalability and performance of Edenverse AI's solutions.",
           },
           {
             name: "Evelyn Zhou",
             role: "Chief Financial Officer (CFO)",
-            bio: "Evelyn is the Chief Financial Officer of RobotX, overseeing the company's financial strategy, capital planning, and investor relations. She brings strong expertise in financial management, corporate finance, and fundraising, with experience supporting high-growth technology companies. Evelyn plays a key role in optimizing financial operations and supporting the company's long-term growth and expansion.",
+            bio: "Evelyn is the Chief Financial Officer of Edenverse AI, overseeing the company's financial strategy, capital planning, and investor relations. She brings strong expertise in financial management, corporate finance, and fundraising, with experience supporting high-growth technology companies. Evelyn plays a key role in optimizing financial operations and supporting the company's long-term growth and expansion.",
           },
           {
             name: "Vera Zhang",
             role: "Chief Operating Officer (COO)",
-            bio: "Vera is the Chief Operating Officer of RobotX, responsible for managing the company's day-to-day operations and ensuring efficient execution across all departments. She has extensive experience in operations management, process optimization, and organizational scaling. Vera focuses on building strong internal systems and driving operational excellence to support the company's rapid growth.",
+            bio: "Vera is the Chief Operating Officer of Edenverse AI, responsible for managing the company's day-to-day operations and ensuring efficient execution across all departments. She has extensive experience in operations management, process optimization, and organizational scaling. Vera focuses on building strong internal systems and driving operational excellence to support the company's rapid growth.",
           },
           {
             name: "Carrie Wang",
             role: "Chief Marketing Officer (CMO)",
-            bio: "Carrie is the Chief Marketing Officer of RobotX, leading the company's branding, marketing strategy, and global communications. With a strong background in technology marketing and brand development, she specializes in positioning innovative products in competitive markets. Carrie is responsible for driving market awareness, customer engagement, and the overall brand presence of RobotX.",
+            bio: "Carrie is the Chief Marketing Officer of Edenverse AI, leading the company's branding, marketing strategy, and global communications. With a strong background in technology marketing and brand development, she specializes in positioning innovative products in competitive markets. Carrie is responsible for driving market awareness, customer engagement, and the overall brand presence of Edenverse AI.",
           },
         ],
       },
@@ -677,7 +677,7 @@ const siteContentByLocale: Record<Locale, SiteContent> = {
           "",
       },
       info: {
-        kicker: "Reach RobotX",
+        kicker: "Reach Edenverse AI",
         title: "Talk with our team about solutions, deployment, or collaboration.",
         description:
           "",
@@ -710,8 +710,8 @@ const siteContentByLocale: Record<Locale, SiteContent> = {
       hero: {
         kicker: "News",
         title: "Press, partnerships, and platform milestones.",
-        description:
-          "Official announcements from RobotX — partnership news, program memberships, and platform milestones.",
+          description:
+            "Official announcements from Edenverse AI — partnership news, program memberships, and platform milestones.",
       },
       meta: {
         categoryLabel: "Category",
@@ -730,13 +730,13 @@ const siteContentByLocale: Record<Locale, SiteContent> = {
         kicker: "Demo Center",
         title: "Field deployments, in their own words.",
         description:
-          "Customer pilots, working deployments, and platform demos from real RobotX field work.",
+          "Customer pilots, working deployments, and platform demos from real Edenverse AI field work.",
       },
     },
   },
   zh: {
     meta: {
-      title: "RobotX AI Inc.",
+      title: "Edenverse AI",
       description: "面向工业、教育与关键任务场景的先进机器人解决方案。",
     },
     navigation: {
@@ -764,7 +764,7 @@ const siteContentByLocale: Record<Locale, SiteContent> = {
     },
     footer: {
       tagline: "面向未来的机器人品牌",
-      title: "与 RobotX AI 一起打造下一代机器人应用场景。",
+      title: "与 Edenverse AI 一起打造下一代机器人应用场景。",
       description:
         "我们用更技术化、更清晰的方式呈现机器人能力，把先进硬件、感知控制与真实部署需求连接起来。",
       navigationHeading: "页面导航",
@@ -784,7 +784,7 @@ const siteContentByLocale: Record<Locale, SiteContent> = {
     },
     home: {
       hero: {
-        kicker: "RobotX AI Inc.",
+        kicker: "Edenverse AI",
         title: "以部署驱动规模,以数据铸造壁垒。",
         description:
           "我们专注于工业、教育、人形机器人与消防等方向的先进机器人平台与解决方案，强调精确控制、工程能力与落地部署。",
@@ -803,7 +803,7 @@ const siteContentByLocale: Record<Locale, SiteContent> = {
       rxBrain: {
         kicker: "即将推出",
         subtitle:
-          "RX BRAIN™ 是支撑每一台 RobotX 机器人的通用智能核心。",
+          "RX BRAIN™ 是支撑每一台 Edenverse AI 机器人的通用智能核心。",
         description:
           "RX BRAIN 将感知、规划与控制融合在同一模型中，跨任务、跨场景持续进化。每一次部署都在训练它，每一台机器人都在运行它，整支机队变得更敏锐。",
         ctaLabel: "技术",
@@ -820,10 +820,10 @@ const siteContentByLocale: Record<Locale, SiteContent> = {
         ],
       },
       latestEvents: {
-        kicker: "RobotX 最新动态",
+        kicker: "Edenverse AI 最新动态",
         title: "来自现场的部署、合作与平台更新。",
         description:
-          "持续记录 RobotX 正在落地的项目、机器人去往的场景，以及我们正在一起合作的伙伴。",
+          "持续记录 Edenverse AI 正在落地的项目、机器人去往的场景，以及我们正在一起合作的伙伴。",
         ctaLabel: "查看全部新闻",
         ctaHref: "/media-center/news",
         previousLabel: "上一篇",
@@ -887,11 +887,11 @@ const siteContentByLocale: Record<Locale, SiteContent> = {
       ],
       callout: {
         kicker: "合作洽谈",
-        title: "准备将 RobotX AI 部署到您的场景吗？",
+        title: "准备将 Edenverse AI 部署到您的场景吗？",
         description:
           "告诉我们您的场地与运营需求，我们会一起规划合适的机器人平台、部署方案与支持路径。",
         primaryAction: "与团队沟通",
-        secondaryAction: "了解 RobotX",
+        secondaryAction: "了解 Edenverse AI",
       },
     },
     solutions: {
@@ -899,7 +899,7 @@ const siteContentByLocale: Record<Locale, SiteContent> = {
         kicker: "解决方案",
         title: "围绕真实任务需求构建的机器人能力展示。",
         description:
-          "RobotX 借助智能机器人技术，助力企业实现运营自动化。我们提供的不仅仅是解决方案，更致力于确保其持续优化——通过让机器人从日常工作中不断学习、随时间推移自我适应，从而更高效地执行各项任务。",
+          "Edenverse AI 借助智能机器人技术，助力企业实现运营自动化。我们提供的不仅仅是解决方案，更致力于确保其持续优化——通过让机器人从日常工作中不断学习、随时间推移自我适应，从而更高效地执行各项任务。",
       },
       cards: [
         {
@@ -986,13 +986,13 @@ const siteContentByLocale: Record<Locale, SiteContent> = {
         kicker: "具身人工智能",
         title: "构建机器背后的大脑。",
         description:
-          "RobotX 是一家总部位于加州尔湾的具身人工智能公司，专注于先进机器人应用与下一代机器人智能系统的研发。公司由顶尖机器人专家团队创立，致力于重新定义机器人的感知、思考与行动方式。",
+          "Edenverse AI 是一家总部位于加州尔湾的具身人工智能公司，专注于先进机器人应用与下一代机器人智能系统的研发。公司由顶尖机器人专家团队创立，致力于重新定义机器人的感知、思考与行动方式。",
       },
       mission: {
         kicker: "核心技术 — Xmind",
         title: "一个大脑，多种机器人，多类任务。",
         description:
-          "RobotX 的核心是我们自主研发的机器人大脑模型 Xmind —— 一套基于大规模多模态数据训练的强大 AI 系统。Xmind 实现了「一脑多机多任务」架构，使人形机器人、四足机器人、机械臂等多种平台共享统一的智能层。",
+          "Edenverse AI 的核心是我们自主研发的机器人大脑模型 Xmind —— 一套基于大规模多模态数据训练的强大 AI 系统。Xmind 实现了「一脑多机多任务」架构，使人形机器人、四足机器人、机械臂等多种平台共享统一的智能层。",
         values: [
           {
             title: "统一智能",
@@ -1015,7 +1015,7 @@ const siteContentByLocale: Record<Locale, SiteContent> = {
         kicker: "部署方向",
         title: "面向非结构化环境的可扩展自动化。",
         description:
-          "RobotX 专注于在真实、非结构化的场景中部署智能机器人解决方案，覆盖传统刚性系统长期难以规模化的行业领域。",
+          "Edenverse AI 专注于在真实、非结构化的场景中部署智能机器人解决方案，覆盖传统刚性系统长期难以规模化的行业领域。",
         points: [
           {
             index: "01",
@@ -1041,7 +1041,7 @@ const siteContentByLocale: Record<Locale, SiteContent> = {
         kicker: "增长",
         title: "500万美元种子轮融资，战略合作伙伴已就位。",
         description:
-          "RobotX 已完成 500 万美元种子轮融资，并与顶尖机器人创新企业建立战略合作，加速先进 AI 与前沿机器人硬件的融合落地。",
+          "Edenverse AI 已完成 500 万美元种子轮融资，并与顶尖机器人创新企业建立战略合作，加速先进 AI 与前沿机器人硬件的融合落地。",
         stats: [
           { value: "$500万", label: "种子轮融资" },
           { value: "2+", label: "战略硬件合作伙伴" },
@@ -1063,20 +1063,20 @@ const siteContentByLocale: Record<Locale, SiteContent> = {
       vision: {
         kicker: "愿景",
         statement:
-          "在 RobotX，我们相信机器人的未来在于能够跨越形态与功能界限的智能、可适应系统。通过构建机器背后的大脑，我们正在开创具身人工智能的新纪元。",
+          "在 Edenverse AI，我们相信机器人的未来在于能够跨越形态与功能界限的智能、可适应系统。通过构建机器背后的大脑，我们正在开创具身人工智能的新纪元。",
       },
       history: {
         pageHero: {
           kicker: "我们的故事",
           title: "发展历程",
           statusBadge: "建设中",
-          description: "我们正在整理 RobotX AI 的发展故事，敬请期待。",
+          description: "我们正在整理 Edenverse AI 的发展故事，敬请期待。",
         },
       },
       team: {
         pageHero: {
           kicker: "核心团队",
-          title: "构建 RobotX 的人们。",
+          title: "构建 Edenverse AI 的人们。",
           description:
             "认识推动具身人工智能与智能机器人领域创新的领导团队。",
         },
@@ -1084,27 +1084,27 @@ const siteContentByLocale: Record<Locale, SiteContent> = {
           {
             name: "Sam Li",
             role: "首席执行官 (CEO)",
-            bio: "Sam Li 是 RobotX 的首席执行官，是具身人工智能与机器人领域极具远见的企业家。他负责领导公司整体战略、业务拓展与全球化布局。凭借深厚的技术创新与企业建设背景，Sam 拥有将前沿创意从概念推向商业化的丰富经验。他热衷于推动智能机器人的发展，致力于重塑跨行业自动化的未来。",
+            bio: "Sam Li 是 Edenverse AI 的首席执行官，是具身人工智能与机器人领域极具远见的企业家。他负责领导公司整体战略、业务拓展与全球化布局。凭借深厚的技术创新与企业建设背景，Sam 拥有将前沿创意从概念推向商业化的丰富经验。他热衷于推动智能机器人的发展，致力于重塑跨行业自动化的未来。",
           },
           {
             name: "Jason Liu",
             role: "首席技术官 (CTO)",
-            bio: "Jason 担任 RobotX 首席技术官，负责领导公司核心 AI 技术的研发，包括 Xmind 机器人大脑模型。他在机器人学、人工智能及大规模系统领域拥有深厚积累，具备丰富的智能平台建设经验，擅长融合感知、规划与控制能力。Jason 负责推动技术创新，确保 RobotX 解决方案的可扩展性与性能表现。",
+            bio: "Jason 担任 Edenverse AI 首席技术官，负责领导公司核心 AI 技术的研发，包括 Xmind 机器人大脑模型。他在机器人学、人工智能及大规模系统领域拥有深厚积累，具备丰富的智能平台建设经验，擅长融合感知、规划与控制能力。Jason 负责推动技术创新，确保 Edenverse AI 解决方案的可扩展性与性能表现。",
           },
           {
             name: "Evelyn Zhou",
             role: "首席财务官 (CFO)",
-            bio: "Evelyn 是 RobotX 的首席财务官，负责监管公司财务战略、资本规划与投资者关系。她在财务管理、公司金融与融资方面拥有丰富专长，并具备支持高速成长型科技企业的实战经验。Evelyn 在优化财务运营、推动公司长期增长与扩张方面发挥着关键作用。",
+            bio: "Evelyn 是 Edenverse AI 的首席财务官，负责监管公司财务战略、资本规划与投资者关系。她在财务管理、公司金融与融资方面拥有丰富专长，并具备支持高速成长型科技企业的实战经验。Evelyn 在优化财务运营、推动公司长期增长与扩张方面发挥着关键作用。",
           },
           {
             name: "Vera Zhang",
             role: "首席运营官 (COO)",
-            bio: "Vera 是 RobotX 的首席运营官，负责统筹公司日常运营，确保各部门高效协同执行。她在运营管理、流程优化与组织规模化方面积累了深厚经验。Vera 专注于构建稳健的内部体系，以运营卓越为驱动力支撑公司的快速成长。",
+            bio: "Vera 是 Edenverse AI 的首席运营官，负责统筹公司日常运营，确保各部门高效协同执行。她在运营管理、流程优化与组织规模化方面积累了深厚经验。Vera 专注于构建稳健的内部体系，以运营卓越为驱动力支撑公司的快速成长。",
           },
           {
             name: "Carrie Wang",
             role: "首席营销官 (CMO)",
-            bio: "Carrie 是 RobotX 的首席营销官，负责领导公司品牌建设、营销战略与全球传播。她在科技营销与品牌发展领域具有深厚积累，擅长在竞争激烈的市场中精准定位创新产品。Carrie 负责提升市场认知度、深化客户互动，并全面塑造 RobotX 的品牌影响力。",
+            bio: "Carrie 是 Edenverse AI 的首席营销官，负责领导公司品牌建设、营销战略与全球传播。她在科技营销与品牌发展领域具有深厚积累，擅长在竞争激烈的市场中精准定位创新产品。Carrie 负责提升市场认知度、深化客户互动，并全面塑造 Edenverse AI 的品牌影响力。",
           },
         ],
       },
@@ -1117,7 +1117,7 @@ const siteContentByLocale: Record<Locale, SiteContent> = {
           "",
       },
       info: {
-        kicker: "联系 RobotX",
+        kicker: "联系 Edenverse AI",
         title: "欢迎与我们讨论解决方案、部署需求或合作想法。",
         description:
           "",
@@ -1150,7 +1150,7 @@ const siteContentByLocale: Record<Locale, SiteContent> = {
         kicker: "新闻",
         title: "新闻稿、合作公告与平台节点。",
         description:
-          "来自 RobotX 的官方公告：战略合作、计划入选与平台里程碑都会在这里同步。",
+          "来自 Edenverse AI 的官方公告：战略合作、计划入选与平台里程碑都会在这里同步。",
       },
       meta: {
         categoryLabel: "分类",
@@ -1169,7 +1169,7 @@ const siteContentByLocale: Record<Locale, SiteContent> = {
         kicker: "演示中心",
         title: "来自现场的部署与试点。",
         description:
-          "客户试点、实地部署与平台演示，记录 RobotX 在真实场景中的工作。",
+          "客户试点、实地部署与平台演示，记录 Edenverse AI 在真实场景中的工作。",
       },
     },
   },

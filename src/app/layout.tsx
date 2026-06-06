@@ -16,9 +16,9 @@ const satoshi = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "RobotX AI Inc.",
+  title: "Edenverse AI",
   description:
-    "RobotX AI Inc. builds advanced robotics solutions for industrial automation, education, and mission-critical safety.",
+    "Edenverse AI builds advanced robotics solutions for industrial automation, education, and mission-critical safety.",
 };
 
 export default async function RootLayout({

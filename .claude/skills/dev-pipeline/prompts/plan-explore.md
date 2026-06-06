@@ -6,7 +6,7 @@ Dispatch as `Explore` agent (up to 3 in parallel, one per area).
 Agent(subagent_type="Explore"):
   description: "Explore [area] for pipeline plan"
   prompt: |
-    I need to understand the current state of the [AREA] code in the usrobotx
+    I need to understand the current state of the [AREA] code in the Edenverse AI
     bilingual marketing site to plan a feature/section change.
 
     ## What I Need

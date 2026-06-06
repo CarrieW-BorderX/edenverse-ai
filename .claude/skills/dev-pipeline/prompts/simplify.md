@@ -6,7 +6,7 @@ Dispatch as `code-simplifier:code-simplifier` agent. One invocation for the whol
 Agent(subagent_type="code-simplifier:code-simplifier"):
   description: "Simplify the recent changes"
   prompt: |
-    Review and simplify the recently changed code on the usrobotx marketing site.
+   Review and simplify the recently changed code on the Edenverse AI marketing site.
 
     ## Files Changed
 

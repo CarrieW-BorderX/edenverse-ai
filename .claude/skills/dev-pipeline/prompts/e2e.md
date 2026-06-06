@@ -6,10 +6,10 @@ Dispatch as `e2e` agent AFTER lint + build pass. Run ALONE — never parallel. *
 
 ```
 Agent(subagent_type="e2e", model="sonnet"):
-  description: "E2E test usrobotx site"
-  prompt: |
-    Run end-to-end browser tests on the usrobotx marketing site against a local
-    `pnpm dev` instance.
+   description: "E2E test Edenverse AI site"
+   prompt: |
+      Run end-to-end browser tests on the Edenverse AI marketing site against a local
+      `pnpm dev` instance.
 
     ## What Changed
 
