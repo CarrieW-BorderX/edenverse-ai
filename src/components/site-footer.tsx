@@ -14,10 +14,10 @@ export function SiteFooter({ locale, footer }: SiteFooterProps) {
       <div className="section-container site-footer-grid">
         <div className="site-footer-brand">
           <Image
-            src="https://cdn.shopify.com/s/files/1/0764/3063/9301/files/logo-transparent.png?v=1777920552"
+            src="https://cdn.shopify.com/s/files/1/0764/3063/9301/files/edenverse-ai-logo-white.png?v=1780706292"
             alt="Edenverse AI"
             width={320}
-            height={96}
+            height={320}
             className="site-footer-logo-image"
           />
           <span className="section-kicker">{footer.tagline}</span>

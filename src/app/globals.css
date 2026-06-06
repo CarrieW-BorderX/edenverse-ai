@@ -1,19 +1,20 @@
 :root {
-  /* Palette — fieldai-style dark: near-black page, white copy, rust accent */
-  --background-primary: #0a0a0f;
-  --background-secondary: #2a2a31;
-  --background-panel: #0f0f17;
-  --background-panel-strong: #16161f;
-  --background-dark: #ffffff; /* inverted emphasis bg (callout / hero button) */
-  --surface-border: #22222c;
-  --surface-border-strong: #efefef;
-  --text-primary: #efefef;
-  --text-secondary: #b2b2ba;
-  --text-muted: #7a7a84;
-  --text-on-dark: #0a0a0f; /* text used on inverted (white) emphasis bg */
-  --text-on-dark-muted: rgba(10, 10, 15, 0.72);
-  --accent-primary: #f7500f;
-  --accent-primary-hover: #ff6a2f;
+  /* Palette — light technical: cream page, slate copy, pine accent */
+  --background-primary: #f2efe7; /* cream */
+  --background-secondary: #e6e1d5; /* deeper cream — media placeholders */
+  --background-panel: #ece8de;
+  --background-panel-strong: #e4dfd2;
+  --background-alt: #e9e4d9; /* secondary section surface — alternates with cream */
+  --background-dark: #0a0a0a; /* inverted emphasis bg (ink button) */
+  --surface-border: rgba(30, 41, 59, 0.16);
+  --surface-border-strong: rgba(30, 41, 59, 0.32);
+  --text-primary: #1e293b; /* slate */
+  --text-secondary: rgba(30, 41, 59, 0.72);
+  --text-muted: rgba(30, 41, 59, 0.52);
+  --text-on-dark: #f2efe7; /* text used on inverted (ink) emphasis bg */
+  --text-on-dark-muted: rgba(242, 239, 231, 0.72);
+  --accent-primary: #2f5d50; /* pine */
+  --accent-primary-hover: #3d5723; /* olive */
   --accent-metal: #8a8a90;
 
   /* Flat surfaces */
@@ -213,8 +214,9 @@ p {
 }
 
 .secondary-button:hover {
-  background: var(--background-dark);
+  background: var(--accent-primary);
   color: var(--text-on-dark);
+  border: 1px solid var(--text-on-dark);
 }
 
 /* Header — transparent over hero, solid white with 1px bottom border on scroll */
@@ -274,23 +276,28 @@ p {
   display: inline-flex;
   align-items: center;
   max-width: min(14rem, 58vw);
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 
 .site-logo-image,
 .site-footer-logo-image {
-  width: 100%;
+  width: 4rem;
   height: auto;
   display: block;
 }
 
 .site-logo-image {
   max-width: 10rem;
+}
+
+/* White logo only while the header overlays a dark hero image */
+.site-header-overlay .site-logo-image {
   filter: invert(1) brightness(1.6);
 }
 
 .site-footer-logo-image {
   max-width: 12rem;
-  filter: invert(1) brightness(1.6);
 }
 
 .site-menu-group {
@@ -333,7 +340,7 @@ p {
 }
 
 .site-navigation-link {
-  font-size: 0.95rem;
+  font-size: 1rem;
   color: inherit;
   transition: color var(--transition-standard);
 }
@@ -739,6 +746,9 @@ p {
   --solutions-card-gap: 1.4rem;
   --solutions-card-scroll-gap: clamp(4rem, 9vh, 7rem);
   position: relative;
+  /* Full-bleed alt surface — sets this section apart from the cream
+     Latest Events section above and the Callout below */
+  background: var(--background-alt);
 }
 
 .solutions-carousel-shell {
@@ -914,9 +924,9 @@ p {
 
 .solutions-carousel-highlight {
   padding: 0.35rem 0.7rem;
-  border: 1px solid rgba(239, 239, 239, 0.45);
+  border: 1px solid var(--surface-border-strong);
   border-radius: var(--radius-pill);
-  color: #ffffff;
+  color: var(--text-secondary);
   font-size: 0.82rem;
   line-height: 1.3;
 }
@@ -1384,10 +1394,6 @@ p {
   font-weight: 400;
   line-height: 1.25;
   letter-spacing: var(--tracking-tight);
-}
-
-.site-footer-logo-image {
-  filter: invert(1) brightness(1.6);
 }
 
 .site-footer-brand {

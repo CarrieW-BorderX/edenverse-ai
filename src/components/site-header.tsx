@@ -100,10 +100,10 @@ export function SiteHeader({ locale, navigation }: SiteHeaderProps) {
           onClick={closeMenu}
         >
           <Image
-            src="https://cdn.shopify.com/s/files/1/0764/3063/9301/files/logo-transparent.png?v=1777920552"
+            src="https://cdn.shopify.com/s/files/1/0764/3063/9301/files/edenverse-ai-logo-white.png?v=1780706292"
             alt="Edenverse AI"
             width={320}
-            height={96}
+            height={320}
             className="site-logo-image"
             priority
           />

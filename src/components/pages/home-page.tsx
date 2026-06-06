@@ -40,6 +40,13 @@ export function HomePage({ locale, content, latestArticles }: HomePageProps) {
         />
       </RevealSection>
 
+      <SolutionsCarouselSection
+        kicker={content.home.solutions.kicker}
+        title={content.home.solutions.title}
+        description={content.home.solutions.description}
+        cards={content.home.featuredSolutions}
+      />
+
       <RxBrainSection locale={locale} content={content.home.rxBrain} />
 
       <LatestEventsSection
@@ -49,12 +56,7 @@ export function HomePage({ locale, content, latestArticles }: HomePageProps) {
         readArticleLabel={content.news.meta.readArticle}
       />
 
-      <SolutionsCarouselSection
-        kicker={content.home.solutions.kicker}
-        title={content.home.solutions.title}
-        description={content.home.solutions.description}
-        cards={content.home.featuredSolutions}
-      />
+      
 
       <RevealSection className="section-spacing">
         <section
