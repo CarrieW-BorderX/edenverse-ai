@@ -25,7 +25,7 @@ export function RxBrainSection({ locale, content }: RxBrainSectionProps) {
             <span className="rx-brain-kicker">{content.kicker}</span>
             <Image
               className="rx-brain-wordmark"
-              src="https://cdn.shopify.com/s/files/1/0764/3063/9301/files/rx-brain-logo-white-transparent.png?v=1777919413"
+              src="https://cdn.shopify.com/s/files/1/0764/3063/9301/files/rx-brain-logo-transparent.png?v=1777919414"
               alt={content.wordmarkAlt}
               width={1962}
               height={544}

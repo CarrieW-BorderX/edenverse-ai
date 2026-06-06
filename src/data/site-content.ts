@@ -256,12 +256,12 @@ export type SiteContent = {
   demoCenter: DemoCenterContent;
 };
 
-const sharedAddress = "17901 Von Karman Ave, Ste 420, Irvine, CA 92614";
+const sharedAddress = "";
 const sharedPhoneLabel = "1-800-519-0881";
 const sharedPhoneRaw = "18005190881";
 const sharedEmail = "info@usrobotx.com";
 const homeHeroVideoSrc = "https://cdn.shopify.com/videos/c/o/v/a05b93842a0a418a90b254a6999831db.mp4";
-const homepageHeroVideoSrc = "https://cdn.shopify.com/videos/c/o/v/27ba411b6f6844ceb332aa348cf0b4a1.mp4";
+const homepageHeroVideoSrc = "https://cdn.shopify.com/videos/c/o/v/8431e06f2df64b1686f8a5edb44a3c53.mp4";
 const homepageHeroPosterSrc = "https://cdn.shopify.com/s/files/1/0764/3063/9301/files/unitree-dog-w-rx-brain.jpg?v=1780428427";
 
 const siteContentByLocale: Record<Locale, SiteContent> = {

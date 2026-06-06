@@ -3,8 +3,8 @@ import { DeploymentCycleSection } from "@/components/deployment-cycle-section";
 import { HomeHero } from "@/components/pages/sections/home-hero";
 import { LatestEventsSection } from "@/components/pages/sections/latest-events-section";
 import { RxBrainSection } from "@/components/pages/sections/rx-brain-section";
+import { SolutionDetailRow } from "@/components/pages/sections/solution-detail-row";
 import { RevealSection } from "@/components/reveal-section";
-import { SolutionsCarouselSection } from "@/components/solutions-carousel-section";
 import type { SiteContent } from "@/data/site-content";
 import { localePrefix, type Locale } from "@/lib/i18n";
 import type { NewsArticleMeta } from "@/lib/news-types";
@@ -40,12 +40,29 @@ export function HomePage({ locale, content, latestArticles }: HomePageProps) {
         />
       </RevealSection>
 
-      <SolutionsCarouselSection
-        kicker={content.home.solutions.kicker}
-        title={content.home.solutions.title}
-        description={content.home.solutions.description}
-        cards={content.home.featuredSolutions}
-      />
+      <section className="section-spacing solutions-feature-section">
+        <div className="section-container">
+          <div className="section-stack solutions-feature-header">
+            <span className="section-kicker">{content.home.solutions.kicker}</span>
+            <h2 className="section-title">{content.home.solutions.title}</h2>
+            <p className="section-copy">{content.home.solutions.description}</p>
+          </div>
+          <div className="solutions-detail-stack">
+            {content.home.featuredSolutions.map((solution) => (
+              <SolutionDetailRow
+                key={solution.title}
+                tag={solution.tag}
+                title={solution.title}
+                description={solution.description}
+                highlights={solution.highlights}
+                imageSrc={solution.imageSrc}
+                backgroundVideoSrc={solution.backgroundVideoSrc}
+                backgroundPosterSrc={solution.backgroundPosterSrc}
+              />
+            ))}
+          </div>
+        </div>
+      </section>
 
       <RxBrainSection locale={locale} content={content.home.rxBrain} />
 
