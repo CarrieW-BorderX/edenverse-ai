@@ -1,4 +1,5 @@
 import type { SiteContent } from "@/data/site-content";
+import { ContactForm } from "@/components/pages/contact-form";
 
 type ContactPageProps = {
   content: SiteContent;
@@ -34,27 +35,7 @@ export function ContactPage({ content }: ContactPageProps) {
         <article className="contact-form-panel">
           <span className="section-kicker">{content.contact.form.kicker}</span>
           <h2 className="feature-panel-title">{content.contact.form.title}</h2>
-          <form className="contact-form-layout">
-            <label className="contact-field">
-              <span>{content.contact.form.nameLabel}</span>
-              <input type="text" name="name" placeholder={content.contact.form.namePlaceholder} />
-            </label>
-            <label className="contact-field">
-              <span>{content.contact.form.emailLabel}</span>
-              <input type="email" name="email" placeholder={content.contact.form.emailPlaceholder} />
-            </label>
-            <label className="contact-field contact-field-full">
-              <span>{content.contact.form.messageLabel}</span>
-              <textarea
-                name="message"
-                rows={6}
-                placeholder={content.contact.form.messagePlaceholder}
-              />
-            </label>
-            <button className="primary-button" type="submit">
-              {content.contact.form.submitLabel}
-            </button>
-          </form>
+          <ContactForm copy={content.contact.form} />
         </article>
       </section>
     </div>

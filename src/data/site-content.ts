@@ -237,6 +237,10 @@ type ContactContent = {
     messageLabel: string;
     messagePlaceholder: string;
     submitLabel: string;
+    submittingLabel: string;
+    successTitle: string;
+    successBody: string;
+    errorMessage: string;
   };
 };
 
@@ -696,6 +700,12 @@ const siteContentByLocale: Record<Locale, SiteContent> = {
         messageLabel: "Message",
         messagePlaceholder: "Tell us about your robotics use case, timeline, or question.",
         submitLabel: "Send Inquiry",
+        submittingLabel: "Sending…",
+        successTitle: "Thank you for reaching out.",
+        successBody:
+          "Your message has been sent. Our team will get back to you shortly.",
+        errorMessage:
+          "Something went wrong while sending your message. Please try again.",
       },
     },
     technology: {
@@ -1136,6 +1146,10 @@ const siteContentByLocale: Record<Locale, SiteContent> = {
         messageLabel: "留言",
         messagePlaceholder: "请介绍你的机器人应用场景、时间计划或具体问题。",
         submitLabel: "发送咨询",
+        submittingLabel: "发送中…",
+        successTitle: "感谢你的咨询。",
+        successBody: "你的信息已发送，我们的团队会尽快与你联系。",
+        errorMessage: "发送信息时出现问题，请重试。",
       },
     },
     technology: {
