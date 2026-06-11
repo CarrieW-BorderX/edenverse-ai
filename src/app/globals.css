@@ -1691,12 +1691,14 @@ p {
 }
 
 .rx-brain-wordmark {
-  width: clamp(14rem, 24vw, 28rem);
-  height: auto;
-  object-fit: contain;
-  filter: drop-shadow(
-    0 2px 18px color-mix(in srgb, var(--background-primary) 60%, transparent)
-  );
+  color: var(--text-primary);
+  font-family: var(--font-display), sans-serif;
+  font-size: clamp(2.5rem, 5vw, 4.5rem);
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: var(--tracking-display);
+  text-shadow: 0 2px 18px
+    color-mix(in srgb, var(--background-primary) 60%, transparent);
 }
 
 .rx-brain-subtitle {

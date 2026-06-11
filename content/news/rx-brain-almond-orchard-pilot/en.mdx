@@ -1,15 +1,15 @@
 ---
-title: "RX BRAIN on Unitree B1: Almond Orchard Inspection Pilot"
+title: "Brain Box on Unitree B1: Almond Orchard Inspection Pilot"
 date: "2026-04-19"
 category: "Deployment"
 categoryKey: "deployment"
-summary: "Edenverse AI's RX BRAIN spatial operating prototype ran an almond orchard crop-inspection pilot mounted on a Unitree B1 quadruped. Same modular stack, new chassis, new domain — no per-deployment training, no chassis-specific firmware."
+summary: "Edenverse AI's Brain Box spatial operating prototype ran an almond orchard crop-inspection pilot mounted on a Unitree B1 quadruped. Same modular stack, new chassis, new domain — no per-deployment training, no chassis-specific firmware."
 coverImage: "https://cdn.shopify.com/s/files/1/0764/3063/9301/files/rx-brain-almond-orchard-pilot.webp?v=1777920847"
-coverAlt: "Unitree B1 quadruped fitted with RX BRAIN, walking between rows of an almond orchard."
+coverAlt: "Unitree B1 quadruped fitted with Brain Box, walking between rows of an almond orchard."
 featured: true
 ---
 
-Edenverse AI ran a crop-inspection pilot of the RX BRAIN spatial operating prototype
+Edenverse AI ran a crop-inspection pilot of the Brain Box spatial operating prototype
 in a California almond orchard this month, mounted on a Unitree B1 quadruped.
 The run covered row traversal, per-tree perception capture, and 3D mesh
 reconstruction of the canopy for anomaly detection. The prototype hardware,
@@ -19,19 +19,19 @@ chassis-specific firmware build.
 
 <NewsVideo
   src="https://cdn.shopify.com/videos/c/o/v/72eef1897f98401bad85e49eeb55cb62.mp4"
-  caption="B1 carrying the RX BRAIN payload down an almond row under Edenverse AI's autonomy stack"
-  ariaLabel="Unitree B1 quadruped walking down an almond orchard row with RX BRAIN mounted on its back"
+  caption="B1 carrying the Brain Box payload down an almond row under Edenverse AI's autonomy stack"
+  ariaLabel="Unitree B1 quadruped walking down an almond orchard row with Brain Box mounted on its back"
 />
 
 ## In the field
 
-The B1 walked aisles autonomously at a steady inspection pace, using RX BRAIN's
+The B1 walked aisles autonomously at a steady inspection pace, using Brain Box's
 onboard perception to hold row centerline, avoid irrigation lines and low
 branches, and recover gait after uneven ground. There was no orchard-specific
 tuning in the navigation loop — the same planner that handles warehouse aisles
 treats tree rows as structured corridors.
 
-At each tree, RX BRAIN captured a perception sweep of the canopy, associated
+At each tree, Brain Box captured a perception sweep of the canopy, associated
 the capture with a tree identifier, and flagged candidate anomalies — stressed
 foliage, irregular fruit set, broken scaffold limbs — against the
 reconstructed local geometry. Capture and tagging ran continuously across the
@@ -40,20 +40,20 @@ traversal; no stop-and-scan cycle.
 <ImageCarousel ariaLabel="B1 walking the almond orchard rows">
   <ImageSlide
     src="https://cdn.shopify.com/s/files/1/0764/3063/9301/files/field-1.webp?v=1777927238"
-    alt="Unitree B1 quadruped with RX BRAIN payload between two rows of almond trees."
-    caption="Establishing shot from the pilot site: B1 holding row centerline under RX BRAIN autonomy"
+    alt="Unitree B1 quadruped with Brain Box payload between two rows of almond trees."
+    caption="Establishing shot from the pilot site: B1 holding row centerline under Brain Box autonomy"
   />
   <ImageSlide
     src="https://cdn.shopify.com/s/files/1/0764/3063/9301/files/field-2.webp?v=1777927238"
-    alt="Detail view of the RX BRAIN sensor payload mounted to the B1 platform in the orchard."
-    caption="The RX BRAIN payload carries the same perception hardware we ship on our industrial chassis"
+    alt="Detail view of the Brain Box sensor payload mounted to the B1 platform in the orchard."
+    caption="The Brain Box payload carries the same perception hardware we ship on our industrial chassis"
   />
 </ImageCarousel>
 
-## What RX BRAIN sees
+## What Brain Box sees
 
 The images below are not renders or marketing visualizations. They are the
-live 3D mesh reconstruction RX BRAIN produces per frame from the onboard
+live 3D mesh reconstruction Brain Box produces per frame from the onboard
 sensor stack — Edenverse AI's proprietary vision output, generated on-device while
 the robot is walking. The canopy geometry, trunk structure, and inter-row
 spacing are all recovered directly from the same perception pass that drives
@@ -65,11 +65,11 @@ as the warehouse-aisle reconstruction, the solar-array reconstruction, or the
 retail-shelf reconstruction — one perception stack, one engineering workflow,
 per-domain outputs.
 
-<ImageCarousel ariaLabel="RX BRAIN 3D canopy mesh from the almond orchard pilot">
+<ImageCarousel ariaLabel="Brain Box 3D canopy mesh from the almond orchard pilot">
   <ImageSlide
     src="https://cdn.shopify.com/s/files/1/0764/3063/9301/files/mesh-original.webp?v=1777927238"
-    alt="Front view of the 3D mesh reconstruction of the almond canopy generated by RX BRAIN."
-    caption="RX BRAIN's proprietary mesh output — the canopy reconstructed on-device, per frame"
+    alt="Front view of the 3D mesh reconstruction of the almond canopy generated by Brain Box."
+    caption="Brain Box's proprietary mesh output — the canopy reconstructed on-device, per frame"
   />
   <ImageSlide
     src="https://cdn.shopify.com/s/files/1/0764/3063/9301/files/mesh-cw5.webp?v=1777927239"
@@ -97,13 +97,13 @@ per-tree capture.
 
 <NewsVideo
   src="https://cdn.shopify.com/videos/c/o/v/21a3ee70e3dc4c659ac50a3c84f9aa9e.mp4"
-  caption="Approach toward an individual tree — the moment RX BRAIN performs a per-tree canopy sweep"
+  caption="Approach toward an individual tree — the moment Brain Box performs a per-tree canopy sweep"
   ariaLabel="Close-up of the robot approaching a single almond tree for canopy perception capture"
 />
 
 ## What universality buys us
 
-The pilot is evidence for a claim we have been making since the RX BRAIN
+The pilot is evidence for a claim we have been making since the Brain Box
 launch: the perception stack is the product, the chassis is a carrier. When
 the same binary, with the same trained weights and the same navigation
 primitives, runs on a legged agricultural platform in the morning and a
@@ -112,7 +112,7 @@ toward the cost of integration work — not the cost of rebuilding perception.
 
 That is the commercial thesis in plain terms. A deployment surface like a
 solar-farm inspection loop, a warehouse aisle audit, a retail shelf-compliance
-sweep, or an indoor industrial inspection route is, to RX BRAIN, another
+sweep, or an indoor industrial inspection route is, to Brain Box, another
 instance of the same problem shape. The orchard run is one concrete example
 of the pattern. We expect to publish additional deployments on the same stack
 through the rest of the year.

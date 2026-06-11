@@ -45,7 +45,7 @@ export type RxBrainContent = {
   subtitle: string;
   description: string;
   ctaLabel: string;
-  wordmarkAlt: string;
+  wordmark: string;
   imageSequenceAriaLabel: string;
 };
 
@@ -340,13 +340,13 @@ const siteContentByLocale: Record<Locale, SiteContent> = {
       rxBrain: {
         kicker: "Coming soon",
         subtitle:
-          "RX BRAIN™ is the general-purpose intelligence at the core of every Edenverse AI platform.",
+          "Brain Box is the proprietary edge compute module deployed on every Edenverse AI robot.",
         description:
-          "RX BRAIN unifies perception, planning, and control across tasks and environments. Every deployment teaches it. Every robot runs it. Every fleet gets sharper.",
+          "Brain Box handles on-device inference, data capture, OTA updates, and fleet telemetry.",
         ctaLabel: "Technology",
-        wordmarkAlt: "RX BRAIN",
+        wordmark: "Brain Box",
         imageSequenceAriaLabel:
-          "Abstract visualization of the RX BRAIN system",
+          "Abstract visualization of the Brain Box system",
       },
       deploymentCycle: {
         description:
@@ -813,12 +813,12 @@ const siteContentByLocale: Record<Locale, SiteContent> = {
       rxBrain: {
         kicker: "即将推出",
         subtitle:
-          "RX BRAIN™ 是支撑每一台 Edenverse AI 机器人的通用智能核心。",
+          "Brain Box 是搭载于每一台 Edenverse AI 机器人的专有边缘计算模块。",
         description:
-          "RX BRAIN 将感知、规划与控制融合在同一模型中，跨任务、跨场景持续进化。每一次部署都在训练它，每一台机器人都在运行它，整支机队变得更敏锐。",
+          "Brain Box 负责端侧推理、数据采集、OTA 升级与机队遥测——让每一台机器人更敏锐，让整支机队保持同步。",
         ctaLabel: "技术",
-        wordmarkAlt: "RX BRAIN",
-        imageSequenceAriaLabel: "RX BRAIN 系统的抽象可视化",
+        wordmark: "Brain Box",
+        imageSequenceAriaLabel: "Brain Box 系统的抽象可视化",
       },
       deploymentCycle: {
         description:

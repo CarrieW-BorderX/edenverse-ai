@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { ImageSequence } from "@/components/motion/image-sequence";
 import { rxBrainFrames } from "@/data/rx-brain-frames";
@@ -23,13 +22,7 @@ export function RxBrainSection({ locale, content }: RxBrainSectionProps) {
         <div className="rx-brain-overlay">
           <div className="rx-brain-copy">
             <span className="rx-brain-kicker">{content.kicker}</span>
-            <Image
-              className="rx-brain-wordmark"
-              src="https://cdn.shopify.com/s/files/1/0764/3063/9301/files/rx-brain-logo-transparent.png?v=1777919414"
-              alt={content.wordmarkAlt}
-              width={1962}
-              height={544}
-            />
+            <span className="rx-brain-wordmark">{content.wordmark}</span>
             <h2 className="rx-brain-subtitle">{content.subtitle}</h2>
             <p className="rx-brain-description">{content.description}</p>
             {/* <div className="button-row">
